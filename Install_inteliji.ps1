@@ -12,15 +12,16 @@
 # Remove the installer file
 #Remove-Item -Path $installerExe -Force
 # Check if Chocolatey is installed
+# Check if Chocolatey is installed
 if (!(Test-Path "$env:ProgramData\chocolatey\choco.exe")) {
     Write-Host "Chocolatey is not installed. Installing Chocolatey..."
     Set-ExecutionPolicy Bypass -Scope Process -Force
     iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 }
 
-# Install IntelliJ IDEA Ultimate with Chocolatey
+# Install IntelliJ IDEA Ultimate with Chocolatey (silent)
 Write-Host "Installing IntelliJ IDEA Ultimate..."
-choco install intellijidea-ultimate -y
+choco install intellijidea-ultimate -y --params "/Quiet"
 
 # Check if the installation was successful
 if (!(Test-Path "$env:ProgramFiles\JetBrains\IntelliJ IDEA Ultimate Edition")) {
