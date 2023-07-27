@@ -1,9 +1,11 @@
  #Setting Variables
-$DBName = Read-Host -Prompt 'Input your server  name'
-$DBHost = Read-Host -Prompt 'Input your server  url'
+#$DBName = Read-Host -Prompt 'Input your server  name'
+#$DBHost = Read-Host -Prompt 'Input your server  url'
 #$DBUser = Read-Host -Prompt 'Input your user name'
-$DBPass = Read-Host -Prompt 'Input your user password'
-
+#$DBPass = Read-Host -Prompt 'Input your user password'
+$DBName = $args[0]
+$DBHost = $args[1]
+$DBPass = $args[2]
 #Dbeaver-cli path
 $dbeaverCliPath = "C:\Program Files\DBeaver\dbeaver-cli.exe"
 
