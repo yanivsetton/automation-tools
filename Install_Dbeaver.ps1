@@ -3,7 +3,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 $packageName = 'dbeaver'
 
 # Install DBeaver using Chocolatey with the latest version and silent switch
-$chocoInstallScript = "choco install $packageName --yes --force --params '/S'"
+$chocoInstallScript = "choco install $packageName --yes --params '/S'"
 
 # Run the installation command
 Invoke-Expression $chocoInstallScript
