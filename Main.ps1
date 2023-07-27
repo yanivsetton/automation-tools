@@ -1,4 +1,3 @@
-$PATH_TO_SCRIPTS = "C:\Users\User\OneDrive\מסמכים\Scripts\Shir-automation"
 # Load the Windows Forms assembly
 Add-Type -AssemblyName System.Windows.Forms
 
@@ -59,11 +58,9 @@ $executeButton.Add_Click({
 
     # Script names (replace with your actual scripts' paths)
     $scriptNames = @(
-        "$PATH_TO_SCRIPTS\Install_Dbeaver.ps1",
-        "$PATH_TO_SCRIPTS\Install_inteliji.ps1",
-        "$PATH_TO_SCRIPTS\dbeaver-new-connection.ps1",
-        "$PATH_TO_SCRIPTS\Script4.ps1",
-        "$PATH_TO_SCRIPTS\Script5.ps1"
+        ".\Install_Dbeaver.ps1",
+        ".\Install_inteliji.ps1",
+        ".\dbeaver-new-connection.ps1"
     )
     $scriptCount = $scriptNames.Count
     $scriptProgress = 100 / $scriptCount
