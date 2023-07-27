@@ -24,13 +24,6 @@ $textBox2 = New-Object Windows.Forms.TextBox
 $textBox2.Location = New-Object Drawing.Point(150, 50)
 $textBox2.Size = New-Object Drawing.Size(200, 20)
 
-$label3 = New-Object Windows.Forms.Label
-$label3.Text = "Password:"
-$label3.Location = New-Object Drawing.Point(20, 80)
-
-$textBox3 = New-Object Windows.Forms.TextBox
-$textBox3.Location = New-Object Drawing.Point(150, 80)
-$textBox3.Size = New-Object Drawing.Size(200, 20)
 # Create Progress Bar
 $progressBar = New-Object Windows.Forms.ProgressBar
 $progressBar.Location = New-Object Drawing.Point(20, 80)
@@ -53,7 +46,6 @@ $executeButton.Add_Click({
     # Disable the input controls and Execute button
     $textBox1.Enabled = $false
     $textBox2.Enabled = $false
-    $testB
     $executeButton.Enabled = $false
 
     # Script names (replace with your actual scripts' paths)
@@ -62,22 +54,22 @@ $executeButton.Add_Click({
         ".\Install_inteliji.ps1",
         ".\dbeaver-new-connection.ps1"
     )
+
     $scriptCount = $scriptNames.Count
     $scriptProgress = 100 / $scriptCount
 
-    for ($scriptIndex = 0; $scriptIndex -lt $scriptCount; $scriptIndex++) {
-        $scriptPath = $scriptNames[$scriptIndex]
+    foreach ($scriptPath in $scriptNames) {
         $scriptName = [System.IO.Path]::GetFileNameWithoutExtension($scriptPath)
 
         # Update the progress bar label
         $progressLabel.Text = "Running: $scriptName"
         $form.Refresh()
 
-        # Execute the script using Invoke-Expression (iex)
-        Invoke-Expression -Command "& `"$scriptPath`" -param1 `"$param1`" -param2 `"$param2`""
+        # Execute the script using Start-Process with the -Wait parameter
+        Start-Process powershell.exe -ArgumentList "-File `"$scriptPath`" -param1 `"$param1`" -param2 `"$param2`"" -Wait
 
         # Update the progress bar
-        $progressBar.Value = ($scriptProgress * ($scriptIndex + 1))
+        $progressBar.Value = ($scriptProgress * ($progressBar.Value + 1))
         $form.Refresh() # Refresh the form to show updated progress
     }
 
