@@ -10,3 +10,9 @@ Dbeaver community edition
 git clone https://github.com/yanivsetton/automation-tools.git</br>
 cd automation-tools</br>
 
+## Wrapping to .exe
+pip install pyinstaller
+pyinstaller --onefile main.py
+### Check in the dist folder @ your workspace
+
+
