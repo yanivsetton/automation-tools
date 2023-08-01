@@ -3,14 +3,15 @@ This repo contains script written in powershell as example to install 3rd partie
 
 ## Tools supported ATM:
 Inteliji community edition</br>
-Dbeaver community edition
+Dbeaver community edition</br>
+Adding new connections to dbeaver profiles</br>
+copying inteliji configuration
 
 ## How to run:
 <p>Clone this repo</p></br>
 git clone https://github.com/yanivsetton/automation-tools.git</br>
 cd automation-tools</br>
 
-## Wrapping to .exe
 pip install pyinstaller</br>
 pyinstaller --onefile main.py</br>
 <p>Check in the dist folder @ your workspace the file will be named as your script without the extension</p>
