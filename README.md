@@ -13,6 +13,7 @@ cd automation-tools</br>
 ## Wrapping to .exe
 pip install pyinstaller</br>
 pyinstaller --onefile main.py</br>
-### Check in the dist folder @ your workspace
+<p>Check in the dist folder @ your workspace the file will be named as your script without the extension</p>
+<p>example: main.py --> main.exe</p>
 
 
