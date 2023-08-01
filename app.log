@@ -1,0 +1,314 @@
+2023-08-01 15:51:34,448 Received request for the homepage
+2023-08-01 15:51:35,614 Received request to run script: main.tf
+2023-08-01 15:51:35,636 Error running script: main.tf, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-01 15:51:47,896 Received request for the homepage
+2023-08-01 15:53:45,664 Received request for the homepage
+2023-08-01 15:53:46,695 Received request to run script: main.tf
+2023-08-01 15:53:46,713 Error running script: main.tf, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-01 15:54:03,680 Received request for the homepage
+2023-08-01 15:54:05,322 Received request to run script: main.tf
+2023-08-01 15:54:05,341 Error running script: main.tf, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-01 15:54:58,123 Received request for the homepage
+2023-08-01 15:54:58,920 Received request to run script: main.tf
+2023-08-01 15:54:58,933 Error running script: main.tf, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-01 15:56:59,359 Received request for the homepage
+2023-08-01 15:57:01,621 Received request to run script: main.sh
+2023-08-01 15:57:01,629 Error running script: main.sh, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-01 15:57:32,124 Received request for the homepage
+2023-08-01 15:57:33,056 Received request to run script: main.sh
+2023-08-01 15:57:33,079 Error running script: main.sh, Error: bash: -F: invalid option
+Usage:	bash [GNU long option] [option] ...
+	bash [GNU long option] [option] script-file ...
+GNU long options:
+	--debug
+	--debugger
+	--dump-po-strings
+	--dump-strings
+	--help
+	--init-file
+	--login
+	--noediting
+	--noprofile
+	--norc
+	--posix
+	--protected
+	--rcfile
+	--restricted
+	--verbose
+	--version
+	--wordexp
+Shell options:
+	-irsD or -c command or -O shopt_option		(invocation only)
+	-abefhkmnptuvxBCHP or -o option
+
+2023-08-01 16:02:48,563 Received request for the homepage
+2023-08-01 16:04:21,340 Received request for the homepage
+2023-08-01 16:04:22,825 Received request to run script: main.ps1
+2023-08-01 16:04:23,157 Successfully ran script: main.ps1
+2023-08-01 16:05:19,262 Received request for the homepage
+2023-08-01 16:07:15,264 Received request for the homepage
+2023-08-01 16:07:39,083 Received request for the homepage
+2023-08-01 16:09:04,641 Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2023-08-01 16:09:48,229 Received request to run script: {script_name}
+2023-08-01 16:12:09,293 Received request to run script: {script_name}
+2023-08-01 16:12:21,306 Received request for the homepage
+2023-08-01 16:12:22,689 Received request to run script: main.ps1
+2023-08-01 16:12:22,993 Successfully ran script: main.ps1
+2023-08-01 16:14:09,405 INFO: Received request for the homepage
+2023-08-01 16:14:12,966 INFO: Received request for the homepage
+2023-08-01 16:14:22,418 Received request for the homepage
+2023-08-01 16:15:40,309 Received request for the homepage
+2023-08-01 16:15:41,649 Received request to run script: main.ps1
+2023-08-01 16:15:42,005 Successfully ran script: main.ps1
+2023-08-01 16:18:28,138 Received request for the homepage
+2023-08-01 16:20:57,788 Received request for the homepage
+2023-08-01 16:21:13,039 Received request to run script: main.ps1
+2023-08-01 16:21:13,348 Successfully ran script: main.ps1
+2023-08-01 16:22:36,916 Received request for the homepage
+2023-08-01 16:22:42,749 Received request to run script: main.ps1
+2023-08-01 16:22:43,079 Successfully ran script: main.ps1
+2023-08-01 16:26:28,442 Received request for the homepage
+2023-08-01 16:27:55,106 Received request for the homepage
+2023-08-01 16:28:22,938 Received request to run script: main.ps1
+2023-08-01 16:28:23,239 Successfully ran script: main.ps1
+2023-08-01 16:30:22,211 Received request for the homepage
+2023-08-01 16:32:39,543 Received request for the homepage
+2023-08-01 16:33:01,055 Received request for the homepage
+2023-08-01 16:34:48,691 Received request for the homepage
+2023-08-01 16:36:24,942 Received request for the homepage
+2023-08-01 16:38:00,265 Received request for the homepage
+2023-08-01 16:40:11,285 Received request for the homepage
+2023-08-01 16:42:06,539 Received request for the homepage
+2023-08-01 16:57:09,619 Received request for the homepage
+2023-08-01 16:57:13,199 Received request for the homepage
+2023-08-01 16:57:13,397 Received request for the homepage
+2023-08-01 16:57:13,555 Received request for the homepage
+2023-08-01 16:57:13,727 Received request for the homepage
+2023-08-01 16:57:13,885 Received request for the homepage
+2023-08-01 16:58:24,568 Received request for the homepage
+2023-08-01 16:58:26,573 Received request for the homepage
+2023-08-01 16:58:26,869 Received request for the homepage
+2023-08-01 16:58:27,013 Received request for the homepage
+2023-08-01 16:58:27,148 Received request for the homepage
+2023-08-01 16:58:27,303 Received request for the homepage
+2023-08-01 16:58:27,452 Received request for the homepage
+2023-08-01 16:58:27,615 Received request for the homepage
+2023-08-01 16:58:27,784 Received request for the homepage
+2023-08-01 16:58:27,955 Received request for the homepage
+2023-08-01 16:58:28,115 Received request for the homepage
+2023-08-01 16:58:28,278 Received request for the homepage
+2023-08-01 16:58:28,477 Received request for the homepage
+2023-08-01 16:58:28,651 Received request for the homepage
+2023-08-01 16:58:28,879 Received request for the homepage
+2023-08-01 16:58:29,078 Received request for the homepage
+2023-08-01 16:58:29,326 Received request for the homepage
+2023-08-01 16:59:38,440 Received request for the homepage
+2023-08-01 16:59:39,687 Received request for the homepage
+2023-08-01 16:59:39,871 Received request for the homepage
+2023-08-01 16:59:40,023 Received request for the homepage
+2023-08-01 16:59:40,157 Received request for the homepage
+2023-08-01 16:59:40,329 Received request for the homepage
+2023-08-01 16:59:40,497 Received request for the homepage
+2023-08-01 16:59:40,656 Received request for the homepage
+2023-08-01 16:59:40,812 Received request for the homepage
+2023-08-01 16:59:40,962 Received request for the homepage
+2023-08-01 16:59:41,136 Received request for the homepage
+2023-08-01 16:59:41,349 Received request for the homepage
+2023-08-01 17:01:09,166 Received request for the homepage
+2023-08-01 17:01:42,230 Received request to run script: main.ps1
+2023-08-01 17:01:42,587 Successfully ran script: main.ps1
+2023-08-01 17:02:28,996 Received request for the homepage
+2023-08-01 17:03:41,635 Received request for the homepage
+2023-08-01 17:03:51,116 Received request to run script: main.ps1
+2023-08-01 17:03:51,446 Successfully ran script: main.ps1
+2023-08-01 17:05:35,062 Received request for the homepage
+2023-08-01 17:06:57,583 Received request for the homepage
+2023-08-01 17:07:13,188 Received request to run script: main.ps1
+2023-08-01 17:07:13,515 Successfully ran script: main.ps1
+2023-08-01 17:08:51,116 Received request for the homepage
+2023-08-01 17:08:52,218 Received request for the homepage
+2023-08-01 17:08:52,386 Received request for the homepage
+2023-08-01 17:08:52,530 Received request for the homepage
+2023-08-01 17:08:52,670 Received request for the homepage
+2023-08-01 17:10:18,814 Received request for the homepage
+2023-08-01 17:12:49,813 Received request for the homepage
+2023-08-01 17:14:39,160 Received request for the homepage
+2023-08-01 17:14:56,116 Received request to run script: main.ps1
+2023-08-01 17:14:56,421 Successfully ran script: main.ps1
+2023-08-01 17:17:59,191 Received request for the homepage
+2023-08-01 17:18:12,226 Received request to run script: main.ps1
+2023-08-01 17:18:12,593 Successfully ran script: main.ps1
+2023-08-01 17:19:43,089 Received request for the homepage
+2023-08-01 17:20:03,471 Received request for the homepage
+2023-08-01 17:21:29,207 Received request for the homepage
+2023-08-01 17:22:44,817 Received request for the homepage
+2023-08-01 17:23:47,889 Received request for the homepage
+2023-08-01 17:23:49,436 Received request for the homepage
+2023-08-01 17:23:49,663 Received request for the homepage
+2023-08-01 17:23:49,842 Received request for the homepage
+2023-08-01 17:23:50,006 Received request for the homepage
+2023-08-01 17:23:50,177 Received request for the homepage
+2023-08-01 17:23:58,672 Received request for the homepage
+2023-08-01 17:24:08,358 Received request for the homepage
+2023-08-01 17:24:21,870 Received request for the homepage
+2023-08-01 17:24:57,318 Received request for the homepage
+2023-08-01 17:25:16,268 Received request for the homepage
+2023-08-01 17:26:46,189 Received request for the homepage
+2023-08-01 17:26:57,688 Received request to run script: main.ps1
+2023-08-01 17:26:57,994 Successfully ran script: main.ps1
+2023-08-01 17:28:13,299 Received request for the homepage
+2023-08-01 17:29:42,235 Received request for the homepage
+2023-08-01 17:30:13,747 Received request to run script: main.ps1
+2023-08-01 17:30:14,109 Successfully ran script: main.ps1
+2023-08-01 17:32:13,282 Received request for the homepage
+2023-08-01 17:32:46,066 Received request to run script: main.ps1
+2023-08-01 17:32:46,381 Successfully ran script: main.ps1
+2023-08-01 17:33:21,095 Received request for the homepage
+2023-08-01 17:33:28,355 Received request to run script: main.ps1
+2023-08-01 17:33:28,728 Successfully ran script: main.ps1
+2023-08-01 17:39:29,254 Received request for the homepage
+2023-08-01 17:40:09,726 Received request for the homepage
+2023-08-01 17:40:18,561 Received request to run script: main.ps1
+2023-08-01 17:40:29,988 Successfully ran script: main.ps1
+2023-08-01 17:40:31,531 Received request for the homepage
+2023-08-01 17:40:41,011 Received request to run script: main.ps1
+2023-08-01 17:41:01,483 Successfully ran script: main.ps1
+2023-08-01 17:41:01,484 Received request for the homepage
+2023-08-01 17:41:01,488 Received request to run script: main.ps1
+2023-08-01 17:41:21,849 Successfully ran script: main.ps1
+2023-08-01 17:41:21,851 Received request to run script: main.ps1
+2023-08-01 17:41:42,231 Successfully ran script: main.ps1
+2023-08-01 17:41:42,233 Received request to run script: main.ps1
+2023-08-01 17:41:44,577 Successfully ran script: main.ps1
+2023-08-01 17:41:44,578 Received request to run script: main.ps1
+2023-08-01 17:41:46,942 Successfully ran script: main.ps1
+2023-08-01 17:41:52,321 Received request for the homepage
+2023-08-01 17:42:33,158 Received request for the homepage
+2023-08-01 17:43:00,530 Received request for the homepage
+2023-08-01 17:43:05,738 Received request to run script: main.ps1
+2023-08-01 17:43:05,986 Successfully ran script: main.ps1
+2023-08-01 17:46:26,186 Received request for the homepage
+2023-08-01 17:48:56,614 Received request for the homepage
+2023-08-01 17:49:03,586 Received request to run script: main.ps1
+2023-08-01 17:49:03,843 Successfully ran script: main.ps1
+2023-08-01 17:49:19,244 Received request for the homepage
+2023-08-01 17:49:24,419 Received request to run script: main.ps1
+2023-08-01 17:49:24,762 Successfully ran script: main.ps1
+2023-08-01 17:51:46,310 Received request for the homepage
+2023-08-01 17:51:52,494 Received request to run script: main.ps1
+2023-08-01 17:51:54,930 Successfully ran script: main.ps1
+2023-08-01 17:52:09,379 Received request for the homepage
+2023-08-01 17:52:14,938 Received request to run script: main.ps1
+2023-08-01 17:52:15,289 Successfully ran script: main.ps1
+2023-08-01 17:54:41,618 Received request for the homepage
+2023-08-01 17:54:46,779 Received request to run script: main.ps1
+2023-08-01 17:54:47,120 Successfully ran script: main.ps1
+2023-08-01 17:56:17,704 Received request for the homepage
+2023-08-01 17:56:22,252 Received request to run script: main.ps1
+2023-08-01 17:56:22,579 Successfully ran script: main.ps1
+2023-08-01 17:56:32,155 Received request for the homepage
+2023-08-01 17:56:43,748 Received request for the homepage
+2023-08-01 17:56:48,819 Received request to run script: main.ps1
+2023-08-01 17:56:49,149 Successfully ran script: main.ps1
+2023-08-01 17:57:03,562 Received request for the homepage
+2023-08-01 17:57:13,834 Received request for the homepage
+2023-08-01 17:57:15,671 Received request for the homepage
+2023-08-01 17:57:17,682 Received request to run script: main.ps1
+2023-08-01 17:57:18,018 Successfully ran script: main.ps1
+2023-08-01 17:57:19,001 Received request for the homepage
+2023-08-01 17:57:23,442 Received request to run script: main.ps1
+2023-08-01 17:57:23,760 Successfully ran script: main.ps1
+2023-08-01 18:00:37,279 Received request for the homepage
+2023-08-01 18:00:41,829 Received request to run script: main.ps1
+2023-08-01 18:00:42,163 Successfully ran script: main.ps1
+2023-08-01 18:03:03,209 Received request for the homepage
+2023-08-01 18:03:20,115 Received request to run script: main.ps1
+2023-08-01 18:03:20,475 Successfully ran script: main.ps1
+2023-08-01 18:04:41,671 Received request for the homepage
+2023-08-01 18:04:52,154 Received request to run script: main.ps1
+2023-08-01 18:04:52,508 Successfully ran script: main.ps1
+2023-08-01 18:06:08,532 Received request for the homepage
+2023-08-01 18:06:17,681 Received request to run script: main.ps1
+2023-08-01 18:06:18,017 Successfully ran script: main.ps1
+2023-08-01 18:09:03,950 Received request for the homepage
+2023-08-01 18:11:09,264 Received request for the homepage
+2023-08-01 18:11:15,112 Received request to run script: main.ps1
+2023-08-01 18:11:15,471 Successfully ran script: main.ps1
+2023-08-01 18:13:36,156 Received request for the homepage
+2023-08-01 18:13:42,752 Received request to run script: main.ps1
+2023-08-01 18:13:43,123 Successfully ran script: main.ps1
+2023-08-01 18:14:01,261 Received request for the homepage
+2023-08-01 18:14:05,746 Received request to run script: main.ps1
+2023-08-01 18:14:26,161 Successfully ran script: main.ps1
+2023-08-01 18:16:16,987 Received request for the homepage
+2023-08-01 18:16:22,021 Received request to run script: main.ps1
+2023-08-01 18:16:26,428 Successfully ran script: main.ps1
+2023-08-01 18:18:31,160 Received request for the homepage
+2023-08-01 18:18:35,775 Received request to run script: main.ps1
+2023-08-01 18:18:40,190 Successfully ran script: main.ps1
+2023-08-01 18:20:25,852 Received request for the homepage
+2023-08-01 18:20:31,074 Received request to run script: main.ps1
+2023-08-01 18:20:35,504 Successfully ran script: main.ps1
+2023-08-01 18:31:24,106 Received request for the homepage
+2023-08-01 18:31:29,059 Received request to run script: main.ps1
+2023-08-01 18:31:33,498 Successfully ran script: main.ps1
+2023-08-01 18:31:43,033 Received request for the homepage
+2023-08-01 18:31:47,277 Received request to run script: main.ps1
+2023-08-01 18:31:47,611 Successfully ran script: main.ps1
+2023-08-01 18:33:20,417 Received request for the homepage
+2023-08-01 18:33:24,552 Received request to run script: main.ps1
+2023-08-01 18:33:55,656 Successfully ran script: main.ps1
+2023-08-01 18:34:09,577 Received request for the homepage
+2023-08-01 18:35:03,762 Received request for the homepage
+2023-08-01 18:35:08,297 Received request to run script: main.ps1
+2023-08-01 18:35:18,830 Successfully ran script: main.ps1
+2023-08-01 18:36:17,823 Received request for the homepage
+2023-08-01 18:36:22,359 Received request to run script: main.ps1
+2023-08-01 18:36:22,629 Error running script: main.ps1, Error: [31;1mParserError: [0m/Users/yanivsetton/Documents/tictuk/experimental/jenkins-terraform/main.ps1:9:6[0m
+[31;1m[0m[36;1mLine |[0m
+[31;1m[0m[36;1m[36;1m   9 | [0m while[36;1m [0m[ $i -le 100 ][0m
+[31;1m[0m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m      ~[0m
+[31;1m[0m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mMissing opening '(' after keyword 'while'.[0m
+
+2023-08-01 18:36:49,975 Received request for the homepage
+2023-08-01 18:36:53,430 Received request to run script: main.ps1
+2023-08-01 18:36:53,702 Error running script: main.ps1, Error: [31;1mParserError: [0m/Users/yanivsetton/Documents/tictuk/experimental/jenkins-terraform/main.ps1:9:6[0m
+[31;1m[0m[36;1mLine |[0m
+[31;1m[0m[36;1m[36;1m   9 | [0m while[36;1m [0m[ $i -le 100 ][0m
+[31;1m[0m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m      ~[0m
+[31;1m[0m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mMissing opening '(' after keyword 'while'.[0m
+
+2023-08-01 18:37:22,060 Received request for the homepage
+2023-08-01 18:37:25,413 Received request to run script: main.ps1
+2023-08-01 18:37:28,134 Successfully ran script: main.ps1
+2023-08-01 18:38:05,770 Received request for the homepage
+2023-08-01 18:38:10,245 Received request to run script: main.ps1
+2023-08-01 18:38:12,673 Successfully ran script: main.ps1
+2023-08-01 18:42:25,504 Received request for the homepage
+2023-08-01 18:42:30,241 Received request to run script: main.ps1
+2023-08-01 18:42:32,673 Successfully ran script: main.ps1
+2023-08-01 18:46:42,236 Received request for the homepage
+2023-08-01 18:48:23,969 Received request for the homepage
+2023-08-01 18:50:34,806 Received request for the homepage
+2023-08-01 18:52:26,007 Received request for the homepage
+2023-08-01 18:53:01,519 Received request for the homepage
+2023-08-01 18:54:13,875 Received request for the homepage
+2023-08-01 18:59:36,933 Received request for the homepage
+2023-08-01 18:59:41,298 Received request to run script: main.ps1
+2023-08-01 18:59:43,748 Successfully ran script: main.ps1
+2023-08-01 19:01:24,542 Received request for the homepage
+2023-08-01 19:02:39,493 Received request for the homepage
+2023-08-01 19:04:05,772 Received request for the homepage
+2023-08-01 19:04:06,365 Received request for the homepage
+2023-08-01 19:04:06,521 Received request for the homepage
+2023-08-01 19:04:06,674 Received request for the homepage
+2023-08-01 19:04:55,239 Received request for the homepage
+2023-08-01 19:04:59,030 Received request to run script: main.ps1
+2023-08-01 19:05:01,439 Successfully ran script: main.ps1
+2023-08-01 19:11:51,942 Received request for the homepage
+2023-08-01 19:11:57,986 Received request to run script: main.ps1
+2023-08-01 19:12:00,455 Successfully ran script: main.ps1
