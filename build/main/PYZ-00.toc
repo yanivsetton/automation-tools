@@ -1,4 +1,4 @@
-('/Users/yanivsetton/Documents/tictuk/experimental/python-web/build/main/PYZ-00.pyz',
+('/Users/yanivsetton/Documents/tictuk/experimental/shir-automation/automation-tools/build/main/PYZ-00.pyz',
  [('__future__',
    '/opt/homebrew/Cellar/python@3.11/3.11.4_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__future__.py',
    'PYMODULE'),
