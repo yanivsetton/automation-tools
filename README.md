@@ -11,8 +11,8 @@ git clone https://github.com/yanivsetton/automation-tools.git</br>
 cd automation-tools</br>
 
 ## Wrapping to .exe
-pip install pyinstaller
-pyinstaller --onefile main.py
+pip install pyinstaller</br>
+pyinstaller --onefile main.py</br>
 ### Check in the dist folder @ your workspace
 
 
