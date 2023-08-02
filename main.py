@@ -9,7 +9,7 @@ app = FastAPI()
 logging.basicConfig(filename='app.log', level=logging.INFO, format='%(asctime)s %(message)s')
 
 def run_script(script_name, db_name, db_host, db_password, github_token, personal_secret):
-    script_path = os.path.join('/Users/yanivsetton/Documents/tictuk/experimental/jenkins-terraform', script_name)
+    script_path = os.path.join('./scripts', script_name)
     try:
         result = subprocess.run(['pwsh', '-File', script_path, db_name, db_host, db_password, github_token, personal_secret], capture_output=True, text=True, check=True)
         return {"status": "success", "output": result.stdout}
@@ -35,7 +35,7 @@ async def execute_script(script_name: str, db_name: str = None, db_host: str = N
 @app.get("/", response_class=HTMLResponse)
 async def read_item():
     logging.info("Received request for the homepage")
-    files = os.listdir('/Users/yanivsetton/Documents/tictuk/experimental/jenkins-terraform')
+    files = os.listdir('./scripts')
     files = [f for f in files if f.endswith('.ps1')]
     html_content = f"""
         <html>
