@@ -11,7 +11,7 @@ logging.basicConfig(filename='app.log', level=logging.INFO, format='%(asctime)s 
 def run_script(script_name, db_name, db_host, db_password, github_token, personal_secret):
     script_path = os.path.join('./scripts', script_name)
     try:
-        result = subprocess.run(['pwsh', '-File', script_path, db_name, db_host, db_password, github_token, personal_secret], capture_output=True, text=True, check=True)
+        result = subprocess.run(['powershell', '-File', script_path, db_name, db_host, db_password, github_token, personal_secret], capture_output=True, text=True, check=True)
         return {"status": "success", "output": result.stdout}
     except subprocess.CalledProcessError as e:
         return {"status": "error", "output": e.stderr}
