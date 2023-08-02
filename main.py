@@ -40,6 +40,7 @@ async def read_item():
     html_content = f"""
         <html>
         <head>
+        <link rel="icon" type="image/svg+xml" href="data:image/png;base64,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">
         <title>Scripts Installation</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -152,6 +153,7 @@ async def read_item():
         <body>
         <div class="sidenav">
             <button onclick="showScripts()">Scripts</button>
+            <button onclick="refreshPage()">Refresh</button>
         </div>
         <div class="main">
             <div class="header">
@@ -191,7 +193,7 @@ async def read_item():
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="scriptParametersModalLabel">Enter Script Parameters</h5>
+                        <h5 class="modal-title" id="scriptParametersModalLabel">Script Parameters</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
@@ -199,24 +201,29 @@ async def read_item():
                     <div class="modal-body">
                         <form id="scriptParametersForm">
                             <div class="form-group">
-                                <label for="db_name">DB Name</label>
+                                <label for="db_name" title="Parameter Name">DB Name</label><br>
                                 <input type="text" class="form-control" id="db_name" name="db_name">
+                                <p><small><strong>Description:</strong> Please type the Database name.</small></p>
                             </div>
                             <div class="form-group">
                                 <label for="db_host">DB Host</label>
                                 <input type="text" class="form-control" id="db_host" name="db_host">
+                                <p><small><strong>Description:</strong> Please type the Database URL.</small></p>
                             </div>
                             <div class="form-group">
                                 <label for="db_password">DB Password</label>
                                 <input type="password" class="form-control" id="db_password" name="db_password">
+                                <p><small><strong>Description:</strong> Please type the Database password.</small></p>
                             </div>
                             <div class="form-group">
                                 <label for="github_token">GitHub Token</label>
-                                <input type="text" class="form-control" id="github_token" name="github_token">
+                                <input type="password" class="form-control" id="github_token" name="github_token">
+                                <p><small><strong>Description:</strong> Please type the Github token.</small></p>
                             </div>
                             <div class="form-group">
                                 <label for="personal_secret">Personal Secret</label>
                                 <input type="password" class="form-control" id="personal_secret" name="personal_secret">
+                                <p><small><strong>Description:</strong> Please type the Personal secret you got.</small></p>
                             </div>
                         </form>
                     </div>
@@ -230,6 +237,10 @@ async def read_item():
         <script>
         function createOutputModal(output) {
             // Code for output modal
+        }
+        
+        function refreshPage() {
+            location.reload();
         }
 
         function showScriptParameters(scriptName) {
