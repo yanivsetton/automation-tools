@@ -276,3 +276,91 @@
 2023-08-03 16:37:16,160 Received request to run script: Install_inteliji.ps1
 2023-08-03 16:37:16,165 Error running script: Install_inteliji.ps1, Error: [Errno 2] No such file or directory: 'powershell'
 2023-08-03 16:37:18,070 Received request for the homepage
+2023-08-04 00:25:00,474 Received request for the homepage
+2023-08-04 00:27:15,659 Received request for the homepage
+2023-08-04 00:27:38,004 Received request for the homepage
+2023-08-04 00:27:40,538 Received request for the homepage
+2023-08-04 00:29:33,956 Received request for the homepage
+2023-08-04 00:29:35,130 Received request to run script: Install_Dbeaver.ps1
+2023-08-04 00:29:35,137 Error running script: Install_Dbeaver.ps1, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-04 00:31:53,901 Received request for the homepage
+2023-08-04 00:32:16,390 Received request to run script: dbeaver-new-connection.ps1
+2023-08-04 00:32:16,391 Error running script: dbeaver-new-connection.ps1, Error: expected str, bytes or os.PathLike object, not NoneType
+2023-08-04 00:32:33,511 Received request to run script: Install_Dbeaver.ps1
+2023-08-04 00:32:33,517 Error running script: Install_Dbeaver.ps1, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-04 00:32:42,451 Received request for the homepage
+2023-08-04 00:32:44,243 Received request for the homepage
+2023-08-04 00:32:44,973 Received request for the homepage
+2023-08-04 00:32:45,110 Received request for the homepage
+2023-08-04 00:32:45,250 Received request for the homepage
+2023-08-04 00:32:45,388 Received request for the homepage
+2023-08-04 00:32:45,520 Received request for the homepage
+2023-08-04 00:32:45,653 Received request for the homepage
+2023-08-04 00:32:45,799 Received request for the homepage
+2023-08-04 00:32:46,215 Received request for the homepage
+2023-08-04 00:32:46,406 Received request for the homepage
+2023-08-04 00:32:46,621 Received request for the homepage
+2023-08-04 00:34:40,274 Received request for the homepage
+2023-08-04 00:34:55,982 Received request to run script: github-ssh.ps1
+2023-08-04 00:34:55,988 Error running script: github-ssh.ps1, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-04 00:35:13,297 Received request for the homepage
+2023-08-04 00:35:39,405 Received request for the homepage
+2023-08-04 00:35:40,136 Received request for the homepage
+2023-08-04 00:35:51,687 Received request for the homepage
+2023-08-04 00:35:52,360 Received request for the homepage
+2023-08-04 00:37:28,603 Received request for the homepage
+2023-08-04 00:37:53,508 Received request to run script: Install_Dbeaver.ps1
+2023-08-04 00:37:53,515 Error running script: Install_Dbeaver.ps1, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-04 00:37:58,799 Received request for the homepage
+2023-08-04 00:38:37,699 Received request for the homepage
+2023-08-04 00:38:55,530 Received request for the homepage
+2023-08-04 00:38:56,048 Received request for the homepage
+2023-08-04 00:38:56,201 Received request for the homepage
+2023-08-04 00:38:56,351 Received request for the homepage
+2023-08-04 00:39:33,662 Received request for the homepage
+2023-08-04 00:39:43,432 Received request for the homepage
+2023-08-04 00:40:26,326 Received request for the homepage
+2023-08-04 00:40:34,211 Received request for the homepage
+2023-08-04 00:40:42,419 Received request for the homepage
+2023-08-04 00:40:54,646 Received request for the homepage
+2023-08-04 00:41:10,452 Received request for the homepage
+2023-08-04 00:41:11,814 Received request for the homepage
+2023-08-04 00:41:12,443 Received request for the homepage
+2023-08-04 00:41:25,179 Received request for the homepage
+2023-08-04 00:41:41,579 Received request for the homepage
+2023-08-04 00:41:54,361 Received request for the homepage
+2023-08-04 00:42:04,047 Received request for the homepage
+2023-08-04 00:42:07,447 Received request to run script: Install_Dbeaver.ps1
+2023-08-04 00:42:07,454 Error running script: Install_Dbeaver.ps1, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-04 00:42:08,833 Received request to run script: Install_Dbeaver.ps1
+2023-08-04 00:42:08,854 Error running script: Install_Dbeaver.ps1, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-04 00:42:28,857 Received request for the homepage
+2023-08-04 00:42:45,408 Received request for the homepage
+2023-08-04 00:45:31,082 Received request for the homepage
+2023-08-04 00:45:56,356 Received request to run script: Install_Dbeaver.ps1
+2023-08-04 00:45:56,369 Error running script: Install_Dbeaver.ps1, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-04 00:45:58,145 Received request to run script: Install_Dbeaver.ps1
+2023-08-04 00:45:58,155 Error running script: Install_Dbeaver.ps1, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-04 00:46:06,715 Received request to run script: Install_Dbeaver.ps1
+2023-08-04 00:46:06,721 Error running script: Install_Dbeaver.ps1, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-04 00:46:07,581 Received request to run script: Install_Dbeaver.ps1
+2023-08-04 00:46:07,593 Error running script: Install_Dbeaver.ps1, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-04 00:46:09,078 Received request for the homepage
+2023-08-04 00:46:57,673 Received request for the homepage
+2023-08-04 00:46:58,369 Received request for the homepage
+2023-08-04 00:46:58,513 Received request for the homepage
+2023-08-04 00:46:58,813 Received request for the homepage
+2023-08-04 00:46:58,964 Received request for the homepage
+2023-08-04 00:46:59,289 Received request for the homepage
+2023-08-04 00:46:59,632 Received request for the homepage
+2023-08-04 00:46:59,832 Received request for the homepage
+2023-08-04 00:47:00,463 Received request for the homepage
+2023-08-04 00:48:35,480 Received request for the homepage
+2023-08-04 00:48:49,692 Received request for the homepage
+2023-08-04 00:49:03,321 Received request for the homepage
+2023-08-04 00:53:52,940 Received request for the homepage
+2023-08-04 00:53:54,460 Received request for the homepage
+2023-08-04 00:54:23,719 Received request for the homepage
+2023-08-04 00:54:25,843 Received request for the homepage
+2023-08-04 00:54:54,700 Received request for the homepage
+2023-08-04 00:54:57,709 Received request for the homepage

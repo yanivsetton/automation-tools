@@ -71,6 +71,33 @@ async def read_item():
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
         <style>
+            #scripts_area {{
+                font-family: Arial, sans-serif; /* A clean, modern font */
+                color: #333; /* Darker text for better readability */
+                padding: 20px; /* Padding around the content for breathing space */
+            }}
+
+            #scripts_area table {{
+                width: 100%; /* Make the table take up the full width of its parent */
+                border-collapse: collapse; /* Collapse table borders into a single border */
+            }}
+
+            #scripts_area th, #scripts_area td {{
+                border: 1px solid #ddd; /* Light grey border around table cells */
+                padding: 15px; /* Padding inside cells for better legibility */
+                text-align: left; /* Left-aligned text in cells */
+            }}
+
+            #scripts_area th {{
+                background-color: #f8f9fa; /* Light grey background for headers */
+                color: #333; /* Dark text on light background for headers */
+                font-weight: bold; /* Bold text for headers */
+            }}
+
+            #scripts_area tr:nth-child(even) {{
+                background-color: #f2f2f2; /* Light grey background for every other row */
+            }}
+
             td:hover {{
                 background-color: #cff7fc;  /* Change to the color you want */
             }}
@@ -89,35 +116,61 @@ async def read_item():
             .sidenav button {{
                 padding: 6px 8px 6px 16px;
                 text-decoration: none;
-                font-size: 25px;
+                font-size: 20px; /* you might want to reduce the font size a bit */
                 color: #818181;
                 display: block;
                 border: none;
                 background: none;
+                transition: background-color 0.3s ease, color 0.3s ease; /* this will smoothly transition changes on hover */
+                text-align: left; /* Aligns the text to the left */
+                width: 100%; /* Makes sure the button takes up the full width of the sidebar */
             }}
 
             .sidenav button:hover {{
                 color: #f1f1f1;
+                background-color: #575757; /* change this to whatever color you prefer on hover */
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Adds a bit of a shadow for a "3D" effect */
             }}
 
             .main {{
-                margin-left: 200px;
-                font-size: 28px;
-                padding: 0px 10px;
+                margin-left: 190px; /* distance from the sidebar */
+                font-size: 20px; /* reduced font size to a more typical size for body text */
+                padding: 60px; /* increased padding for more space around the content */
+                line-height: 1.6; /* improved line spacing for readability */
+                color: #333; /* darker text for better readability */
+                font-family: 'Arial', sans-serif; /* cleaner, modern font */
             }}
 
             .header {{
                 display: flex;
                 align-items: center;
+                justify-content: space-between; /* space out items evenly */
+                padding-bottom: 20px; /* add some space below the header */
+                border-bottom: 1px solid #ddd; /* a line below the header to separate it from the content */
             }}
 
             .header img {{
-                width: 200px;
+                width: 180px; /* slightly smaller image size for a more balanced look */
                 margin-right: 20px;
+                border-radius: 5%; /* rounded corners on image for a softer look */
+                transition: transform 0.3s ease;
+            }}
+            
+            .header img:hover {{
+                transform: scale(1.1);
             }}
 
+
             .header h1 {{
-                font-size: 28px;
+                font-size: 32px; /* slightly larger text can look more modern */
+                color: #333; /* darker text can often be more readable */
+                font-family: 'Arial', sans-serif; /* a cleaner, sans-serif font */
+                font-weight: 700; /* make the text bold */
+                letter-spacing: -0.5px; /* reducing the space between letters can make the text look more compact and modern */
+                text-shadow: 1px 1px 2px rgba(0,0,0,0.1); /* a subtle text shadow can add depth */
+                margin: 0; /* remove default margin */
+                padding: 0; /* remove default padding */
+                line-height: 1.2; /* adjust line height for better readability if your title has more than one line */
             }}
 
             .footer {{
@@ -148,8 +201,11 @@ async def read_item():
                 overflow-y: auto;
                 background-color: #333;
                 color: #00FF00;  /* Green color */
-                padding: 10px;
-                font-family: monospace;
+                padding: 15px;   /* Increased padding for more breathing space */
+                font-family: 'Courier New', monospace; /* Switch to a more readable monospace font */
+                font-size: 14px; /* Adjust this value as needed */
+                line-height: 1.6; /* Adds more space between lines for readability */
+                text-shadow: 1px 1px 1px #000; /* Gives a little shadow to the text for better legibility */
             }}
 
             .log-footer {{
@@ -158,12 +214,28 @@ async def read_item():
             }}
 
             .modal-dialog {{
-                max-width: 400px;
+                max-width: 500px; /* Increasing the width to allow more space */
+                margin: 1.75rem auto; /* Adjusting the margin to center the modal vertically */
             }}
 
             .modal-content {{
                 max-height: 80vh;
                 overflow-y: auto;
+                border-radius: 15px; /* Adding border-radius to round corners for a more modern look */
+                border: none; /* Removing the border for a cleaner look */
+                box-shadow: 0 0 30px rgba(0, 0, 0, 0.2); /* Adding a shadow for a more "pop-out" effect */
+            }}
+
+            .modal-header {{
+                border-bottom: none; /* Removing the line under the header for a cleaner look */
+            }}
+
+            .modal-body {{
+                font-size: 16px; /* Adjusting font-size for better readability */
+            }}
+
+            .modal-footer {{
+                border-top: none; /* Removing the line above the footer for a cleaner look */
             }}
 
             /* Additional CSS styles for the parameter modal */
