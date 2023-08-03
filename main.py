@@ -71,6 +71,9 @@ async def read_item():
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
         <style>
+            td:hover {{
+                background-color: #cff7fc;  /* Change to the color you want */
+            }}
             .sidenav {{
                 height: 100%;
                 width: 200px;
@@ -176,8 +179,7 @@ async def read_item():
         </head>
         <body>
         <div class="sidenav">
-            <button onclick="showScripts()">Main</button>
-            <button onclick="refreshPage()">Refresh</button>
+            <button onclick="refreshPage()" style="background: url('https://png.pngtree.com/png-vector/20190420/ourmid/pngtree-reload-vector-icon-png-image_963341.jpg') no-repeat; border: none; width: 50px; height: 50px; background-size: cover; background-position: center;"></button>
         </div>
         <div class="main">
             <div class="header">
@@ -188,57 +190,39 @@ async def read_item():
             <table class="table table-bordered mt-3">
                 <thead>
                     <tr>
-                        <th scope="col">Script Name</th>
-                        <th scope="col">Execute</th>
+                        <th scope="col">Actions:</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Install_Dbeaver</td>
-                        <td>
-                            <button class="btn btn-primary" onclick="executeScriptNoParams('Install_Dbeaver.ps1')">&#62;</button>
-                        </td>
+                        <td><strong>Install Dbeaver Community</strong></br></br><p><small><strong>Description:</strong>This will install DBeaver community edition.</small></p><button class="btn btn-primary" onclick="executeScriptNoParams('Install_Dbeaver.ps1')">&#62;</button></td>
                     </tr>
                     <tr>
                         <td colspan="2" style="padding: 0;">
                             <div id="log_Install_Dbeaver.ps1" class="log-container" style="display: none;"></div>
-                            <p><small><strong>Description:</strong> Please type the Database name.</small></p>
                         </td>
                     </tr>
                      <tr>
-                        <td>Install_Inteliji</td>
-                        <td>
-                            <button class="btn btn-primary" onclick="executeScriptNoParams('Install_inteliji.ps1')">&#62;</button>
-                        </td>
+                        <td><strong>Install Inteliji Ultimate</strong></br></br><p><small><strong>Description:</strong>This will install Inteliji Ultimate edition.</small></p><button class="btn btn-primary" onclick="executeScriptNoParams('Install_inteliji.ps1')">&#62;</button></td>
                     </tr>
                     <tr>
                         <td colspan="2" style="padding: 0;">
                             <div id="log_Install_inteliji.ps1" class="log-container" style="display: none;"></div>
-                            <p><small><strong>Description:</strong> Please type the Database name.</small></p>
-                        </td>
                     </tr>
                     <tr>
-                        <td>dbeaver-new-connection</td>
-                        <td>
-                            <button class="btn btn-primary" onclick="showScriptParameters('dbeaver-new-connection.ps1')">&#62;</button>
-                        </td>
+                        <td><strong>Add new DBeaver connection</strong></br></br><p><small><strong>Description:</strong>This will create a new DBeaver profile so you can connect to your Database.</small></p><button class="btn btn-primary" onclick="showScriptParameters('dbeaver-new-connection.ps1')">&#62;</button></td>
                     </tr>
                     <tr>
                         <td colspan="2" style="padding: 0;">
                             <div id="log_dbeaver-new-connection.ps1" class="log-container" style="display: none;"></div>
-                            <p><small><strong>Description:</strong> Please type the Database name.</small></p>
                         </td>
                     </tr>
                     <tr>
-                        <td>github-ssh-key</td>
-                        <td>
-                            <button class="btn btn-primary" onclick="executeScriptNoParams('github-ssh.ps1')">&#62;</button>
-                        </td>
+                        <td><strong>Create Github ssh key</strong></br></br><p><small><strong>Description:</strong>This will add ssh key to gitlab automatically.</small></p><button class="btn btn-primary" onclick="executeScriptNoParams('github-ssh.ps1')">&#62;</button></td>
                     </tr>
                     <tr>
                         <td colspan="2" style="padding: 0;">
                             <div id="log_github-ssh.ps1" class="log-container" style="display: none;"></div>
-                            <p><small><strong>Description:</strong> Please type the Database name.</small></p>
                         </td>
                     </tr>
         """
@@ -260,23 +244,28 @@ async def read_item():
                         <form id="scriptParametersForm">
                             <div class="form-group">
                                 <label for="db_name" title="Parameter Name">DB Name</label><br>
-                                <input type="text" class="form-control" id="db_name" name="db_name">
-                                <p><small><strong>Description:</strong> Please type the Database name.</small></p>
+                                <select class="form-control" id="db_name" name="db_name">
+                                    <option value="">Please select environment</option>
+                                    <option value="Option1">Production</option>
+                                    <option value="Option2">Staging</option>
+                                    <option value="Option2">Dev</option>
+                                </select>
+                                <p><small><strong>Description:</strong> Please select required Env.</small></p>
                             </div>
                             <div class="form-group">
                                 <label for="db_host">DB Host</label>
-                                <input type="text" class="form-control" id="db_host" name="db_host">
-                                <p><small><strong>Description:</strong> Please type the Database URL.</small></p>
+                                <select class="form-control" id="db_host" name="db_host">
+                                    <option value="">Please select URL</option>
+                                    <option value="Option1">https://pontera.production.com:3306</option>
+                                    <option value="Option2">https://pontera.staging.com:3306</option>
+                                    <option value="Option2">localhost:3306</option>
+                                </select>
+                                <p><small><strong>Description:</strong>Please select the Database URL.</small></p>
                             </div>
                             <div class="form-group">
                                 <label for="db_password">DB Password</label>
                                 <input type="password" class="form-control" id="db_password" name="db_password">
                                 <p><small><strong>Description:</strong> Please type the Database password.</small></p>
-                            </div>
-                            <div class="form-group">
-                                <label for="personal_secret">Personal Secret</label>
-                                <input type="password" class="form-control" id="personal_secret" name="personal_secret">
-                                <p><small><strong>Description:</strong> Please type the Personal secret you got.</small></p>
                             </div>
                         </form>
                     </div>
@@ -287,6 +276,7 @@ async def read_item():
                 </div>
             </div>
         </div>
+
         <script>
         function createOutputModal(output) {
             // Code for output modal
@@ -343,7 +333,7 @@ async def read_item():
         }
         </script>
         <div class="footer">
-            <span>Created with ❤️ by:</span>
+            <span>Coded with ❤️ by:</span>
             <img src="https://cdn.theorg.com/0e4101a6-2d6e-41e7-afdd-a8f34da300c4_thumb.jpg" alt="Creator's Picture" style="width: 50px; border-radius: 50%;">
         </div>
         </body></html>
