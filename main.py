@@ -40,7 +40,7 @@ async def read_item():
     html_content = f"""
         <html>
         <head>
-        <link rel="icon" type="image/x-icon" href="https://scontent.ftlv23-1.fna.fbcdn.net/v/t39.30808-6/358128517_269808518983651_1245027130833259337_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=6OGDy8kN7PUAX_d1x1t&_nc_ht=scontent.ftlv23-1.fna&oh=00_AfBAUMO0T7NClheE-rEKY3uEkA0V8M9-VCryX4Dn4EbeGQ&oe=64D11DEC">
+         <link rel="icon" type="image/x-icon" href="https://scontent.ftlv23-1.fna.fbcdn.net/v/t39.30808-6/358128517_269808518983651_1245027130833259337_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=6OGDy8kN7PUAX_d1x1t&_nc_ht=scontent.ftlv23-1.fna&oh=00_AfBAUMO0T7NClheE-rEKY3uEkA0V8M9-VCryX4Dn4EbeGQ&oe=64D11DEC"> 
         <title>Scripts Installation</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -160,68 +160,30 @@ async def read_item():
                 <img src="https://pontera.com/hubfs/Images/Pontera%20Assets/Pontera%20Logos/Stylized-Black-SVG.svg" alt="Pontera Logo">
                 <h1>Scripts Installation</h1>
             </div>
+            <div id="scripts_area">
             <table class="table table-bordered mt-3">
-        <thead>
-            <tr>
-                <th scope="col">Script Name</th>
-                <th scope="col">Actions</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>script1.ps1</td>
-                <td>
-                    <button class="btn btn-primary" onclick="showScriptParameters('script1.ps1')">&#62;</button>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2" style="padding: 0;">
-                    <div id="log_script1.ps1" class="log-container" style="display: none;"></div>
-                </td>
-            </tr>
-            <tr>
-                <td>script2.ps1</td>
-                <td>
-                    <button class="btn btn-primary" onclick="showScriptParameters('script2.ps1')">&#62;</button>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2" style="padding: 0;">
-                    <div id="log_script2.ps1" class="log-container" style="display: none;"></div>
-                </td>
-            </tr>
-            <tr>
-                <td>script3.ps1</td>
-                <td>
-                    <button class="btn btn-primary" onclick="showScriptParameters('script3.ps1')">&#62;</button>
-                </td>
-            </tr>
-                <tr>
-                <td colspan="2" style="padding: 0;">
-                    <div id="log_script3.ps1" class="log-container" style="display: none;"></div>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2" style="padding: 0;">
-                    <div id="log_script3.ps1" class="log-container" style="display: none;"></div>
-                </td>
-            </tr>
-            <tr>
-                <td>script4.ps1</td>
-                <td>
-                    <button class="btn btn-primary" onclick="showScriptParameters('script4.ps1')">&#62;</button>
-                </td>
-            </tr>
-                <tr>
-                <td colspan="2" style="padding: 0;">
-                    <div id="log_script4.ps1" class="log-container" style="display: none;"></div>
-                </td>
-            </tr>
-            <tr>
-        </tbody>
-    </table>
-            
+                <thead>
+                    <tr>
+                        <th scope="col">Script Name</th>
+                        <th scope="col">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
     """
+    for file in files:
+        html_content += f"""
+                    <tr>
+                        <td>{file}</td>
+                        <td>
+                            <button class="btn btn-primary" onclick="showScriptParameters('{file}')">&#62;</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="padding: 0;">
+                            <div id="log_{file}" class="log-container" style="display: none;"></div>
+                        </td>
+                    </tr>
+        """
     html_content += """
                 </tbody>
             </table>
@@ -318,4 +280,3 @@ async def read_item():
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
-
