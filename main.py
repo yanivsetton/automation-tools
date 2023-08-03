@@ -321,9 +321,9 @@ async def read_item():
                                 <label for="db_name" title="Parameter Name">DB Name</label><br>
                                 <select class="form-control" id="db_name" name="db_name">
                                     <option value="">Please select environment</option>
-                                    <option value="Option1">Production</option>
-                                    <option value="Option2">Staging</option>
-                                    <option value="Option2">Dev</option>
+                                    <option value="Production">Production</option>
+                                    <option value="Staging">Staging</option>
+                                    <option value="Dev">Dev</option>
                                 </select>
                                 <p><small><strong>Description:</strong> Please select required Env.</small></p>
                             </div>
@@ -331,9 +331,9 @@ async def read_item():
                                 <label for="db_host">DB Host</label>
                                 <select class="form-control" id="db_host" name="db_host">
                                     <option value="">Please select URL</option>
-                                    <option value="Option1">https://pontera.production.com:3306</option>
-                                    <option value="Option2">https://pontera.staging.com:3306</option>
-                                    <option value="Option2">localhost:3306</option>
+                                    <option value="https://pontera.production.com:3306">https://pontera.production.com:3306</option>
+                                    <option value="https://pontera.staging.com:3306">https://pontera.staging.com:3306</option>
+                                    <option value="localhost:3306">localhost:3306</option>
                                 </select>
                                 <p><small><strong>Description:</strong>Please select the Database URL.</small></p>
                             </div>
