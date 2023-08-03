@@ -8,10 +8,10 @@ app = FastAPI()
 
 logging.basicConfig(filename='app.log', level=logging.INFO, format='%(asctime)s %(message)s')
 
-def run_script(script_name, db_name, db_host, db_password, personal_secret):
+def run_script(script_name, db_name, db_host, db_password):
     script_path = os.path.join('./scripts', script_name)
     try:
-        result = subprocess.run(['powershell', '-File', script_path, db_name, db_host, db_password, personal_secret], capture_output=True, text=True, check=True)
+        result = subprocess.run(['powershell', '-File', script_path, db_name, db_host, db_password], capture_output=True, text=True, check=True)
         return {"status": "success", "output": result.stdout}
     except subprocess.CalledProcessError as e:
         return {"status": "error", "output": e.stderr}
@@ -29,10 +29,10 @@ def run_script_without(script_name):
         return {"status": "error", "output": str(e)}
 
 @app.get("/run/{script_name}")
-async def execute_script(script_name: str, db_name: str = None, db_host: str = None, db_password: str = None, personal_secret: str = None):
+async def execute_script(script_name: str, db_name: str = None, db_host: str = None, db_password: str = None):
     logging.info(f"Received request to run script: {script_name}")
     try:
-        result = run_script(script_name, db_name, db_host, db_password, personal_secret)
+        result = run_script(script_name, db_name, db_host, db_password)
         if result["status"] == "success":
             logging.info(f"Successfully ran script: {script_name}")
         else:
