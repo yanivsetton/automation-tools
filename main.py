@@ -8,10 +8,10 @@ app = FastAPI()
 
 logging.basicConfig(filename='app.log', level=logging.INFO, format='%(asctime)s %(message)s')
 
-def run_script(script_name, db_name, db_host, db_password, github_token, personal_secret):
+def run_script(script_name, db_name, db_host, db_password, personal_secret):
     script_path = os.path.join('./scripts', script_name)
     try:
-        result = subprocess.run(['powershell', '-File', script_path, db_name, db_host, db_password, github_token, personal_secret], capture_output=True, text=True, check=True)
+        result = subprocess.run(['powershell', '-File', script_path, db_name, db_host, db_password, personal_secret], capture_output=True, text=True, check=True)
         return {"status": "success", "output": result.stdout}
     except subprocess.CalledProcessError as e:
         return {"status": "error", "output": e.stderr}
@@ -19,10 +19,10 @@ def run_script(script_name, db_name, db_host, db_password, github_token, persona
         return {"status": "error", "output": str(e)}
 
 @app.get("/run/{script_name}")
-async def execute_script(script_name: str, db_name: str = None, db_host: str = None, db_password: str = None, github_token: str = None, personal_secret: str = None):
+async def execute_script(script_name: str, db_name: str = None, db_host: str = None, db_password: str = None, personal_secret: str = None):
     logging.info(f"Received request to run script: {script_name}")
     try:
-        result = run_script(script_name, db_name, db_host, db_password, github_token, personal_secret)
+        result = run_script(script_name, db_name, db_host, db_password, personal_secret)
         if result["status"] == "success":
             logging.info(f"Successfully ran script: {script_name}")
         else:
@@ -40,7 +40,7 @@ async def read_item():
     html_content = f"""
         <html>
         <head>
-        <link rel="icon" type="image/svg+xml" href="data:image/png;base64,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">
+        <link rel="icon" type="image/x-icon" href="https://scontent.ftlv23-1.fna.fbcdn.net/v/t39.30808-6/358128517_269808518983651_1245027130833259337_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=6OGDy8kN7PUAX_d1x1t&_nc_ht=scontent.ftlv23-1.fna&oh=00_AfBAUMO0T7NClheE-rEKY3uEkA0V8M9-VCryX4Dn4EbeGQ&oe=64D11DEC">
         <title>Scripts Installation</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -160,30 +160,68 @@ async def read_item():
                 <img src="https://pontera.com/hubfs/Images/Pontera%20Assets/Pontera%20Logos/Stylized-Black-SVG.svg" alt="Pontera Logo">
                 <h1>Scripts Installation</h1>
             </div>
-            <div id="scripts_area">
             <table class="table table-bordered mt-3">
-                <thead>
-                    <tr>
-                        <th scope="col">Script Name</th>
-                        <th scope="col">Actions</th>
-                    </tr>
-                </thead>
-                <tbody>
+        <thead>
+            <tr>
+                <th scope="col">Script Name</th>
+                <th scope="col">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>script1.ps1</td>
+                <td>
+                    <button class="btn btn-primary" onclick="showScriptParameters('script1.ps1')">&#62;</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="padding: 0;">
+                    <div id="log_script1.ps1" class="log-container" style="display: none;"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>script2.ps1</td>
+                <td>
+                    <button class="btn btn-primary" onclick="showScriptParameters('script2.ps1')">&#62;</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="padding: 0;">
+                    <div id="log_script2.ps1" class="log-container" style="display: none;"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>script3.ps1</td>
+                <td>
+                    <button class="btn btn-primary" onclick="showScriptParameters('script3.ps1')">&#62;</button>
+                </td>
+            </tr>
+                <tr>
+                <td colspan="2" style="padding: 0;">
+                    <div id="log_script3.ps1" class="log-container" style="display: none;"></div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="padding: 0;">
+                    <div id="log_script3.ps1" class="log-container" style="display: none;"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>script4.ps1</td>
+                <td>
+                    <button class="btn btn-primary" onclick="showScriptParameters('script4.ps1')">&#62;</button>
+                </td>
+            </tr>
+                <tr>
+                <td colspan="2" style="padding: 0;">
+                    <div id="log_script4.ps1" class="log-container" style="display: none;"></div>
+                </td>
+            </tr>
+            <tr>
+        </tbody>
+    </table>
+            
     """
-    for file in files:
-        html_content += f"""
-                    <tr>
-                        <td>{file}</td>
-                        <td>
-                            <button class="btn btn-primary" onclick="showScriptParameters('{file}')">&#62;</button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="2" style="padding: 0;">
-                            <div id="log_{file}" class="log-container" style="display: none;"></div>
-                        </td>
-                    </tr>
-        """
     html_content += """
                 </tbody>
             </table>
@@ -214,11 +252,6 @@ async def read_item():
                                 <label for="db_password">DB Password</label>
                                 <input type="password" class="form-control" id="db_password" name="db_password">
                                 <p><small><strong>Description:</strong> Please type the Database password.</small></p>
-                            </div>
-                            <div class="form-group">
-                                <label for="github_token">GitHub Token</label>
-                                <input type="password" class="form-control" id="github_token" name="github_token">
-                                <p><small><strong>Description:</strong> Please type the Github token.</small></p>
                             </div>
                             <div class="form-group">
                                 <label for="personal_secret">Personal Secret</label>
