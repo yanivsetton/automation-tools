@@ -2,3 +2,160 @@
 2023-08-03 12:08:48,148 Received request for the homepage
 2023-08-03 12:08:49,023 Received request for the homepage
 2023-08-03 12:08:49,728 Received request for the homepage
+2023-08-03 12:10:11,482 Received request for the homepage
+2023-08-03 12:10:13,279 Received request for the homepage
+2023-08-03 12:10:55,013 Received request for the homepage
+2023-08-03 12:10:57,332 Received request for the homepage
+2023-08-03 12:11:15,500 Received request for the homepage
+2023-08-03 12:11:29,528 Received request for the homepage
+2023-08-03 12:11:29,927 Received request for the homepage
+2023-08-03 12:11:34,766 Received request for the homepage
+2023-08-03 12:12:00,242 Received request for the homepage
+2023-08-03 12:12:40,156 Received request for the homepage
+2023-08-03 12:14:22,996 Received request for the homepage
+2023-08-03 12:14:29,170 Received request to run script: github-ssh.ps1
+2023-08-03 12:14:29,181 Error running script: github-ssh.ps1, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-03 12:14:37,350 Received request for the homepage
+2023-08-03 12:14:56,671 Received request for the homepage
+2023-08-03 12:15:15,998 Received request for the homepage
+2023-08-03 12:15:22,363 Received request for the homepage
+2023-08-03 12:16:53,369 Received request for the homepage
+2023-08-03 12:20:31,171 Received request for the homepage
+2023-08-03 12:21:08,348 Received request for the homepage
+2023-08-03 12:22:08,050 Received request for the homepage
+2023-08-03 12:22:21,791 Received request for the homepage
+2023-08-03 12:22:24,924 Received request for the homepage
+2023-08-03 12:23:07,689 Received request for the homepage
+2023-08-03 12:23:22,947 Received request for the homepage
+2023-08-03 12:24:02,181 Received request for the homepage
+2023-08-03 12:24:19,931 Received request for the homepage
+2023-08-03 12:54:00,557 Received request for the homepage
+2023-08-03 12:55:10,357 Received request to run script: Install_Dbeaver.ps1
+2023-08-03 12:55:10,363 Error running script: Install_Dbeaver.ps1, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-03 12:55:43,049 Received request for the homepage
+2023-08-03 12:55:43,695 Received request for the homepage
+2023-08-03 12:55:43,831 Received request for the homepage
+2023-08-03 12:55:43,954 Received request for the homepage
+2023-08-03 12:55:49,553 Received request for the homepage
+2023-08-03 13:09:30,586 Received request for the homepage
+2023-08-03 13:09:39,169 Received request for the homepage
+2023-08-03 13:09:46,389 Received request for the homepage
+2023-08-03 13:10:07,951 Received request for the homepage
+2023-08-03 13:10:09,401 Received request for the homepage
+2023-08-03 13:10:09,581 Received request for the homepage
+2023-08-03 13:10:09,880 Received request for the homepage
+2023-08-03 13:10:25,265 Received request for the homepage
+2023-08-03 13:10:48,068 Received request for the homepage
+2023-08-03 13:10:58,845 Received request to run script: Install_inteliji.ps1
+2023-08-03 13:10:58,874 Error running script: Install_inteliji.ps1, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-03 13:11:01,703 Received request for the homepage
+2023-08-03 13:12:34,918 Received request for the homepage
+2023-08-03 13:14:46,905 Received request for the homepage
+2023-08-03 13:17:50,742 Received request for the homepage
+2023-08-03 13:18:15,986 Received request for the homepage
+2023-08-03 13:24:37,611 Received request for the homepage
+2023-08-03 13:33:50,191 Received request for the homepage
+2023-08-03 13:34:55,405 Received request for the homepage
+2023-08-03 13:36:42,499 Received request for the homepage
+2023-08-03 13:37:26,226 Received request for the homepage
+2023-08-03 13:37:31,211 Received request to run script: Install_inteliji.ps1
+2023-08-03 13:37:31,225 Error running script: Install_inteliji.ps1, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-03 13:37:32,581 Received request for the homepage
+2023-08-03 13:39:49,654 Received request for the homepage
+2023-08-03 13:39:50,669 Received request to run script: undefined
+2023-08-03 13:39:50,676 Error running script: undefined, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-03 13:43:47,897 Received request for the homepage
+2023-08-03 13:43:48,891 Received request for the homepage
+2023-08-03 13:44:40,932 Received request for the homepage
+2023-08-03 13:44:51,580 Received request for the homepage
+2023-08-03 13:45:39,063 Received request for the homepage
+2023-08-03 13:53:30,366 Received request for the homepage
+2023-08-03 13:56:51,738 Received request for the homepage
+2023-08-03 13:56:52,365 Received request to run script: undefined
+2023-08-03 13:56:52,374 Error running script: undefined, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-03 13:57:04,372 Received request to run script: undefined
+2023-08-03 13:57:04,381 Error running script: undefined, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-03 13:57:04,908 Received request to run script: undefined
+2023-08-03 13:57:04,917 Error running script: undefined, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-03 13:57:05,043 Received request to run script: undefined
+2023-08-03 13:57:05,068 Error running script: undefined, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-03 13:57:05,175 Received request to run script: undefined
+2023-08-03 13:57:05,178 Error running script: undefined, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-03 13:57:05,313 Received request to run script: undefined
+2023-08-03 13:57:05,321 Error running script: undefined, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-03 13:57:05,448 Received request to run script: undefined
+2023-08-03 13:57:05,451 Error running script: undefined, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-03 13:57:05,719 Received request to run script: undefined
+2023-08-03 13:57:05,722 Error running script: undefined, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-03 13:57:05,873 Received request to run script: undefined
+2023-08-03 13:57:05,878 Error running script: undefined, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-03 13:57:05,999 Received request to run script: undefined
+2023-08-03 13:57:06,019 Error running script: undefined, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-03 13:57:06,144 Received request to run script: undefined
+2023-08-03 13:57:06,156 Error running script: undefined, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-03 13:58:36,188 Received request for the homepage
+2023-08-03 13:58:37,994 Received request to run script: undefined
+2023-08-03 13:58:38,000 Error running script: undefined, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-03 13:58:40,555 Received request to run script: undefined
+2023-08-03 13:58:40,559 Error running script: undefined, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-03 13:58:41,964 Received request to run script: undefined
+2023-08-03 13:58:41,969 Error running script: undefined, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-03 14:00:21,732 Received request for the homepage
+2023-08-03 14:00:28,278 Received request for the homepage
+2023-08-03 14:00:57,237 Received request for the homepage
+2023-08-03 14:01:22,278 Received request for the homepage
+2023-08-03 14:42:43,318 Received request for the homepage
+2023-08-03 14:43:20,941 Received request for the homepage
+2023-08-03 14:43:23,199 Received request to run script: Install_inteliji.ps1
+2023-08-03 14:43:23,218 Error running script: Install_inteliji.ps1, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-03 14:43:41,935 Received request to run script: Install_inteliji.ps1
+2023-08-03 14:43:41,943 Error running script: Install_inteliji.ps1, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-03 14:43:47,112 Received request to run script: Install_inteliji.ps1
+2023-08-03 14:43:47,118 Error running script: Install_inteliji.ps1, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-03 14:43:49,929 Received request to run script: dbeaver-new-connection.ps1
+2023-08-03 14:43:49,939 Error running script: dbeaver-new-connection.ps1, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-03 14:43:53,028 Received request for the homepage
+2023-08-03 14:43:54,153 Received request to run script: undefined
+2023-08-03 14:43:54,161 Error running script: undefined, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-03 14:44:32,707 Received request for the homepage
+2023-08-03 14:46:38,359 Received request for the homepage
+2023-08-03 14:47:32,348 Received request for the homepage
+2023-08-03 14:57:43,899 Received request for the homepage
+2023-08-03 14:58:09,933 Received request to run script: Install_inteliji.ps1
+2023-08-03 14:58:09,946 Error running script: Install_inteliji.ps1, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-03 14:59:43,188 Received request for the homepage
+2023-08-03 15:00:58,205 Received request for the homepage
+2023-08-03 15:01:31,865 Received request for the homepage
+2023-08-03 15:06:04,986 Received request for the homepage
+2023-08-03 15:06:12,708 Received request to run script: Install_Dbeaver.ps1
+2023-08-03 15:06:12,715 Error running script: Install_Dbeaver.ps1, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-03 15:06:16,632 Received request for the homepage
+2023-08-03 15:06:55,950 Received request for the homepage
+2023-08-03 15:07:00,597 Received request to run script: script_name.ps1
+2023-08-03 15:07:00,597 Error running script: script_name.ps1, Error: expected str, bytes or os.PathLike object, not NoneType
+2023-08-03 15:09:52,317 Received request for the homepage
+2023-08-03 15:09:53,578 Received request to run script: script_name.ps1
+2023-08-03 15:09:53,585 Error running script: script_name.ps1, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-03 15:10:44,641 Received request for the homepage
+2023-08-03 15:10:46,246 Received request to run script: Install_Dbeaver.ps1
+2023-08-03 15:10:46,251 Error running script: Install_Dbeaver.ps1, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-03 15:11:41,983 Received request for the homepage
+2023-08-03 15:11:43,288 Received request to run script: Install_Dbeaver.ps1
+2023-08-03 15:11:43,296 Error running script: Install_Dbeaver.ps1, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-03 15:11:44,024 Received request to run script: Install_inteliji.ps1
+2023-08-03 15:11:44,031 Error running script: Install_inteliji.ps1, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-03 15:11:55,791 Received request for the homepage
+2023-08-03 15:14:39,208 Received request for the homepage
+2023-08-03 15:14:41,074 Received request to run script: github-ssh.ps1
+2023-08-03 15:14:41,081 Error running script: github-ssh.ps1, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-03 15:14:53,870 Received request for the homepage
+2023-08-03 15:14:55,097 Received request to run script: github-ssh.ps1
+2023-08-03 15:14:55,112 Error running script: github-ssh.ps1, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-03 15:15:06,102 Received request for the homepage
+2023-08-03 15:15:07,075 Received request to run script: github-ssh.ps1
+2023-08-03 15:15:07,563 Error running script: github-ssh.ps1, Error: [31;1mWrite-Error: [31;1mFailed to create the directory for the SSH key.[0m
+
+2023-08-03 15:15:21,965 Received request for the homepage
+2023-08-03 15:26:14,291 Received request to run script: github-ssh.ps1
+2023-08-03 15:26:14,303 Error running script: github-ssh.ps1, Error: [Errno 2] No such file or directory: 'powershell'
+2023-08-03 15:26:15,870 Received request for the homepage

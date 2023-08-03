@@ -17,12 +17,36 @@ def run_script(script_name, db_name, db_host, db_password, personal_secret):
         return {"status": "error", "output": e.stderr}
     except Exception as e:
         return {"status": "error", "output": str(e)}
+    
+def run_script_without(script_name):
+    script_path = os.path.join('./scripts', script_name)
+    try:
+        result = subprocess.run(['powershell', '-File', script_path], capture_output=True, text=True, check=True)
+        return {"status": "success", "output": result.stdout}
+    except subprocess.CalledProcessError as e:
+        return {"status": "error", "output": e.stderr}
+    except Exception as e:
+        return {"status": "error", "output": str(e)}
 
 @app.get("/run/{script_name}")
 async def execute_script(script_name: str, db_name: str = None, db_host: str = None, db_password: str = None, personal_secret: str = None):
     logging.info(f"Received request to run script: {script_name}")
     try:
         result = run_script(script_name, db_name, db_host, db_password, personal_secret)
+        if result["status"] == "success":
+            logging.info(f"Successfully ran script: {script_name}")
+        else:
+            logging.error(f"Error running script: {script_name}, Error: {result['output']}")
+        return result
+    except Exception as e:
+        logging.error(f"Error running script: {script_name}, Error: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/run_no_params/{script_name}")
+async def execute_script_no_params(script_name: str):
+    logging.info(f"Received request to run script: {script_name}")
+    try:
+        result = run_script_without(script_name)
         if result["status"] == "success":
             logging.info(f"Successfully ran script: {script_name}")
         else:
@@ -41,7 +65,7 @@ async def read_item():
         <html>
         <head>
          <link rel="icon" type="image/x-icon" href="https://scontent.ftlv23-1.fna.fbcdn.net/v/t39.30808-6/358128517_269808518983651_1245027130833259337_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=6OGDy8kN7PUAX_d1x1t&_nc_ht=scontent.ftlv23-1.fna&oh=00_AfBAUMO0T7NClheE-rEKY3uEkA0V8M9-VCryX4Dn4EbeGQ&oe=64D11DEC"> 
-        <title>Scripts Installation</title>
+        <title>Set up your Env</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
@@ -152,35 +176,69 @@ async def read_item():
         </head>
         <body>
         <div class="sidenav">
-            <button onclick="showScripts()">Scripts</button>
+            <button onclick="showScripts()">Main</button>
             <button onclick="refreshPage()">Refresh</button>
         </div>
         <div class="main">
             <div class="header">
                 <img src="https://pontera.com/hubfs/Images/Pontera%20Assets/Pontera%20Logos/Stylized-Black-SVG.svg" alt="Pontera Logo">
-                <h1>Scripts Installation</h1>
+                <h1>Set up your Env Wizard</h1>
             </div>
             <div id="scripts_area">
             <table class="table table-bordered mt-3">
                 <thead>
                     <tr>
                         <th scope="col">Script Name</th>
-                        <th scope="col">Actions</th>
+                        <th scope="col">Execute</th>
                     </tr>
                 </thead>
                 <tbody>
-    """
-    for file in files:
-        html_content += f"""
                     <tr>
-                        <td>{file}</td>
+                        <td>Install_Dbeaver</td>
                         <td>
-                            <button class="btn btn-primary" onclick="showScriptParameters('{file}')">&#62;</button>
+                            <button class="btn btn-primary" onclick="executeScriptNoParams('Install_Dbeaver.ps1')">&#62;</button>
                         </td>
                     </tr>
                     <tr>
                         <td colspan="2" style="padding: 0;">
-                            <div id="log_{file}" class="log-container" style="display: none;"></div>
+                            <div id="log_Install_Dbeaver.ps1" class="log-container" style="display: none;"></div>
+                            <p><small><strong>Description:</strong> Please type the Database name.</small></p>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td>Install_Inteliji</td>
+                        <td>
+                            <button class="btn btn-primary" onclick="executeScriptNoParams('Install_inteliji.ps1')">&#62;</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="padding: 0;">
+                            <div id="log_Install_inteliji.ps1" class="log-container" style="display: none;"></div>
+                            <p><small><strong>Description:</strong> Please type the Database name.</small></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>dbeaver-new-connection</td>
+                        <td>
+                            <button class="btn btn-primary" onclick="showScriptParameters('dbeaver-new-connection.ps1')">&#62;</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="padding: 0;">
+                            <div id="log_dbeaver-new-connection.ps1" class="log-container" style="display: none;"></div>
+                            <p><small><strong>Description:</strong> Please type the Database name.</small></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>github-ssh-key</td>
+                        <td>
+                            <button class="btn btn-primary" onclick="executeScriptNoParams('github-ssh.ps1')">&#62;</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="padding: 0;">
+                            <div id="log_github-ssh.ps1" class="log-container" style="display: none;"></div>
+                            <p><small><strong>Description:</strong> Please type the Database name.</small></p>
                         </td>
                     </tr>
         """
@@ -241,6 +299,21 @@ async def read_item():
         function showScriptParameters(scriptName) {
             $('#scriptParametersModal').modal('show');
             $('#scriptParametersForm').attr('data-script-name', scriptName);
+        }
+        
+        async function executeScriptNoParams(scriptName) {
+            const response = await fetch(`/run_no_params/${scriptName}`);
+            const data = await response.json();
+            const logContainer = document.getElementById('log_' + scriptName);
+            logContainer.innerHTML = "<pre style='color: #00FF00'>" + data.output + "</pre>";
+            logContainer.style.display = 'block';
+            if (data.status === 'success') {
+                createOutputModal(data.output);
+            } else {
+                const logFooter = document.createElement('div');
+                logFooter.innerHTML = "<pre class='log-footer'>" + data.output + "</pre>";
+                logContainer.appendChild(logFooter);
+            }
         }
 
         async function executeScriptWithParameters() {
