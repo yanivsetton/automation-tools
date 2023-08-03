@@ -101,6 +101,7 @@ async def read_item():
             td:hover {{
                 background-color: #cff7fc;  /* Change to the color you want */
             }}
+            
             .sidenav {{
                 height: 100%;
                 width: 200px;
@@ -111,25 +112,27 @@ async def read_item():
                 background-color: #111;
                 overflow-x: hidden;
                 padding-top: 20px;
+                font-family: Arial, sans-serif; /* Experiment with different fonts */
             }}
 
             .sidenav button {{
-                padding: 6px 8px 6px 16px;
+                padding: 12px 16px; /* Increase padding */
                 text-decoration: none;
-                font-size: 20px; /* you might want to reduce the font size a bit */
-                color: #818181;
+                font-size: 18px; /* Adjust font size */
+                color: #ccc; /* Lighten the text color for more contrast */
                 display: block;
                 border: none;
                 background: none;
-                transition: background-color 0.3s ease, color 0.3s ease; /* this will smoothly transition changes on hover */
-                text-align: left; /* Aligns the text to the left */
-                width: 100%; /* Makes sure the button takes up the full width of the sidebar */
+                transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease; /* Smoothly transition the box-shadow */
+                text-align: left;
+                width: 100%;
+                line-height: 1.6; /* Adjust line height for readability */
             }}
 
             .sidenav button:hover {{
-                color: #f1f1f1;
-                background-color: #575757; /* change this to whatever color you prefer on hover */
-                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Adds a bit of a shadow for a "3D" effect */
+                color: #fff; /* Lighten the hover text color for more contrast */
+                background-color: #333; /* Darken the hover background color for more contrast */
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
             }}
 
             .main {{
