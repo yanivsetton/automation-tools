@@ -16,7 +16,7 @@ if ($checkInstall -like "*$packageName*") {
     Write-Host "DBeaver is already installed."
 } else {
     # Install DBeaver using Chocolatey with the latest version and silent switch
-    $chocoInstallScript = "choco install $packageName --yes --params '/S'"
+    $chocoInstallScript = "choco install $packageName --yes --force --params '/S'"
 
     # Run the installation command
     Invoke-Expression $chocoInstallScript
