@@ -9,11 +9,7 @@ app = FastAPI()
 logging.basicConfig(filename='app.log', level=logging.INFO, format='%(asctime)s %(message)s')
 
 def run_script(script_name, db_name, db_host, db_password):
-    <<<<<<< HEAD
     script_path = os.path.join(script_name)
-=======
-    script_path = os.path.join('./', script_name)
->>>>>>> refs/remotes/origin/main
     try:
         result = subprocess.run(['powershell', '-File', script_path, db_name, db_host, db_password], capture_output=True, text=True, check=True)
         return {"status": "success", "output": result.stdout}
@@ -23,11 +19,7 @@ def run_script(script_name, db_name, db_host, db_password):
         return {"status": "error", "output": str(e)}
     
 def run_script_without(script_name):
-<<<<<<< HEAD
     script_path = os.path.join(script_name)
-=======
-    script_path = os.path.join('./', script_name)
->>>>>>> refs/remotes/origin/main
     try:
         result = subprocess.run(['powershell', '-File', script_path], capture_output=True, text=True, check=True)
         return {"status": "success", "output": result.stdout}
