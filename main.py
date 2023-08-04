@@ -9,7 +9,7 @@ app = FastAPI()
 logging.basicConfig(filename='app.log', level=logging.INFO, format='%(asctime)s %(message)s')
 
 def run_script(script_name, db_name, db_host, db_password):
-    script_path = os.path.join('./scripts', script_name)
+    script_path = os.path.join(script_name)
     try:
         result = subprocess.run(['powershell', '-File', script_path, db_name, db_host, db_password], capture_output=True, text=True, check=True)
         return {"status": "success", "output": result.stdout}
@@ -19,7 +19,7 @@ def run_script(script_name, db_name, db_host, db_password):
         return {"status": "error", "output": str(e)}
     
 def run_script_without(script_name):
-    script_path = os.path.join('./scripts', script_name)
+    script_path = os.path.join(script_name)
     try:
         result = subprocess.run(['powershell', '-File', script_path], capture_output=True, text=True, check=True)
         return {"status": "success", "output": result.stdout}
@@ -59,7 +59,7 @@ async def execute_script_no_params(script_name: str):
 @app.get("/", response_class=HTMLResponse)
 async def read_item():
     logging.info("Received request for the homepage")
-    files = os.listdir('./scripts')
+    files = os.listdir('./')
     files = [f for f in files if f.endswith('.ps1')]
     html_content = f"""
         <html>
