@@ -1,6 +1,5 @@
  param (
-    [string]$newUser,
-    [string]$newPassword
+    $DBPass = $args[0]
 )
 
 # Path to the JSON file
@@ -10,8 +9,8 @@ $jsonFile = "C:\Users\Administrator\Documents\automation-tools\scripts\dbeaver-j
 $jsonString = Get-Content -Path $jsonFile -Raw
 
 # Replace the variables directly in the JSON string using regular expressions
-$jsonString = $jsonString -replace '(?<="user": ")[^"]+', $newUser
-$jsonString = $jsonString -replace '(?<="password": ")[^"]+', $newPassword
+$jsonString = $jsonString -replace '(?<="user": ")[^"]+', $env:USERNAME
+$jsonString = $jsonString -replace '(?<="password": ")[^"]+', $DBPass
 
 # Write the updated JSON string back to the same file
 $jsonString | Set-Content -Path $jsonFile
