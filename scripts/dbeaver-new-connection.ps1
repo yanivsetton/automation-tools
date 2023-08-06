@@ -1,30 +1,38 @@
  param (
-    $DBPass = $args[0]
+    [Parameter(Mandatory = $true)]
+    [string]$newPassword
 )
 
-# Path to the JSON file
-$jsonFile = "C:\Users\Administrator\Documents\automation-tools\scripts\dbeaver-json.json"
+# Force create the destination directory if it doesn't exist
+$destinationDir = "C:\Users\$env:USERNAME\AppData\Roaming\DBeaverData\workspace6\General\.dbeaver"
+if (-not (Test-Path -Path $destinationDir -PathType Container)) {
+    New-Item -ItemType Directory -Path $destinationDir -Force | Out-Null
+}
 
-# Read the JSON content as a single string
-$jsonString = Get-Content -Path $jsonFile -Raw
+# Get the current username from the environment variable
+$newUsername = $env:USERNAME
 
-# Replace the variables directly in the JSON string using regular expressions
-$jsonString = $jsonString -replace '(?<="user": ")[^"]+', $env:USERNAME
-$jsonString = $jsonString -replace '(?<="password": ")[^"]+', $DBPass
+# Define the JSON file path from the previous response
+$jsonFilePath = "C:\Users\Administrator\Documents\automation-tools\scripts\dbeaver-json.json"
 
-# Write the updated JSON string back to the same file
-$jsonString | Set-Content -Path $jsonFile
+# Read the JSON data from the file as a simple text
+try {
+    $jsonContent = Get-Content -Path $jsonFilePath -Raw
+} catch {
+    Write-Host "Error: Failed to read JSON data from the file."
+    return
+}
 
-Write-Output "JSON file has been updated with new username and password."
+# Replace the username and password directly in the JSON content
+$jsonContent = $jsonContent -replace ('"user":\s*".*?"', ('"user": "{0}"' -f $newUsername))
+$jsonContent = $jsonContent -replace ('"password":\s*".*?"', ('"password": "{0}"' -f $newPassword))
 
-# Destination path for the copied JSON file
-$destinationPath = "C:\Users\Administrator\AppData\Roaming\DBeaverData\workspace6\General\.dbeaver\data-sources-2.json"
+# Save the updated JSON back to the original file
+$jsonContent | Out-File -FilePath $jsonFilePath -Force
 
-# Create the destination directory if it does not exist
-$destinationDirectory = Split-Path -Parent $destinationPath
-New-Item -ItemType Directory -Force -Path $destinationDirectory | Out-Null
+# Copy the JSON to the destination location
+$destinationPath = "$destinationDir\data-sources-2.json"
+Copy-Item -Path $jsonFilePath -Destination $destinationPath -Force
 
-# Copy the updated JSON file to the destination path with overwrite
-Copy-Item -Path $jsonFile -Destination $destinationPath -Force
-
-Write-Output "Updated JSON file has been copied to $destinationPath."
+Write-Host "JSON data updated and copied successfully."
+ 
