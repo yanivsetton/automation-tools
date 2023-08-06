@@ -1,77 +1,75 @@
 {
-	"folders": {},
-	"connections": {
-		"mysql8-189c99ef4cd-a49f30a84bee408": {
-			"provider": "mysql",
-			"driver": "mysql8",
-			"name": "Prod",
-			"save-password": true,
-			"configuration": {
-				"host": "Prod.com",
-        			"user": "Administrator",
-				"password": "new_password",
-				"port": "3306",
-				"database": "Prod",
-				"url": "jdbc:mysql://Prod:3306/qwe",
-				"configurationType": "MANUAL",
-				"home": "mysql_client",
-				"type": "dev",
-				"auth-model": "native"
-			}
-		},
-        "mysql8-189c99ef4cd-a49f30a84bee409": {
-			"provider": "mysql",
-			"driver": "mysql8",
-			"name": "Staging",
-			"save-password": true,
-			"configuration": {
-				"host": "staging.com",
-        			"user": "Administrator",
-        			"password": "new_password",
-				"port": "3306",
-				"database": "Staging",
-				"url": "jdbc:mysql://staging:3306/qwqweqweqwe",
-				"configurationType": "MANUAL",
-				"home": "mysql_client",
-				"type": "dev",
-				"auth-model": "native"
-			}
-		},
-		"mysql8-189c9aa9249-c227c3c48b498ba": {
-			"provider": "mysql",
-			"driver": "mysql8",
-			"name": "Dev",
-			"save-password": true,
-			"configuration": {
-				"host": "localhost",
-        			"user": "Administrator",
-        			"password": "new_password",
-				"port": "3306",
-				"database": "Dev",
-				"url": "jdbc:mysql://localhost:3306/111",
-				"configurationType": "MANUAL",
-				"home": "mysql_client",
-				"type": "dev",
-				"auth-model": "native"
-			}
-		}
-	},
-	"connection-types": {
-		"dev": {
-			"name": "Development",
-			"color": "255,255,255",
-			"description": "Regular development database",
-			"auto-commit": true,
-			"confirm-execute": false,
-			"confirm-data-change": false,
-			"smart-commit": false,
-			"smart-commit-recover": true,
-			"auto-close-transactions": true,
-			"close-transactions-period": 1800
-		}
-	}
+    "folders":  {
+
+                },
+    "connections":  {
+        "mysql8-189c99ef4cd-a49f30a84bee408":  {
+            "provider":  "mysql",
+            "driver":  "mysql8",
+            "name":  "Prod",
+            "save-password":  true,
+            "configuration":  {
+                "host":  "Prod.com",
+                "user":  "Administrator",
+                "password":  "123",
+                "port":  "3306",
+                "database":  "Prod",
+                "url":  "jdbc:mysql://Prod:3306/qwe",
+                "configurationType":  "MANUAL",
+                "home":  "mysql_client",
+                "type":  "dev",
+                "auth-model":  "native"
+            }
+        },
+        "mysql8-189c99ef4cd-a49f30a84bee409":  {
+            "provider":  "mysql",
+            "driver":  "mysql8",
+            "name":  "Staging",
+            "save-password":  true,
+            "configuration":  {
+                "host":  "staging.com",
+                "user":  "Administrator",
+                "password":  "123",
+                "port":  "3306",
+                "database":  "Staging",
+                "url":  "jdbc:mysql://staging:3306/qwqweqweqwe",
+                "configurationType":  "MANUAL",
+                "home":  "mysql_client",
+                "type":  "dev",
+                "auth-model":  "native"
+            }
+        },
+        "mysql8-189c9aa9249-c227c3c48b498ba":  {
+            "provider":  "mysql",
+            "driver":  "mysql8",
+            "name":  "Dev",
+            "save-password":  true,
+            "configuration":  {
+                "host":  "localhost",
+                "user":  "Administrator",
+                "password":  "123",
+                "port":  "3306",
+                "database":  "Dev",
+                "url":  "jdbc:mysql://localhost:3306/111",
+                "configurationType":  "MANUAL",
+                "home":  "mysql_client",
+                "type":  "dev",
+                "auth-model":  "native"
+            }
+        }
+    },
+    "connection-types":  {
+        "dev":  {
+        "name":  "Development",
+        "color":  "255,255,255",
+        "description":  "Regular development database",
+        "auto-commit":  true,
+        "confirm-execute":  false,
+        "confirm-data-change":  false,
+        "smart-commit":  false,
+        "smart-commit-recover":  true,
+        "auto-close-transactions":  true,
+        "close-transactions-period":  1800
+    }
+    }
 }
-
-
-
-
