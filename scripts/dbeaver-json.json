@@ -4,7 +4,7 @@
 		"mysql8-189c99ef4cd-a49f30a84bee408": {
 			"provider": "mysql",
 			"driver": "mysql8",
-			"name": "qwe",
+			"name": "Prod",
 			"save-password": true,
 			"configuration": {
 				"host": "another-test",
@@ -22,7 +22,7 @@
         "mysql8-189c99ef4cd-a49f30a84bee409": {
 			"provider": "mysql",
 			"driver": "mysql8",
-			"name": "qwqweqweqwe",
+			"name": "Staging",
 			"save-password": true,
 			"configuration": {
 				"host": "another-test",
@@ -40,7 +40,7 @@
 		"mysql8-189c9aa9249-c227c3c48b498ba": {
 			"provider": "mysql",
 			"driver": "mysql8",
-			"name": "localhost",
+			"name": "Dev",
 			"save-password": true,
 			"configuration": {
 				"host": "another-test",
