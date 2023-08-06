@@ -8,8 +8,8 @@
 			"save-password": true,
 			"configuration": {
 				"host": "Prod.com",
-        "user": "Administrator",
-        "password": "new_password",
+        			"user": "Administrator",
+				"password": "new_password",
 				"port": "3306",
 				"database": "Prod",
 				"url": "jdbc:mysql://Prod:3306/qwe",
@@ -26,8 +26,8 @@
 			"save-password": true,
 			"configuration": {
 				"host": "staging.com",
-        "user": "Administrator",
-        "password": "new_password",
+        			"user": "Administrator",
+        			"password": "new_password",
 				"port": "3306",
 				"database": "Staging",
 				"url": "jdbc:mysql://staging:3306/qwqweqweqwe",
@@ -44,8 +44,8 @@
 			"save-password": true,
 			"configuration": {
 				"host": "localhost",
-        "user": "Administrator",
-        "password": "new_password",
+        			"user": "Administrator",
+        			"password": "new_password",
 				"port": "3306",
 				"database": "Dev",
 				"url": "jdbc:mysql://localhost:3306/111",
