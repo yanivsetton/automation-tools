@@ -2,7 +2,7 @@ param (
     [string]$newPassword
 )
 
-$message = "Installing DBeaver for you..`nYap totally full automation`nOhh.. also`nCreating for you the profiles and connecions`n starting now.."
+$message = "Installing DBeaver for you..`nYap totally full automation`nOhh.. also`nCreating for you the profiles and connections`n starting now.."
 $delay = 100 # time in milliseconds
 
 Write-Host ""
@@ -66,6 +66,16 @@ $modifiedContent = $content | ForEach-Object {
 
 # Save the modified content back to the file
 $modifiedContent | Set-Content -Path $filePath -Force
+
+# Find the path to python executable in the global PATH variable
+$pythonExecutable = $env:PATH -split ';' | Where-Object { Test-Path (Join-Path $_ 'python.exe') } | Select-Object -First 1
+
+if ($pythonExecutable) {
+    $pythonScriptPath = Join-Path -Path $PSScriptRoot -ChildPath "open_program.py"
+    $programSelected = & $pythonExecutable $pythonScriptPath
+} else {
+    Write-Host "Python executable not found in the global PATH. Cannot execute the Python script."
+}
 
 $message = "Dbeaver installation and configuration`nhas been successfully applied"
 $delay = 50 # time in milliseconds
