@@ -68,11 +68,12 @@ $modifiedContent = $content | ForEach-Object {
 $modifiedContent | Set-Content -Path $filePath -Force
 
 # Find the path to python executable in the global PATH variable
-$pythonExecutable = $env:PATH -split ';' | Where-Object { Test-Path (Join-Path $_ 'python.exe') } | Select-Object -First 1
+$pythonExecutable = "C:\Python311\python.exe"
+#$pythonExecutable = $env:PATH -split ';' | Where-Object { Test-Path (Join-Path $_ 'python.exe') } | Select-Object -First 1
 
 if ($pythonExecutable) {
     $pythonScriptPath = Join-Path -Path $PSScriptRoot -ChildPath "open_program.py"
-    $programSelected = & $pythonExecutable $pythonScriptPath
+    $programSelected = & Start-Process -FilePath $pythonExecutable -ArgumentList $pythonScriptPath 
 } else {
     Write-Host "Python executable not found in the global PATH. Cannot execute the Python script."
 }
