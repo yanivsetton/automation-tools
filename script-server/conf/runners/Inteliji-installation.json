@@ -1,0 +1,15 @@
+{
+  "name": "2. Install Inteliji",
+  "script_path": "powershell -file '.\\conf\\runners\\scripts\\Install_Inteliji.ps1'",
+  "description": "This script will install Inteliji ultimate edition.",
+  "output_format": "terminal",
+  "parameters": [
+    {
+      "name": "IDEA_FILE",
+      "required": true,
+      "type": "file_upload",
+      "description": "Please Upload your .IDEA file",
+      "secure": true
+    }
+  ]
+}

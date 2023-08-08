@@ -1,4 +1,4 @@
- param (
+param (
     [Parameter(Mandatory = $true)]
     [string]$newPassword
 )
@@ -31,8 +31,7 @@ $jsonContent = $jsonContent -replace ('"password":\s*".*?"', ('"password": "{0}"
 $jsonContent | Out-File -FilePath $jsonFilePath -Force
 
 # Copy the JSON to the destination location
-$destinationPath = "$destinationDir\data-sources-2.json"
+$destinationPath = "$destinationDir\data-sources.json"
 Copy-Item -Path $jsonFilePath -Destination $destinationPath -Force
 
 Write-Host "JSON data updated and copied successfully."
- 

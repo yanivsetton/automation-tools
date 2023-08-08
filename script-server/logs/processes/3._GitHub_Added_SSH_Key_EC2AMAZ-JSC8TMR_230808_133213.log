@@ -1,0 +1,36 @@
+id:38
+user_name:EC2AMAZ-JSC8TMR
+user_id:127.0.0.1
+script:3. GitHub Added SSH Key
+start_time:1691501533373
+command:powershell -file .\conf\runners\scripts\github-ssh.ps1 ******
+output_format:terminal
+exit_code:0
+>>>>>  OUTPUT STARTED <<<<<
+The selected folder is: C:\Users\Administrator\Desktop
+The repository will be cloned to: C:\Users\Administrator\Desktop\automation-tools
+Generating public/private rsa key pair.
+Your identification has been saved in C:\Users\Administrator\.ssh\id_rsa_20230808133218
+Your public key has been saved in C:\Users\Administrator\.ssh\id_rsa_20230808133218.pub
+The key fingerprint is:
+SHA256:IFpZvdznakv04jEh1iudB6hxw7i8U7H/hJmRicFirwM Administrator@EC2AMAZ-JSC8TMR
+The key's randomart image is:
++---[RSA 4096]----+
+|      ..         |
+|     o ..        |
+|    + +.oo       |
+|   o o *+=.o.    |
+|  . E o SoOo     |
+|     o Bo= @.    |
+|      *...%.+    |
+|      .o ++*     |
+|      .. .oo.    |
++----[SHA256]-----+
+Public SSH key has been copied to clipboard
+Did you paste the ssh key? Please type Y to proceed or N to abort
+Y
+Y
+Proceeding...
+Cloning repository from ****** to C:\Users\Administrator\Desktop\automation-tools...
+Cloning into 'C:\Users\Administrator\Desktop\automation-tools'...
+Repository cloned successfully!

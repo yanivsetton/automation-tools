@@ -1,0 +1,30 @@
+id:25
+user_name:EC2AMAZ-JSC8TMR
+user_id:127.0.0.1
+script:3. GitHub Added SSH Key
+start_time:1691499912635
+command:powershell -file .\conf\runners\scripts\github-ssh.ps1 ******
+output_format:terminal
+exit_code:1
+>>>>>  OUTPUT STARTED <<<<<
+The selected folder is: C:\Users\Administrator\Desktop
+Generating public/private rsa key pair.
+Your identification has been saved in C:\Users\Administrator\.ssh\id_rsa_20230808130515
+Your public key has been saved in C:\Users\Administrator\.ssh\id_rsa_20230808130515.pub
+The key fingerprint is:
+SHA256:LQJWngRKul1q8pnGAYbeYonrtbfY5rrEIApbgT4vozo Administrator@EC2AMAZ-JSC8TMR
+The key's randomart image is:
++---[RSA 4096]----+
+|  . ..o          |
+|.+ . + .         |
+|=.o + o          |
+|=+o= .   .       |
+|*O*.  . S .      |
+|=O*+   . .       |
+|+o*=             |
+|E.= +o           |
+|+o =*+.          |
++----[SHA256]-----+
+Public SSH key has been copied to clipboard
+
+>> STOPPED BY USER

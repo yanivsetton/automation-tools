@@ -1,0 +1,20 @@
+{
+  "name": "1. Install DBeaver",
+  "script_path": "powershell -file '.\\conf\\runners\\scripts\\Install_Dbeaver.ps1'",
+  "description": "This script will install DBeaver community edition and set the profiles for different Envs",
+  "requires_terminal": false,
+  "output_format": "terminal",
+  "parameters": [
+    {
+      "name": "Password for Database",
+      "required": true,
+      "type": "text",
+      "description": "Please type the Database password you got from the DevOps",
+      "secure": true
+    }
+  ],
+  "preload_script": {
+    "script": "powershell echo 'This is a <b>preload</b> script showing some info.</br>'",
+    "output_format": "html"
+  }
+}

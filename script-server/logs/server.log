@@ -1,0 +1,1647 @@
+2023-08-08 11:06:52,136 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 2.00ms
+2023-08-08 11:06:52,148 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 11:06:52,153 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 5.00ms
+2023-08-08 11:06:52,156 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 3.00ms
+2023-08-08 11:06:52,182 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 26.00ms
+2023-08-08 11:06:52,196 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 9.00ms
+2023-08-08 11:06:52,274 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 3.99ms
+2023-08-08 11:06:52,275 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 1.00ms
+2023-08-08 11:06:52,278 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 3.00ms
+2023-08-08 11:06:52,280 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 0.00ms
+2023-08-08 11:06:52,289 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 2.00ms
+2023-08-08 11:06:52,293 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.00ms
+2023-08-08 11:06:52,310 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 1.00ms
+2023-08-08 11:06:52,326 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 11:06:52,613 [tornado.access.INFO] 101 GET /scripts/2.%20Install%20DBeaver?initWithValues=false (127.0.0.1) 0.00ms
+2023-08-08 11:19:11,049 [tornado.access.INFO] 101 GET /scripts/4.%20GitHub%20Added%20SSH%20Key?initWithValues=false (127.0.0.1) 1.04ms
+2023-08-08 11:19:14,692 [tornado.access.INFO] 200 GET /scripts?mode=edit (127.0.0.1) 4.00ms
+2023-08-08 11:19:18,238 [tornado.access.INFO] 304 GET /admin/scripts/1.%20Hello%20Pontera (127.0.0.1) 3.00ms
+2023-08-08 11:20:07,710 [config_service.INFO] Updating script config "1. Hello Pontera" in conf\runners\hello_pontera.json
+2023-08-08 11:20:07,712 [tornado.access.INFO] 200 PUT /admin/scripts (127.0.0.1) 8.00ms
+2023-08-08 11:20:07,728 [tornado.access.INFO] 304 GET /admin/scripts/1.%20Hello%20Pontera (127.0.0.1) 13.03ms
+2023-08-08 11:20:15,683 [tornado.access.INFO] 200 GET /admin.html (127.0.0.1) 2.00ms
+2023-08-08 11:20:15,696 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.00ms
+2023-08-08 11:20:15,700 [tornado.access.INFO] 200 GET /css/admin.ee33e5eb.css (127.0.0.1) 2.00ms
+2023-08-08 11:20:15,705 [tornado.access.INFO] 200 GET /css/chunk-admin-vendors.f2833d6d.css (127.0.0.1) 4.00ms
+2023-08-08 11:20:15,712 [tornado.access.INFO] 200 GET /js/admin.d0e2842d.js (127.0.0.1) 6.00ms
+2023-08-08 11:20:15,756 [tornado.access.INFO] 200 GET /js/chunk-admin-vendors.afd45d69.js (127.0.0.1) 43.00ms
+2023-08-08 11:20:15,801 [tornado.access.INFO] 200 GET /admin/scripts/1.%20Hello%20Pontera (127.0.0.1) 3.00ms
+2023-08-08 11:20:15,816 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 1.03ms
+2023-08-08 11:20:15,819 [tornado.access.INFO] 200 GET /fonts/roboto-latin-500.020c97dc.woff2 (127.0.0.1) 1.00ms
+2023-08-08 11:20:15,822 [tornado.access.INFO] 200 GET /fonts/roboto-latin-400.479970ff.woff2 (127.0.0.1) 1.00ms
+2023-08-08 11:20:15,824 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 0.00ms
+2023-08-08 11:20:15,870 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.00ms
+2023-08-08 11:20:42,245 [tornado.access.INFO] 200 GET /admin.html (127.0.0.1) 2.04ms
+2023-08-08 11:20:42,257 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 11:20:42,259 [tornado.access.INFO] 200 GET /css/admin.ee33e5eb.css (127.0.0.1) 2.00ms
+2023-08-08 11:20:42,269 [tornado.access.INFO] 200 GET /js/admin.d0e2842d.js (127.0.0.1) 8.00ms
+2023-08-08 11:20:42,273 [tornado.access.INFO] 200 GET /css/chunk-admin-vendors.f2833d6d.css (127.0.0.1) 10.00ms
+2023-08-08 11:20:42,315 [tornado.access.INFO] 200 GET /js/chunk-admin-vendors.afd45d69.js (127.0.0.1) 40.00ms
+2023-08-08 11:20:42,378 [config_service.ERROR] Could not load script config: conf\runners\hello_pontera.json
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\script-server\src\config\config_service.py", line 234, in find_and_load
+    json_object = custom_json.loads(content)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\Documents\script-server\src\utils\custom_json.py", line 9, in loads
+    return json.loads(contents, **args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python311\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 15 column 19 (char 430)
+2023-08-08 11:20:42,427 [tornado.general.WARNING] 404 GET /admin/scripts/1.%20Hello%20Pontera (127.0.0.1): Failed to find config for name: 1. Hello Pontera
+2023-08-08 11:20:42,427 [tornado.access.WARNING] 404 GET /admin/scripts/1.%20Hello%20Pontera (127.0.0.1) 70.02ms
+2023-08-08 11:20:42,430 [tornado.access.INFO] 200 GET /fonts/roboto-latin-400.479970ff.woff2 (127.0.0.1) 1.98ms
+2023-08-08 11:20:42,431 [tornado.access.INFO] 200 GET /fonts/roboto-latin-500.020c97dc.woff2 (127.0.0.1) 3.00ms
+2023-08-08 11:20:42,434 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 5.00ms
+2023-08-08 11:20:42,435 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 6.00ms
+2023-08-08 11:20:42,450 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.00ms
+2023-08-08 11:20:45,763 [config_service.ERROR] Could not load script: conf\runners\hello_pontera.json
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\script-server\src\config\config_service.py", line 173, in load_script
+    json_object = custom_json.loads(content)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\Documents\script-server\src\utils\custom_json.py", line 9, in loads
+    return json.loads(contents, **args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python311\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 15 column 19 (char 430)
+2023-08-08 11:20:45,765 [tornado.access.INFO] 200 GET /scripts?mode=edit (127.0.0.1) 5.00ms
+2023-08-08 11:21:45,813 [tornado.access.INFO] 200 GET /admin.html (127.0.0.1) 2.00ms
+2023-08-08 11:21:45,825 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 11:21:45,827 [tornado.access.INFO] 200 GET /css/admin.ee33e5eb.css (127.0.0.1) 2.00ms
+2023-08-08 11:21:45,869 [tornado.access.INFO] 200 GET /js/chunk-admin-vendors.afd45d69.js (127.0.0.1) 41.00ms
+2023-08-08 11:21:45,884 [tornado.access.INFO] 200 GET /js/admin.d0e2842d.js (127.0.0.1) 55.00ms
+2023-08-08 11:21:45,888 [tornado.access.INFO] 200 GET /css/chunk-admin-vendors.f2833d6d.css (127.0.0.1) 59.00ms
+2023-08-08 11:21:45,944 [config_service.ERROR] Could not load script: conf\runners\hello_pontera.json
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\script-server\src\config\config_service.py", line 173, in load_script
+    json_object = custom_json.loads(content)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\Documents\script-server\src\utils\custom_json.py", line 9, in loads
+    return json.loads(contents, **args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python311\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 15 column 1 (char 411)
+2023-08-08 11:21:45,946 [tornado.access.INFO] 200 GET /scripts?mode=edit (127.0.0.1) 16.03ms
+2023-08-08 11:21:45,949 [tornado.access.INFO] 200 GET /fonts/roboto-latin-500.020c97dc.woff2 (127.0.0.1) 2.01ms
+2023-08-08 11:21:45,951 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 3.02ms
+2023-08-08 11:21:45,952 [tornado.access.INFO] 200 GET /fonts/roboto-latin-400.479970ff.woff2 (127.0.0.1) 4.01ms
+2023-08-08 11:21:45,953 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 5.01ms
+2023-08-08 11:21:45,975 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.01ms
+2023-08-08 11:21:48,424 [tornado.access.INFO] 200 GET /admin.html (127.0.0.1) 1.96ms
+2023-08-08 11:21:48,433 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.00ms
+2023-08-08 11:21:48,436 [tornado.access.INFO] 200 GET /css/admin.ee33e5eb.css (127.0.0.1) 2.00ms
+2023-08-08 11:21:48,445 [tornado.access.INFO] 200 GET /js/admin.d0e2842d.js (127.0.0.1) 7.00ms
+2023-08-08 11:21:48,449 [tornado.access.INFO] 200 GET /css/chunk-admin-vendors.f2833d6d.css (127.0.0.1) 11.00ms
+2023-08-08 11:21:48,491 [tornado.access.INFO] 200 GET /js/chunk-admin-vendors.afd45d69.js (127.0.0.1) 52.00ms
+2023-08-08 11:21:48,532 [config_service.ERROR] Could not load script: conf\runners\hello_pontera.json
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\script-server\src\config\config_service.py", line 173, in load_script
+    json_object = custom_json.loads(content)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\Documents\script-server\src\utils\custom_json.py", line 9, in loads
+    return json.loads(contents, **args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python311\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 15 column 1 (char 411)
+2023-08-08 11:21:48,535 [tornado.access.INFO] 200 GET /scripts?mode=edit (127.0.0.1) 6.00ms
+2023-08-08 11:21:48,538 [tornado.access.INFO] 200 GET /fonts/roboto-latin-500.020c97dc.woff2 (127.0.0.1) 2.00ms
+2023-08-08 11:21:48,541 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 4.00ms
+2023-08-08 11:21:48,541 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 5.00ms
+2023-08-08 11:21:48,543 [tornado.access.INFO] 200 GET /fonts/roboto-latin-400.479970ff.woff2 (127.0.0.1) 6.00ms
+2023-08-08 11:21:48,565 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.01ms
+2023-08-08 11:21:48,935 [tornado.access.INFO] 200 GET /admin.html (127.0.0.1) 2.00ms
+2023-08-08 11:21:48,944 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 11:21:48,948 [tornado.access.INFO] 200 GET /css/admin.ee33e5eb.css (127.0.0.1) 2.98ms
+2023-08-08 11:21:48,955 [tornado.access.INFO] 200 GET /js/admin.d0e2842d.js (127.0.0.1) 7.02ms
+2023-08-08 11:21:48,966 [tornado.access.INFO] 200 GET /css/chunk-admin-vendors.f2833d6d.css (127.0.0.1) 17.00ms
+2023-08-08 11:21:49,008 [tornado.access.INFO] 200 GET /js/chunk-admin-vendors.afd45d69.js (127.0.0.1) 59.00ms
+2023-08-08 11:21:49,052 [config_service.ERROR] Could not load script: conf\runners\hello_pontera.json
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\script-server\src\config\config_service.py", line 173, in load_script
+    json_object = custom_json.loads(content)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\Documents\script-server\src\utils\custom_json.py", line 9, in loads
+    return json.loads(contents, **args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python311\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 15 column 1 (char 411)
+2023-08-08 11:21:49,055 [tornado.access.INFO] 200 GET /scripts?mode=edit (127.0.0.1) 8.00ms
+2023-08-08 11:21:49,060 [tornado.access.INFO] 200 GET /admin.html (127.0.0.1) 4.00ms
+2023-08-08 11:21:49,065 [tornado.access.INFO] 200 GET /fonts/roboto-latin-500.020c97dc.woff2 (127.0.0.1) 9.00ms
+2023-08-08 11:21:49,066 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 10.00ms
+2023-08-08 11:21:49,067 [tornado.access.INFO] 200 GET /fonts/roboto-latin-400.479970ff.woff2 (127.0.0.1) 10.00ms
+2023-08-08 11:21:49,082 [tornado.access.INFO] 200 GET /fonts/roboto-latin-500.87284894.woff (127.0.0.1) 13.00ms
+2023-08-08 11:21:49,083 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 11:21:49,357 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.98ms
+2023-08-08 11:21:49,360 [tornado.access.INFO] 200 GET /css/admin.ee33e5eb.css (127.0.0.1) 2.00ms
+2023-08-08 11:21:49,365 [tornado.access.INFO] 200 GET /css/chunk-admin-vendors.f2833d6d.css (127.0.0.1) 3.97ms
+2023-08-08 11:21:49,367 [tornado.access.INFO] 200 GET /admin.html (127.0.0.1) 1.00ms
+2023-08-08 11:21:49,377 [tornado.access.INFO] 200 GET /js/admin.d0e2842d.js (127.0.0.1) 9.00ms
+2023-08-08 11:21:49,393 [tornado.access.INFO] 200 GET /js/chunk-admin-vendors.afd45d69.js (127.0.0.1) 13.03ms
+2023-08-08 11:21:49,395 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 11:21:49,440 [tornado.access.INFO] 200 GET /js/chunk-admin-vendors.afd45d69.js (127.0.0.1) 43.00ms
+2023-08-08 11:21:49,443 [tornado.access.INFO] 200 GET /css/admin.ee33e5eb.css (127.0.0.1) 44.99ms
+2023-08-08 11:21:49,449 [tornado.access.INFO] 200 GET /js/admin.d0e2842d.js (127.0.0.1) 51.00ms
+2023-08-08 11:21:49,454 [tornado.access.INFO] 200 GET /css/chunk-admin-vendors.f2833d6d.css (127.0.0.1) 56.00ms
+2023-08-08 11:21:49,494 [config_service.ERROR] Could not load script: conf\runners\hello_pontera.json
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\script-server\src\config\config_service.py", line 173, in load_script
+    json_object = custom_json.loads(content)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\Documents\script-server\src\utils\custom_json.py", line 9, in loads
+    return json.loads(contents, **args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python311\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 15 column 1 (char 411)
+2023-08-08 11:21:49,499 [tornado.access.INFO] 200 GET /scripts?mode=edit (127.0.0.1) 8.00ms
+2023-08-08 11:21:49,506 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 11:21:49,508 [tornado.access.INFO] 200 GET /fonts/roboto-latin-500.020c97dc.woff2 (127.0.0.1) 1.00ms
+2023-08-08 11:21:49,510 [tornado.access.INFO] 200 GET /fonts/roboto-latin-400.479970ff.woff2 (127.0.0.1) 3.00ms
+2023-08-08 11:21:49,511 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 4.00ms
+2023-08-08 11:21:49,526 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.01ms
+2023-08-08 11:21:59,746 [tornado.access.INFO] 200 GET /admin.html (127.0.0.1) 3.00ms
+2023-08-08 11:21:59,755 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.00ms
+2023-08-08 11:21:59,758 [tornado.access.INFO] 200 GET /css/admin.ee33e5eb.css (127.0.0.1) 2.00ms
+2023-08-08 11:21:59,763 [tornado.access.INFO] 200 GET /css/chunk-admin-vendors.f2833d6d.css (127.0.0.1) 4.00ms
+2023-08-08 11:21:59,771 [tornado.access.INFO] 200 GET /js/admin.d0e2842d.js (127.0.0.1) 12.00ms
+2023-08-08 11:21:59,814 [tornado.access.INFO] 200 GET /js/chunk-admin-vendors.afd45d69.js (127.0.0.1) 42.00ms
+2023-08-08 11:21:59,863 [tornado.access.INFO] 200 GET /scripts?mode=edit (127.0.0.1) 14.01ms
+2023-08-08 11:21:59,866 [tornado.access.INFO] 200 GET /fonts/roboto-latin-500.020c97dc.woff2 (127.0.0.1) 2.00ms
+2023-08-08 11:21:59,867 [tornado.access.INFO] 200 GET /fonts/roboto-latin-400.479970ff.woff2 (127.0.0.1) 3.00ms
+2023-08-08 11:21:59,868 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 4.00ms
+2023-08-08 11:21:59,869 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 5.00ms
+2023-08-08 11:21:59,888 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.00ms
+2023-08-08 11:22:27,064 [tornado.access.INFO] 200 GET /admin.html (127.0.0.1) 2.00ms
+2023-08-08 11:22:27,075 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.00ms
+2023-08-08 11:22:27,078 [tornado.access.INFO] 200 GET /css/admin.ee33e5eb.css (127.0.0.1) 2.00ms
+2023-08-08 11:22:27,086 [tornado.access.INFO] 200 GET /js/admin.d0e2842d.js (127.0.0.1) 7.00ms
+2023-08-08 11:22:27,092 [tornado.access.INFO] 200 GET /css/chunk-admin-vendors.f2833d6d.css (127.0.0.1) 12.00ms
+2023-08-08 11:22:27,132 [tornado.access.INFO] 200 GET /js/chunk-admin-vendors.afd45d69.js (127.0.0.1) 52.00ms
+2023-08-08 11:22:27,189 [tornado.access.INFO] 200 GET /scripts?mode=edit (127.0.0.1) 15.00ms
+2023-08-08 11:22:27,192 [tornado.access.INFO] 200 GET /fonts/roboto-latin-500.020c97dc.woff2 (127.0.0.1) 2.00ms
+2023-08-08 11:22:27,195 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 5.00ms
+2023-08-08 11:22:27,196 [tornado.access.INFO] 200 GET /fonts/roboto-latin-400.479970ff.woff2 (127.0.0.1) 5.00ms
+2023-08-08 11:22:27,197 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 6.00ms
+2023-08-08 11:22:27,211 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 11:22:28,880 [tornado.access.INFO] 304 GET /admin/scripts/4.%20GitHub%20Added%20SSH%20Key (127.0.0.1) 4.00ms
+2023-08-08 11:22:38,480 [tornado.access.INFO] 200 GET /admin.html (127.0.0.1) 1.00ms
+2023-08-08 11:22:38,494 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 11:22:38,497 [tornado.access.INFO] 200 GET /css/admin.ee33e5eb.css (127.0.0.1) 1.99ms
+2023-08-08 11:22:38,504 [tornado.access.INFO] 200 GET /js/admin.d0e2842d.js (127.0.0.1) 6.00ms
+2023-08-08 11:22:38,509 [tornado.access.INFO] 200 GET /css/chunk-admin-vendors.f2833d6d.css (127.0.0.1) 11.01ms
+2023-08-08 11:22:38,555 [tornado.access.INFO] 200 GET /js/chunk-admin-vendors.afd45d69.js (127.0.0.1) 57.01ms
+2023-08-08 11:22:38,598 [tornado.access.INFO] 200 GET /admin/scripts/4.%20GitHub%20Added%20SSH%20Key (127.0.0.1) 4.00ms
+2023-08-08 11:22:38,602 [tornado.access.INFO] 200 GET /fonts/roboto-latin-500.020c97dc.woff2 (127.0.0.1) 2.00ms
+2023-08-08 11:22:38,609 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 9.00ms
+2023-08-08 11:22:38,610 [tornado.access.INFO] 200 GET /fonts/roboto-latin-400.479970ff.woff2 (127.0.0.1) 9.00ms
+2023-08-08 11:22:38,612 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 11:22:38,660 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 11:23:22,167 [tornado.access.INFO] 200 GET /admin.html (127.0.0.1) 2.00ms
+2023-08-08 11:23:22,179 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 11:23:22,182 [tornado.access.INFO] 200 GET /css/admin.ee33e5eb.css (127.0.0.1) 2.00ms
+2023-08-08 11:23:22,228 [tornado.access.INFO] 200 GET /js/chunk-admin-vendors.afd45d69.js (127.0.0.1) 44.00ms
+2023-08-08 11:23:22,234 [tornado.access.INFO] 200 GET /css/chunk-admin-vendors.f2833d6d.css (127.0.0.1) 50.00ms
+2023-08-08 11:23:22,241 [tornado.access.INFO] 200 GET /js/admin.d0e2842d.js (127.0.0.1) 56.00ms
+2023-08-08 11:23:22,294 [tornado.access.INFO] 200 GET /admin/scripts/4.%20GitHub%20Added%20SSH%20Key (127.0.0.1) 14.00ms
+2023-08-08 11:23:22,297 [tornado.access.INFO] 200 GET /fonts/roboto-latin-500.020c97dc.woff2 (127.0.0.1) 2.00ms
+2023-08-08 11:23:22,298 [tornado.access.INFO] 200 GET /fonts/roboto-latin-400.479970ff.woff2 (127.0.0.1) 3.00ms
+2023-08-08 11:23:22,299 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 4.00ms
+2023-08-08 11:23:22,301 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 6.00ms
+2023-08-08 11:23:22,350 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 11:23:24,825 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 11:23:24,920 [tornado.access.INFO] 304 GET /auth/info (127.0.0.1) 0.00ms
+2023-08-08 11:23:24,922 [tornado.access.INFO] 304 GET /conf (127.0.0.1) 1.00ms
+2023-08-08 11:23:24,926 [tornado.access.INFO] 304 GET /scripts (127.0.0.1) 4.00ms
+2023-08-08 11:23:24,928 [tornado.access.INFO] 304 GET /executions/active (127.0.0.1) 1.00ms
+2023-08-08 11:23:26,664 [tornado.access.INFO] 101 GET /scripts/1.%20Hello%20Pontera?initWithValues=false (127.0.0.1) 1.00ms
+2023-08-08 11:23:34,345 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 11:23:34,453 [script_server.execution.logging.INFO] Logs for execution #38 were deleted
+2023-08-08 11:23:34,453 [script_server.execution.logging.INFO] Logs for execution #40 were deleted
+2023-08-08 11:23:34,454 [script_server.execution.logging.INFO] Logs for execution #39 were deleted
+2023-08-08 11:23:34,454 [script_server.execution.logging.INFO] Logs for execution #24 were deleted
+2023-08-08 11:23:34,454 [script_server.execution.logging.INFO] Logs for execution #25 were deleted
+2023-08-08 11:23:34,454 [script_server.execution.logging.INFO] Logs for execution #4 were deleted
+2023-08-08 11:23:34,455 [script_server.execution.logging.INFO] Logs for execution #5 were deleted
+2023-08-08 11:23:34,455 [script_server.execution.logging.INFO] Logs for execution #7 were deleted
+2023-08-08 11:23:34,456 [script_server.execution.logging.INFO] Logs for execution #10 were deleted
+2023-08-08 11:23:34,456 [script_server.execution.logging.INFO] Logs for execution #11 were deleted
+2023-08-08 11:23:34,456 [script_server.execution.logging.INFO] Logs for execution #12 were deleted
+2023-08-08 11:23:34,457 [script_server.execution.logging.INFO] Logs for execution #13 were deleted
+2023-08-08 11:23:34,459 [script_server.execution.logging.INFO] Logs for execution #14 were deleted
+2023-08-08 11:23:34,459 [script_server.execution.logging.INFO] Logs for execution #15 were deleted
+2023-08-08 11:23:34,460 [script_server.execution.logging.INFO] Logs for execution #16 were deleted
+2023-08-08 11:23:34,460 [script_server.execution.logging.INFO] Logs for execution #17 were deleted
+2023-08-08 11:23:34,460 [script_server.execution.logging.INFO] Logs for execution #18 were deleted
+2023-08-08 11:23:34,460 [script_server.execution.logging.INFO] Logs for execution #19 were deleted
+2023-08-08 11:23:34,461 [script_server.execution.logging.INFO] Logs for execution #20 were deleted
+2023-08-08 11:23:34,461 [script_server.execution.logging.INFO] Logs for execution #26 were deleted
+2023-08-08 11:23:34,462 [script_server.execution.logging.INFO] Logs for execution #27 were deleted
+2023-08-08 11:23:34,462 [script_server.execution.logging.INFO] Logs for execution #28 were deleted
+2023-08-08 11:23:34,462 [script_server.execution.logging.INFO] Logs for execution #29 were deleted
+2023-08-08 11:23:34,463 [script_server.execution.logging.INFO] Logs for execution #31 were deleted
+2023-08-08 11:23:34,463 [script_server.execution.logging.INFO] Logs for execution #32 were deleted
+2023-08-08 11:23:34,463 [script_server.execution.logging.INFO] Logs for execution #33 were deleted
+2023-08-08 11:23:34,463 [script_server.execution.logging.INFO] Logs for execution #34 were deleted
+2023-08-08 11:23:34,463 [script_server.execution.logging.INFO] Logs for execution #35 were deleted
+2023-08-08 11:23:34,464 [script_server.execution.logging.INFO] Logs for execution #36 were deleted
+2023-08-08 11:23:34,464 [script_server.execution.logging.INFO] Logs for execution #37 were deleted
+2023-08-08 11:23:34,464 [script_server.execution.logging.INFO] Logs for execution #21 were deleted
+2023-08-08 11:23:34,465 [script_server.execution.logging.INFO] Logs for execution #22 were deleted
+2023-08-08 11:23:34,465 [script_server.execution.logging.INFO] Logs for execution #30 were deleted
+2023-08-08 11:23:34,466 [script_server.execution.logging.INFO] Logs for execution #23 were deleted
+2023-08-08 11:23:34,466 [script_server.execution.logging.INFO] Logs for execution #41 were deleted
+2023-08-08 11:23:34,466 [script_server.execution.logging.INFO] Logs for execution #42 were deleted
+2023-08-08 11:23:34,466 [script_server.execution.logging.INFO] Logs for execution #43 were deleted
+2023-08-08 11:23:34,467 [script_server.execution.logging.INFO] Logs for execution #44 were deleted
+2023-08-08 11:23:34,467 [script_server.execution.logging.INFO] Logs for execution #45 were deleted
+2023-08-08 11:23:34,467 [script_server.execution.logging.INFO] Logs for execution #46 were deleted
+2023-08-08 11:23:34,467 [script_server.execution.logging.INFO] Logs for execution #47 were deleted
+2023-08-08 11:23:34,468 [script_server.execution.logging.INFO] Logs for execution #48 were deleted
+2023-08-08 11:23:34,468 [script_server.execution.logging.INFO] Logs for execution #49 were deleted
+2023-08-08 11:23:34,468 [script_server.execution.logging.INFO] Logs for execution #50 were deleted
+2023-08-08 11:23:34,468 [script_server.execution.logging.INFO] Logs for execution #51 were deleted
+2023-08-08 11:23:34,468 [script_server.execution.logging.INFO] Logs for execution #52 were deleted
+2023-08-08 11:23:34,469 [script_server.execution.logging.INFO] Logs for execution #53 were deleted
+2023-08-08 11:23:34,469 [script_server.execution.logging.INFO] Logs for execution #54 were deleted
+2023-08-08 11:23:34,469 [script_server.execution.logging.INFO] Logs for execution #55 were deleted
+2023-08-08 11:23:34,470 [script_server.execution.logging.INFO] Logs for execution #56 were deleted
+2023-08-08 11:23:34,470 [script_server.execution.logging.INFO] Logs for execution #57 were deleted
+2023-08-08 11:23:34,471 [script_server.execution.logging.INFO] Logs for execution #58 were deleted
+2023-08-08 11:23:34,471 [script_server.execution.logging.INFO] Logs for execution #59 were deleted
+2023-08-08 11:23:34,471 [script_server.execution.logging.INFO] Logs for execution #60 were deleted
+2023-08-08 11:23:34,472 [script_server.execution.logging.INFO] Logs for execution #61 were deleted
+2023-08-08 11:23:34,472 [script_server.execution.logging.INFO] Logs for execution #62 were deleted
+2023-08-08 11:23:34,472 [script_server.execution.logging.INFO] Logs for execution #63 were deleted
+2023-08-08 11:23:34,472 [script_server.execution.logging.INFO] Logs for execution #64 were deleted
+2023-08-08 11:23:34,473 [tornado.access.INFO] 200 GET /history/execution_log/short (127.0.0.1) 26.04ms
+2023-08-08 11:23:34,476 [tornado.access.INFO] 304 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 11:23:35,950 [tornado.access.INFO] 304 GET /scripts?mode=edit (127.0.0.1) 3.00ms
+2023-08-08 11:23:37,036 [tornado.access.INFO] 304 GET /admin/scripts/2.%20Install%20DBeaver (127.0.0.1) 3.95ms
+2023-08-08 11:23:43,099 [tornado.access.INFO] 304 GET /scripts?mode=edit (127.0.0.1) 4.00ms
+2023-08-08 11:23:44,307 [tornado.access.INFO] 200 GET /admin/scripts/1.%20Hello%20Pontera (127.0.0.1) 2.99ms
+2023-08-08 11:24:14,310 [config_service.INFO] Updating script config "1. Hello Pontera" in conf\runners\hello_pontera.json
+2023-08-08 11:24:14,311 [tornado.access.INFO] 200 PUT /admin/scripts (127.0.0.1) 7.98ms
+2023-08-08 11:24:14,328 [tornado.access.INFO] 200 GET /admin/scripts/1.%20Hello%20Pontera (127.0.0.1) 14.00ms
+2023-08-08 11:24:18,982 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 2.00ms
+2023-08-08 11:24:18,992 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 11:24:18,998 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 4.01ms
+2023-08-08 11:24:19,002 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 3.00ms
+2023-08-08 11:24:19,027 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 25.00ms
+2023-08-08 11:24:19,038 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 35.00ms
+2023-08-08 11:24:19,112 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 11:24:19,113 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 0.00ms
+2023-08-08 11:24:19,117 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 3.01ms
+2023-08-08 11:24:19,118 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 0.00ms
+2023-08-08 11:24:19,131 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.00ms
+2023-08-08 11:24:19,133 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 11:24:19,145 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 1.00ms
+2023-08-08 11:24:19,169 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.00ms
+2023-08-08 11:24:19,452 [tornado.access.INFO] 101 GET /scripts/4.%20GitHub%20Added%20SSH%20Key?initWithValues=false (127.0.0.1) 1.00ms
+2023-08-08 11:24:24,183 [tornado.access.INFO] 101 GET /scripts/2.%20Install%20DBeaver?initWithValues=false (127.0.0.1) 1.01ms
+2023-08-08 11:24:24,922 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 2.00ms
+2023-08-08 11:24:24,933 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 11:24:24,942 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 3.00ms
+2023-08-08 11:24:24,946 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 7.00ms
+2023-08-08 11:24:24,973 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 34.00ms
+2023-08-08 11:24:24,982 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 43.00ms
+2023-08-08 11:24:25,010 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 11:24:25,011 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 0.00ms
+2023-08-08 11:24:25,015 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 3.00ms
+2023-08-08 11:24:25,016 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 0.00ms
+2023-08-08 11:24:25,029 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 4.01ms
+2023-08-08 11:24:25,035 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 11:24:25,041 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 1.00ms
+2023-08-08 11:24:25,060 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 3.00ms
+2023-08-08 11:24:25,345 [tornado.access.INFO] 101 GET /scripts/2.%20Install%20DBeaver?initWithValues=false (127.0.0.1) 1.00ms
+2023-08-08 11:24:26,814 [tornado.access.INFO] 101 GET /scripts/4.%20GitHub%20Added%20SSH%20Key?initWithValues=false (127.0.0.1) 1.01ms
+2023-08-08 11:24:28,497 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 2.00ms
+2023-08-08 11:24:28,508 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 11:24:28,513 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 4.00ms
+2023-08-08 11:24:28,516 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 2.00ms
+2023-08-08 11:24:28,548 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 30.00ms
+2023-08-08 11:24:28,557 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 38.00ms
+2023-08-08 11:24:28,586 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.03ms
+2023-08-08 11:24:28,588 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 1.01ms
+2023-08-08 11:24:28,593 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 4.99ms
+2023-08-08 11:24:28,595 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 0.00ms
+2023-08-08 11:24:28,603 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.00ms
+2023-08-08 11:24:28,605 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 11:24:28,612 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 1.00ms
+2023-08-08 11:24:28,640 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.01ms
+2023-08-08 11:24:28,668 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 2.00ms
+2023-08-08 11:24:28,687 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 11:24:28,693 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 3.00ms
+2023-08-08 11:24:28,698 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 7.00ms
+2023-08-08 11:24:28,726 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 25.00ms
+2023-08-08 11:24:28,735 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 8.00ms
+2023-08-08 11:24:28,763 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 11:24:28,764 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 1.00ms
+2023-08-08 11:24:28,768 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 3.00ms
+2023-08-08 11:24:28,769 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 1.00ms
+2023-08-08 11:24:28,778 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 2.00ms
+2023-08-08 11:24:28,781 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 0.97ms
+2023-08-08 11:24:28,792 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 2.00ms
+2023-08-08 11:24:28,812 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.00ms
+2023-08-08 11:24:28,815 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 1.00ms
+2023-08-08 11:24:28,832 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.02ms
+2023-08-08 11:24:28,844 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 9.00ms
+2023-08-08 11:24:28,871 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 26.00ms
+2023-08-08 11:24:28,878 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 32.00ms
+2023-08-08 11:24:28,882 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 36.00ms
+2023-08-08 11:24:28,884 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 11:24:28,917 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 4.00ms
+2023-08-08 11:24:28,919 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 1.00ms
+2023-08-08 11:24:28,923 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 5.00ms
+2023-08-08 11:24:28,924 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 6.00ms
+2023-08-08 11:24:28,930 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.00ms
+2023-08-08 11:24:28,932 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 11:24:28,952 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 2.00ms
+2023-08-08 11:24:28,956 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 2.00ms
+2023-08-08 11:24:28,980 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 11:24:28,988 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 4.00ms
+2023-08-08 11:24:28,992 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 8.00ms
+2023-08-08 11:24:29,017 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 33.00ms
+2023-08-08 11:24:29,026 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 41.00ms
+2023-08-08 11:24:29,046 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 11:24:29,056 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 0.00ms
+2023-08-08 11:24:29,057 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 1.00ms
+2023-08-08 11:24:29,061 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 4.00ms
+2023-08-08 11:24:29,063 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 0.00ms
+2023-08-08 11:24:29,071 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.00ms
+2023-08-08 11:24:29,079 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 1.00ms
+2023-08-08 11:24:29,114 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.00ms
+2023-08-08 11:24:29,116 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 2.00ms
+2023-08-08 11:24:29,118 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 11:24:29,132 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.00ms
+2023-08-08 11:24:29,138 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 3.99ms
+2023-08-08 11:24:29,144 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 3.00ms
+2023-08-08 11:24:29,154 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 10.00ms
+2023-08-08 11:24:29,180 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 35.00ms
+2023-08-08 11:24:29,208 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 11:24:29,213 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 1.00ms
+2023-08-08 11:24:29,217 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 5.01ms
+2023-08-08 11:24:29,218 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 6.00ms
+2023-08-08 11:24:29,225 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 2.00ms
+2023-08-08 11:24:29,227 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.00ms
+2023-08-08 11:24:29,232 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 2.00ms
+2023-08-08 11:24:29,539 [tornado.access.INFO] 101 GET /scripts/4.%20GitHub%20Added%20SSH%20Key?initWithValues=false (127.0.0.1) 1.00ms
+2023-08-08 11:24:35,531 [root.INFO] Starting Script Server, v1.17.1
+2023-08-08 11:24:37,082 [tornado.access.INFO] 101 GET /scripts/4.%20GitHub%20Added%20SSH%20Key?initWithValues=false (127.0.0.1) 1.00ms
+2023-08-08 11:24:39,383 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 37.97ms
+2023-08-08 11:24:39,393 [tornado.general.ERROR] Could not open static file 'C:\\Users\\Administrator\\Documents\\script-server\\conf\\theme\\theme.css'
+2023-08-08 11:24:39,394 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 11:24:39,399 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 4.00ms
+2023-08-08 11:24:39,403 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 3.00ms
+2023-08-08 11:24:39,431 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 26.00ms
+2023-08-08 11:24:39,441 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 9.00ms
+2023-08-08 11:24:39,463 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.01ms
+2023-08-08 11:24:39,473 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 11:24:39,474 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 1.00ms
+2023-08-08 11:24:39,478 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 3.00ms
+2023-08-08 11:24:39,479 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 1.00ms
+2023-08-08 11:24:39,487 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 2.00ms
+2023-08-08 11:24:39,503 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 2.00ms
+2023-08-08 11:24:39,520 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.00ms
+2023-08-08 11:24:39,803 [tornado.access.INFO] 101 GET /scripts/4.%20GitHub%20Added%20SSH%20Key?initWithValues=false (127.0.0.1) 1.00ms
+2023-08-08 11:24:45,481 [tornado.access.INFO] 304 GET /scripts?mode=edit (127.0.0.1) 7.00ms
+2023-08-08 11:24:46,590 [tornado.access.INFO] 304 GET /admin/scripts/4.%20GitHub%20Added%20SSH%20Key (127.0.0.1) 3.95ms
+2023-08-08 11:24:51,300 [tornado.access.INFO] 200 GET /admin.html (127.0.0.1) 2.04ms
+2023-08-08 11:24:51,311 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 11:24:51,358 [tornado.access.INFO] 200 GET /js/chunk-admin-vendors.afd45d69.js (127.0.0.1) 43.00ms
+2023-08-08 11:24:51,368 [tornado.access.INFO] 200 GET /css/chunk-admin-vendors.f2833d6d.css (127.0.0.1) 5.01ms
+2023-08-08 11:24:51,372 [tornado.access.INFO] 200 GET /css/admin.ee33e5eb.css (127.0.0.1) 9.01ms
+2023-08-08 11:24:51,380 [tornado.access.INFO] 200 GET /js/admin.d0e2842d.js (127.0.0.1) 16.00ms
+2023-08-08 11:24:51,424 [tornado.access.INFO] 200 GET /admin/scripts/4.%20GitHub%20Added%20SSH%20Key (127.0.0.1) 4.99ms
+2023-08-08 11:24:51,432 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 11:24:51,436 [tornado.access.INFO] 200 GET /fonts/roboto-latin-500.020c97dc.woff2 (127.0.0.1) 3.00ms
+2023-08-08 11:24:51,441 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 8.00ms
+2023-08-08 11:24:51,442 [tornado.access.INFO] 200 GET /fonts/roboto-latin-400.479970ff.woff2 (127.0.0.1) 9.00ms
+2023-08-08 11:24:51,493 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 11:24:52,080 [tornado.access.INFO] 200 GET /admin.html (127.0.0.1) 2.00ms
+2023-08-08 11:24:52,091 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 11:24:52,096 [tornado.access.INFO] 200 GET /css/chunk-admin-vendors.f2833d6d.css (127.0.0.1) 4.00ms
+2023-08-08 11:24:52,098 [tornado.access.INFO] 200 GET /css/admin.ee33e5eb.css (127.0.0.1) 6.00ms
+2023-08-08 11:24:52,105 [tornado.access.INFO] 200 GET /js/admin.d0e2842d.js (127.0.0.1) 6.00ms
+2023-08-08 11:24:52,160 [tornado.access.INFO] 200 GET /js/chunk-admin-vendors.afd45d69.js (127.0.0.1) 54.00ms
+2023-08-08 11:24:52,194 [tornado.access.INFO] 200 GET /admin/scripts/4.%20GitHub%20Added%20SSH%20Key (127.0.0.1) 3.00ms
+2023-08-08 11:24:52,199 [tornado.access.INFO] 200 GET /fonts/roboto-latin-400.479970ff.woff2 (127.0.0.1) 2.00ms
+2023-08-08 11:24:52,202 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 5.00ms
+2023-08-08 11:24:52,204 [tornado.access.INFO] 200 GET /fonts/roboto-latin-500.020c97dc.woff2 (127.0.0.1) 7.00ms
+2023-08-08 11:24:52,206 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 9.00ms
+2023-08-08 11:24:52,258 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 11:24:52,548 [tornado.access.INFO] 200 GET /admin.html (127.0.0.1) 2.00ms
+2023-08-08 11:24:52,558 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 11:24:52,563 [tornado.access.INFO] 200 GET /css/admin.ee33e5eb.css (127.0.0.1) 3.00ms
+2023-08-08 11:24:52,569 [tornado.access.INFO] 200 GET /css/chunk-admin-vendors.f2833d6d.css (127.0.0.1) 5.00ms
+2023-08-08 11:24:52,576 [tornado.access.INFO] 200 GET /js/admin.d0e2842d.js (127.0.0.1) 11.00ms
+2023-08-08 11:24:52,617 [tornado.access.INFO] 200 GET /js/chunk-admin-vendors.afd45d69.js (127.0.0.1) 52.00ms
+2023-08-08 11:24:52,652 [tornado.access.INFO] 200 GET /admin/scripts/4.%20GitHub%20Added%20SSH%20Key (127.0.0.1) 4.00ms
+2023-08-08 11:24:52,656 [tornado.access.INFO] 200 GET /fonts/roboto-latin-500.020c97dc.woff2 (127.0.0.1) 1.00ms
+2023-08-08 11:24:52,659 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 4.00ms
+2023-08-08 11:24:52,660 [tornado.access.INFO] 200 GET /fonts/roboto-latin-400.479970ff.woff2 (127.0.0.1) 4.98ms
+2023-08-08 11:24:52,661 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.01ms
+2023-08-08 11:24:52,710 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 11:24:52,732 [tornado.access.INFO] 200 GET /admin.html (127.0.0.1) 2.02ms
+2023-08-08 11:24:52,745 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.00ms
+2023-08-08 11:24:52,764 [tornado.access.INFO] 200 GET /js/admin.d0e2842d.js (127.0.0.1) 9.00ms
+2023-08-08 11:24:52,767 [tornado.access.INFO] 200 GET /css/admin.ee33e5eb.css (127.0.0.1) 11.00ms
+2023-08-08 11:24:52,771 [tornado.access.INFO] 200 GET /css/chunk-admin-vendors.f2833d6d.css (127.0.0.1) 15.00ms
+2023-08-08 11:24:52,813 [tornado.access.INFO] 200 GET /js/chunk-admin-vendors.afd45d69.js (127.0.0.1) 57.00ms
+2023-08-08 11:24:52,852 [tornado.access.INFO] 200 GET /admin/scripts/4.%20GitHub%20Added%20SSH%20Key (127.0.0.1) 3.01ms
+2023-08-08 11:24:52,855 [tornado.access.INFO] 200 GET /fonts/roboto-latin-400.479970ff.woff2 (127.0.0.1) 1.00ms
+2023-08-08 11:24:52,857 [tornado.access.INFO] 200 GET /fonts/roboto-latin-500.020c97dc.woff2 (127.0.0.1) 3.00ms
+2023-08-08 11:24:52,859 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 5.00ms
+2023-08-08 11:24:52,860 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 11:24:52,894 [tornado.access.INFO] 200 GET /admin.html (127.0.0.1) 1.00ms
+2023-08-08 11:24:52,922 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 11:24:52,929 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 0.99ms
+2023-08-08 11:24:52,933 [tornado.access.INFO] 200 GET /css/admin.ee33e5eb.css (127.0.0.1) 4.01ms
+2023-08-08 11:24:52,938 [tornado.access.INFO] 200 GET /css/chunk-admin-vendors.f2833d6d.css (127.0.0.1) 8.00ms
+2023-08-08 11:24:52,978 [tornado.access.INFO] 200 GET /js/chunk-admin-vendors.afd45d69.js (127.0.0.1) 48.00ms
+2023-08-08 11:24:52,986 [tornado.access.INFO] 200 GET /js/admin.d0e2842d.js (127.0.0.1) 56.00ms
+2023-08-08 11:24:53,020 [tornado.access.INFO] 200 GET /admin/scripts/4.%20GitHub%20Added%20SSH%20Key (127.0.0.1) 4.00ms
+2023-08-08 11:24:53,022 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 1.00ms
+2023-08-08 11:24:53,025 [tornado.access.INFO] 200 GET /fonts/roboto-latin-500.020c97dc.woff2 (127.0.0.1) 4.00ms
+2023-08-08 11:24:53,026 [tornado.access.INFO] 200 GET /fonts/roboto-latin-400.479970ff.woff2 (127.0.0.1) 5.00ms
+2023-08-08 11:24:53,028 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 11:24:53,065 [tornado.access.INFO] 200 GET /admin.html (127.0.0.1) 2.00ms
+2023-08-08 11:24:53,107 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.00ms
+2023-08-08 11:24:53,110 [tornado.access.INFO] 200 GET /css/admin.ee33e5eb.css (127.0.0.1) 3.01ms
+2023-08-08 11:24:53,115 [tornado.access.INFO] 200 GET /css/chunk-admin-vendors.f2833d6d.css (127.0.0.1) 7.00ms
+2023-08-08 11:24:53,122 [tornado.access.INFO] 200 GET /js/admin.d0e2842d.js (127.0.0.1) 14.00ms
+2023-08-08 11:24:53,167 [tornado.access.INFO] 200 GET /js/chunk-admin-vendors.afd45d69.js (127.0.0.1) 59.01ms
+2023-08-08 11:24:53,170 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 62.01ms
+2023-08-08 11:24:53,201 [tornado.access.INFO] 200 GET /admin/scripts/4.%20GitHub%20Added%20SSH%20Key (127.0.0.1) 3.00ms
+2023-08-08 11:24:53,205 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 2.00ms
+2023-08-08 11:24:53,209 [tornado.access.INFO] 200 GET /fonts/roboto-latin-400.479970ff.woff2 (127.0.0.1) 5.99ms
+2023-08-08 11:24:53,214 [tornado.access.INFO] 200 GET /fonts/roboto-latin-500.020c97dc.woff2 (127.0.0.1) 10.00ms
+2023-08-08 11:24:53,220 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 11:24:53,225 [tornado.access.INFO] 200 GET /admin.html (127.0.0.1) 1.98ms
+2023-08-08 11:24:53,296 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 11:24:53,302 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.00ms
+2023-08-08 11:24:53,307 [tornado.access.INFO] 200 GET /css/chunk-admin-vendors.f2833d6d.css (127.0.0.1) 4.00ms
+2023-08-08 11:24:53,311 [tornado.access.INFO] 200 GET /css/admin.ee33e5eb.css (127.0.0.1) 8.00ms
+2023-08-08 11:24:53,323 [tornado.access.INFO] 200 GET /js/admin.d0e2842d.js (127.0.0.1) 20.00ms
+2023-08-08 11:24:53,363 [tornado.access.INFO] 200 GET /js/chunk-admin-vendors.afd45d69.js (127.0.0.1) 60.00ms
+2023-08-08 11:24:53,369 [tornado.access.INFO] 200 GET /admin.html (127.0.0.1) 1.99ms
+2023-08-08 11:24:53,388 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 11:24:53,394 [tornado.access.INFO] 200 GET /css/admin.ee33e5eb.css (127.0.0.1) 3.00ms
+2023-08-08 11:24:53,436 [tornado.access.INFO] 200 GET /js/chunk-admin-vendors.afd45d69.js (127.0.0.1) 44.00ms
+2023-08-08 11:24:53,449 [tornado.access.INFO] 200 GET /js/admin.d0e2842d.js (127.0.0.1) 56.97ms
+2023-08-08 11:24:53,453 [tornado.access.INFO] 200 GET /css/chunk-admin-vendors.f2833d6d.css (127.0.0.1) 61.00ms
+2023-08-08 11:24:53,484 [tornado.access.INFO] 200 GET /admin/scripts/4.%20GitHub%20Added%20SSH%20Key (127.0.0.1) 2.97ms
+2023-08-08 11:24:53,489 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 2.00ms
+2023-08-08 11:24:53,498 [tornado.access.INFO] 200 GET /fonts/roboto-latin-500.020c97dc.woff2 (127.0.0.1) 2.00ms
+2023-08-08 11:24:53,504 [tornado.access.INFO] 200 GET /fonts/roboto-latin-400.479970ff.woff2 (127.0.0.1) 1.00ms
+2023-08-08 11:24:53,507 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 11:24:53,542 [tornado.access.INFO] 200 GET /admin.html (127.0.0.1) 2.00ms
+2023-08-08 11:24:53,580 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.00ms
+2023-08-08 11:24:53,585 [tornado.access.INFO] 200 GET /css/admin.ee33e5eb.css (127.0.0.1) 2.00ms
+2023-08-08 11:24:53,593 [tornado.access.INFO] 200 GET /css/chunk-admin-vendors.f2833d6d.css (127.0.0.1) 5.00ms
+2023-08-08 11:24:53,602 [tornado.access.INFO] 200 GET /js/admin.d0e2842d.js (127.0.0.1) 7.00ms
+2023-08-08 11:24:53,645 [tornado.access.INFO] 200 GET /js/chunk-admin-vendors.afd45d69.js (127.0.0.1) 50.00ms
+2023-08-08 11:24:53,647 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.00ms
+2023-08-08 11:24:53,677 [tornado.access.INFO] 200 GET /admin/scripts/4.%20GitHub%20Added%20SSH%20Key (127.0.0.1) 2.99ms
+2023-08-08 11:24:53,683 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 1.00ms
+2023-08-08 11:24:53,686 [tornado.access.INFO] 200 GET /fonts/roboto-latin-500.020c97dc.woff2 (127.0.0.1) 2.00ms
+2023-08-08 11:24:53,692 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 11:24:53,693 [tornado.access.INFO] 200 GET /fonts/roboto-latin-400.479970ff.woff2 (127.0.0.1) 2.00ms
+2023-08-08 11:24:53,723 [tornado.access.INFO] 200 GET /admin.html (127.0.0.1) 1.00ms
+2023-08-08 11:24:53,766 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 11:24:53,773 [tornado.access.INFO] 200 GET /css/admin.ee33e5eb.css (127.0.0.1) 2.99ms
+2023-08-08 11:24:53,777 [tornado.access.INFO] 200 GET /css/chunk-admin-vendors.f2833d6d.css (127.0.0.1) 7.00ms
+2023-08-08 11:24:53,784 [tornado.access.INFO] 200 GET /js/admin.d0e2842d.js (127.0.0.1) 14.00ms
+2023-08-08 11:24:53,826 [tornado.access.INFO] 200 GET /js/chunk-admin-vendors.afd45d69.js (127.0.0.1) 56.00ms
+2023-08-08 11:24:53,827 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 56.00ms
+2023-08-08 11:24:53,862 [tornado.access.INFO] 200 GET /admin/scripts/4.%20GitHub%20Added%20SSH%20Key (127.0.0.1) 3.00ms
+2023-08-08 11:24:53,869 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 2.00ms
+2023-08-08 11:24:53,873 [tornado.access.INFO] 200 GET /fonts/roboto-latin-500.020c97dc.woff2 (127.0.0.1) 2.01ms
+2023-08-08 11:24:53,879 [tornado.access.INFO] 200 GET /fonts/roboto-latin-400.479970ff.woff2 (127.0.0.1) 2.00ms
+2023-08-08 11:24:53,881 [tornado.access.INFO] 200 GET /admin.html (127.0.0.1) 4.00ms
+2023-08-08 11:24:53,883 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 5.00ms
+2023-08-08 11:24:53,932 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 11:24:53,936 [tornado.access.INFO] 200 GET /css/admin.ee33e5eb.css (127.0.0.1) 3.04ms
+2023-08-08 11:24:53,942 [tornado.access.INFO] 200 GET /css/chunk-admin-vendors.f2833d6d.css (127.0.0.1) 3.00ms
+2023-08-08 11:24:53,984 [tornado.access.INFO] 200 GET /js/chunk-admin-vendors.afd45d69.js (127.0.0.1) 41.99ms
+2023-08-08 11:24:53,991 [tornado.access.INFO] 200 GET /js/admin.d0e2842d.js (127.0.0.1) 49.00ms
+2023-08-08 11:24:54,004 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.00ms
+2023-08-08 11:24:54,032 [tornado.access.INFO] 200 GET /admin/scripts/4.%20GitHub%20Added%20SSH%20Key (127.0.0.1) 4.00ms
+2023-08-08 11:24:54,035 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 1.00ms
+2023-08-08 11:24:54,037 [tornado.access.INFO] 200 GET /fonts/roboto-latin-500.020c97dc.woff2 (127.0.0.1) 1.00ms
+2023-08-08 11:24:54,040 [tornado.access.INFO] 200 GET /fonts/roboto-latin-400.479970ff.woff2 (127.0.0.1) 4.00ms
+2023-08-08 11:24:54,045 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 11:24:54,084 [tornado.access.INFO] 200 GET /admin.html (127.0.0.1) 2.01ms
+2023-08-08 11:24:54,107 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 11:24:54,110 [tornado.access.INFO] 200 GET /css/admin.ee33e5eb.css (127.0.0.1) 3.00ms
+2023-08-08 11:24:54,116 [tornado.access.INFO] 200 GET /css/chunk-admin-vendors.f2833d6d.css (127.0.0.1) 6.00ms
+2023-08-08 11:24:54,161 [tornado.access.INFO] 200 GET /js/chunk-admin-vendors.afd45d69.js (127.0.0.1) 50.00ms
+2023-08-08 11:24:54,170 [tornado.access.INFO] 200 GET /js/admin.d0e2842d.js (127.0.0.1) 59.00ms
+2023-08-08 11:24:54,173 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 11:24:54,204 [tornado.access.INFO] 200 GET /admin/scripts/4.%20GitHub%20Added%20SSH%20Key (127.0.0.1) 3.00ms
+2023-08-08 11:24:54,207 [tornado.access.INFO] 200 GET /fonts/roboto-latin-500.020c97dc.woff2 (127.0.0.1) 1.00ms
+2023-08-08 11:24:54,210 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 4.00ms
+2023-08-08 11:24:54,212 [tornado.access.INFO] 200 GET /fonts/roboto-latin-400.479970ff.woff2 (127.0.0.1) 1.00ms
+2023-08-08 11:24:54,221 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 11:24:54,255 [tornado.access.INFO] 200 GET /admin.html (127.0.0.1) 2.00ms
+2023-08-08 11:24:54,293 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.00ms
+2023-08-08 11:24:54,302 [tornado.access.INFO] 200 GET /js/admin.d0e2842d.js (127.0.0.1) 7.01ms
+2023-08-08 11:24:54,344 [tornado.access.INFO] 200 GET /js/chunk-admin-vendors.afd45d69.js (127.0.0.1) 49.01ms
+2023-08-08 11:24:54,355 [tornado.access.INFO] 200 GET /css/chunk-admin-vendors.f2833d6d.css (127.0.0.1) 59.00ms
+2023-08-08 11:24:54,357 [tornado.access.INFO] 200 GET /css/admin.ee33e5eb.css (127.0.0.1) 61.01ms
+2023-08-08 11:24:54,358 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 62.00ms
+2023-08-08 11:24:54,396 [tornado.access.INFO] 200 GET /admin/scripts/4.%20GitHub%20Added%20SSH%20Key (127.0.0.1) 4.00ms
+2023-08-08 11:24:54,401 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 2.00ms
+2023-08-08 11:24:54,405 [tornado.access.INFO] 200 GET /fonts/roboto-latin-500.020c97dc.woff2 (127.0.0.1) 1.00ms
+2023-08-08 11:24:54,407 [tornado.access.INFO] 200 GET /fonts/roboto-latin-400.479970ff.woff2 (127.0.0.1) 3.00ms
+2023-08-08 11:24:54,408 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 11:24:58,853 [tornado.access.INFO] 304 GET /scripts?mode=edit (127.0.0.1) 4.00ms
+2023-08-08 11:25:03,521 [tornado.access.INFO] 304 GET /admin/scripts/1.%20Hello%20Pontera (127.0.0.1) 6.00ms
+2023-08-08 11:25:08,558 [tornado.access.INFO] 101 GET /scripts/1.%20Hello%20Pontera?initWithValues=false (127.0.0.1) 1.01ms
+2023-08-08 11:25:42,530 [web_server.INFO] Calling script 1. Hello Pontera. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-08 11:25:42,532 [script_server.execution_service.INFO] Calling script #1: python.exe ./conf/runners/scripts/hello_pontera.py ******
+2023-08-08 11:25:42,533 [script_server.ScriptExecutor.WARNING] Requested PTY mode, but it's not supported for this OS (win32). Falling back to POpen
+2023-08-08 11:25:42,541 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 21.00ms
+2023-08-08 11:25:42,847 [tornado.access.INFO] 101 GET /executions/io/1 (127.0.0.1) 1.01ms
+2023-08-08 11:29:19,111 [tornado.access.INFO] 200 POST /executions/stop/1 (127.0.0.1) 3.99ms
+2023-08-08 11:29:19,183 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-08 11:29:19,194 [tornado.access.INFO] 200 POST /executions/cleanup/1 (127.0.0.1) 9.00ms
+2023-08-08 11:29:40,246 [tornado.access.INFO] 304 GET /scripts?mode=edit (127.0.0.1) 7.00ms
+2023-08-08 11:29:47,895 [tornado.access.INFO] 304 GET /scripts?mode=edit (127.0.0.1) 4.00ms
+2023-08-08 11:29:50,921 [tornado.access.INFO] 304 GET /admin/scripts/1.%20Hello%20Pontera (127.0.0.1) 4.00ms
+2023-08-08 11:29:59,391 [tornado.access.INFO] 101 GET /scripts/1.%20Hello%20Pontera?initWithValues=false (127.0.0.1) 1.00ms
+2023-08-08 11:30:05,746 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 2.00ms
+2023-08-08 11:30:05,757 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 11:30:05,764 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 5.00ms
+2023-08-08 11:30:05,773 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 3.00ms
+2023-08-08 11:30:05,801 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 26.00ms
+2023-08-08 11:30:05,810 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 7.00ms
+2023-08-08 11:30:05,845 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 2.00ms
+2023-08-08 11:30:05,849 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 1.02ms
+2023-08-08 11:30:05,854 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 3.00ms
+2023-08-08 11:30:05,856 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 1.00ms
+2023-08-08 11:30:05,862 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.00ms
+2023-08-08 11:30:05,865 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 11:30:05,877 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 2.00ms
+2023-08-08 11:30:05,898 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.00ms
+2023-08-08 11:30:06,181 [tornado.access.INFO] 101 GET /scripts/1.%20Hello%20Pontera?initWithValues=false (127.0.0.1) 0.98ms
+2023-08-08 11:30:14,167 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.00ms
+2023-08-08 11:30:14,310 [tornado.access.INFO] 200 GET /history/execution_log/short (127.0.0.1) 17.00ms
+2023-08-08 11:30:14,313 [tornado.access.INFO] 304 GET /auth/info (127.0.0.1) 2.00ms
+2023-08-08 11:30:16,671 [tornado.access.INFO] 200 GET /history/execution_log/long/1 (127.0.0.1) 2.00ms
+2023-08-08 11:30:23,301 [tornado.access.INFO] 304 GET /scripts?mode=edit (127.0.0.1) 4.00ms
+2023-08-08 11:30:25,577 [tornado.access.INFO] 304 GET /admin/scripts/1.%20Hello%20Pontera (127.0.0.1) 3.00ms
+2023-08-08 11:30:28,002 [tornado.access.INFO] 200 GET /admin/scripts/1.%20Hello%20Pontera/code (127.0.0.1) 6.00ms
+2023-08-08 11:30:28,056 [tornado.access.INFO] 200 GET /88f2b86b79781364b99947d07d3c3469.js (127.0.0.1) 34.00ms
+2023-08-08 11:34:21,415 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 11:34:21,493 [tornado.access.INFO] 304 GET /auth/info (127.0.0.1) 4.00ms
+2023-08-08 11:34:21,506 [tornado.access.INFO] 304 GET /scripts (127.0.0.1) 12.02ms
+2023-08-08 11:34:21,507 [tornado.access.INFO] 304 GET /conf (127.0.0.1) 0.00ms
+2023-08-08 11:34:21,509 [tornado.access.INFO] 304 GET /executions/active (127.0.0.1) 1.00ms
+2023-08-08 11:34:24,391 [tornado.access.INFO] 101 GET /scripts/3.%20Install%20Inteliji?initWithValues=false (127.0.0.1) 0.98ms
+2023-08-08 11:34:31,151 [web_server.INFO] Calling script 3. Install Inteliji. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-08 11:34:31,152 [script_server.execution_service.INFO] Calling script #2: powershell -file .\conf\runners\scripts\Install_Inteliji.ps1 ******
+2023-08-08 11:34:31,173 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 27.99ms
+2023-08-08 11:34:31,481 [tornado.access.INFO] 101 GET /executions/io/2 (127.0.0.1) 1.01ms
+2023-08-08 11:34:34,608 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-08 11:34:34,617 [tornado.access.INFO] 200 POST /executions/cleanup/2 (127.0.0.1) 6.00ms
+2023-08-08 11:34:48,872 [tornado.access.INFO] 304 GET /scripts?mode=edit (127.0.0.1) 6.00ms
+2023-08-08 11:34:49,964 [tornado.access.INFO] 200 GET /admin/scripts/3.%20Install%20Inteliji (127.0.0.1) 4.03ms
+2023-08-08 11:36:42,882 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 0.99ms
+2023-08-08 11:36:42,894 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.00ms
+2023-08-08 11:36:42,899 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 4.00ms
+2023-08-08 11:36:42,926 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 26.00ms
+2023-08-08 11:36:42,930 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 2.00ms
+2023-08-08 11:36:42,939 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 8.00ms
+2023-08-08 11:36:42,959 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.00ms
+2023-08-08 11:36:42,971 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 11:36:42,973 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 0.96ms
+2023-08-08 11:36:42,977 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 3.00ms
+2023-08-08 11:36:42,978 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 0.00ms
+2023-08-08 11:36:42,987 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.00ms
+2023-08-08 11:36:43,000 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 2.00ms
+2023-08-08 11:36:43,020 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.99ms
+2023-08-08 11:36:43,302 [tornado.access.INFO] 101 GET /scripts/3.%20Install%20Inteliji?initWithValues=false (127.0.0.1) 1.01ms
+2023-08-08 11:36:48,349 [web_server.INFO] Calling script 3. Install Inteliji. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-08 11:36:48,350 [script_server.execution_service.INFO] Calling script #3: powershell -file .\conf\runners\scripts\Install_Inteliji.ps1 ******
+2023-08-08 11:36:48,364 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 25.00ms
+2023-08-08 11:36:48,670 [tornado.access.INFO] 101 GET /executions/io/3 (127.0.0.1) 1.00ms
+2023-08-08 11:36:52,303 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-08 11:36:52,312 [tornado.access.INFO] 200 POST /executions/cleanup/3 (127.0.0.1) 6.00ms
+2023-08-08 11:37:23,793 [web_server.INFO] Calling script 3. Install Inteliji. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-08 11:37:23,794 [script_server.execution_service.INFO] Calling script #4: powershell -file .\conf\runners\scripts\Install_Inteliji.ps1 ******
+2023-08-08 11:37:23,807 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 20.00ms
+2023-08-08 11:37:24,112 [tornado.access.INFO] 101 GET /executions/io/4 (127.0.0.1) 0.00ms
+2023-08-08 11:37:27,542 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-08 11:37:27,552 [tornado.access.INFO] 200 POST /executions/cleanup/4 (127.0.0.1) 7.00ms
+2023-08-08 11:38:21,501 [tornado.access.INFO] 101 GET /scripts/2.%20Install%20DBeaver?initWithValues=false (127.0.0.1) 1.00ms
+2023-08-08 11:38:26,392 [tornado.access.INFO] 101 GET /scripts/3.%20Install%20Inteliji?initWithValues=false (127.0.0.1) 0.98ms
+2023-08-08 11:48:44,681 [tornado.access.INFO] 101 GET /scripts/1.%20Hello%20Pontera?initWithValues=false (127.0.0.1) 0.00ms
+2023-08-08 11:48:46,140 [tornado.access.INFO] 101 GET /scripts/2.%20Install%20DBeaver?initWithValues=false (127.0.0.1) 0.00ms
+2023-08-08 11:48:50,063 [web_server.INFO] Calling script 2. Install DBeaver. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-08 11:48:50,063 [script_server.execution_service.INFO] Calling script #5: powershell -file .\conf\runners\scripts\Install_Dbeaver.ps1 ******
+2023-08-08 11:48:50,077 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 19.00ms
+2023-08-08 11:48:50,383 [tornado.access.INFO] 101 GET /executions/io/5 (127.0.0.1) 0.99ms
+2023-08-08 11:49:28,737 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-08 11:49:28,751 [tornado.access.INFO] 200 POST /executions/cleanup/5 (127.0.0.1) 9.99ms
+2023-08-08 11:52:17,708 [web_server.INFO] Calling script 2. Install DBeaver. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-08 11:52:17,709 [script_server.execution_service.INFO] Calling script #6: powershell -file .\conf\runners\scripts\Install_Dbeaver.ps1 ******
+2023-08-08 11:52:17,719 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 16.32ms
+2023-08-08 11:52:18,052 [tornado.access.INFO] 101 GET /executions/io/6 (127.0.0.1) 1.00ms
+2023-08-08 11:52:34,491 [tornado.access.INFO] 200 POST /executions/stop/6 (127.0.0.1) 1.00ms
+2023-08-08 11:53:02,205 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-08 11:53:02,969 [tornado.access.INFO] 200 POST /executions/cleanup/6 (127.0.0.1) 1.98ms
+2023-08-08 11:53:04,217 [web_server.INFO] Calling script 2. Install DBeaver. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-08 11:53:04,218 [script_server.execution_service.INFO] Calling script #7: powershell -file .\conf\runners\scripts\Install_Dbeaver.ps1 ******
+2023-08-08 11:53:04,226 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 14.00ms
+2023-08-08 11:53:04,555 [tornado.access.INFO] 101 GET /executions/io/7 (127.0.0.1) 1.00ms
+2023-08-08 11:53:18,531 [tornado.access.INFO] 200 POST /executions/stop/7 (127.0.0.1) 3.95ms
+2023-08-08 11:53:18,566 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-08 11:53:18,578 [tornado.access.INFO] 200 POST /executions/cleanup/7 (127.0.0.1) 10.00ms
+2023-08-08 11:53:26,476 [web_server.INFO] Calling script 2. Install DBeaver. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-08 11:53:26,477 [script_server.execution_service.INFO] Calling script #8: powershell -file .\conf\runners\scripts\Install_Dbeaver.ps1 ******
+2023-08-08 11:53:26,490 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 18.00ms
+2023-08-08 11:53:26,796 [tornado.access.INFO] 101 GET /executions/io/8 (127.0.0.1) 0.00ms
+2023-08-08 11:54:14,717 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-08 11:54:14,730 [tornado.access.INFO] 200 POST /executions/cleanup/8 (127.0.0.1) 9.00ms
+2023-08-08 11:57:16,665 [web_server.INFO] Calling script 2. Install DBeaver. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-08 11:57:16,665 [script_server.execution_service.INFO] Calling script #9: powershell -file .\conf\runners\scripts\Install_Dbeaver.ps1 ******
+2023-08-08 11:57:16,678 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 18.00ms
+2023-08-08 11:57:17,011 [tornado.access.INFO] 101 GET /executions/io/9 (127.0.0.1) 1.01ms
+2023-08-08 11:58:09,353 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-08 11:58:09,367 [tornado.access.INFO] 200 POST /executions/cleanup/9 (127.0.0.1) 10.00ms
+2023-08-08 12:02:28,809 [tornado.access.INFO] 101 GET /scripts/3.%20Install%20Inteliji?initWithValues=false (127.0.0.1) 0.00ms
+2023-08-08 12:02:47,950 [tornado.access.INFO] 101 GET /scripts/4.%20GitHub%20Added%20SSH%20Key?initWithValues=false (127.0.0.1) 1.03ms
+2023-08-08 12:03:33,055 [tornado.access.INFO] 101 GET /scripts/2.%20Install%20DBeaver?initWithValues=false (127.0.0.1) 0.00ms
+2023-08-08 12:08:08,192 [web_server.INFO] Calling script 2. Install DBeaver. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-08 12:08:08,193 [script_server.execution_service.INFO] Calling script #10: powershell -file .\conf\runners\scripts\Install_Dbeaver.ps1 ******
+2023-08-08 12:08:08,206 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 22.01ms
+2023-08-08 12:08:08,512 [tornado.access.INFO] 101 GET /executions/io/10 (127.0.0.1) 0.00ms
+2023-08-08 12:09:00,766 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-08 12:09:00,781 [tornado.access.INFO] 200 POST /executions/cleanup/10 (127.0.0.1) 11.00ms
+2023-08-08 12:13:16,968 [web_server.INFO] Calling script 2. Install DBeaver. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-08 12:13:16,969 [script_server.execution_service.INFO] Calling script #11: powershell -file .\conf\runners\scripts\Install_Dbeaver.ps1 ******
+2023-08-08 12:13:16,981 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 21.00ms
+2023-08-08 12:13:17,306 [tornado.access.INFO] 101 GET /executions/io/11 (127.0.0.1) 1.00ms
+2023-08-08 12:14:12,781 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-08 12:14:12,794 [tornado.access.INFO] 200 POST /executions/cleanup/11 (127.0.0.1) 11.00ms
+2023-08-08 12:14:16,312 [tornado.access.INFO] 101 GET /scripts/3.%20Install%20Inteliji?initWithValues=false (127.0.0.1) 0.00ms
+2023-08-08 12:14:22,857 [web_server.INFO] Calling script 3. Install Inteliji. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-08 12:14:22,858 [script_server.execution_service.INFO] Calling script #12: powershell -file .\conf\runners\scripts\Install_Inteliji.ps1 ******
+2023-08-08 12:14:22,871 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 20.00ms
+2023-08-08 12:14:23,179 [tornado.access.INFO] 101 GET /executions/io/12 (127.0.0.1) 1.00ms
+2023-08-08 12:14:39,435 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-08 12:14:39,442 [tornado.access.INFO] 200 POST /executions/cleanup/12 (127.0.0.1) 7.00ms
+2023-08-08 12:14:42,712 [tornado.access.INFO] 101 GET /scripts/4.%20GitHub%20Added%20SSH%20Key?initWithValues=false (127.0.0.1) 1.00ms
+2023-08-08 12:14:44,279 [web_server.INFO] Calling script 4. GitHub Added SSH Key. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-08 12:14:44,279 [script_server.execution_service.INFO] Calling script #13: powershell -file .\conf\runners\scripts\github-ssh.ps1
+2023-08-08 12:14:44,293 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 20.00ms
+2023-08-08 12:14:44,598 [tornado.access.INFO] 101 GET /executions/io/13 (127.0.0.1) 0.98ms
+2023-08-08 12:14:45,304 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-08 12:14:45,315 [tornado.access.INFO] 200 POST /executions/cleanup/13 (127.0.0.1) 8.00ms
+2023-08-08 12:15:29,767 [tornado.access.INFO] 304 GET /scripts?mode=edit (127.0.0.1) 5.03ms
+2023-08-08 12:15:35,272 [tornado.access.INFO] 304 GET /admin/scripts/1.%20Hello%20Pontera (127.0.0.1) 2.99ms
+2023-08-08 12:15:42,567 [tornado.access.INFO] 304 GET /scripts?mode=edit (127.0.0.1) 5.00ms
+2023-08-08 12:15:44,138 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.99ms
+2023-08-08 12:15:44,240 [tornado.access.INFO] 304 GET /auth/info (127.0.0.1) 3.99ms
+2023-08-08 12:15:44,241 [tornado.access.INFO] 304 GET /conf (127.0.0.1) 0.00ms
+2023-08-08 12:15:44,245 [tornado.access.INFO] 304 GET /scripts (127.0.0.1) 3.00ms
+2023-08-08 12:15:44,247 [tornado.access.INFO] 304 GET /executions/active (127.0.0.1) 1.00ms
+2023-08-08 12:17:10,102 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 1.00ms
+2023-08-08 12:17:10,112 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 12:17:10,120 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 3.99ms
+2023-08-08 12:17:10,124 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 3.00ms
+2023-08-08 12:17:10,150 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 25.00ms
+2023-08-08 12:17:10,159 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 8.00ms
+2023-08-08 12:17:10,177 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.01ms
+2023-08-08 12:17:10,191 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 12:17:10,193 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 0.00ms
+2023-08-08 12:17:10,221 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 27.99ms
+2023-08-08 12:17:10,224 [tornado.access.INFO] 200 GET /fonts/roboto-latin-400.479970ff.woff2 (127.0.0.1) 1.98ms
+2023-08-08 12:17:10,226 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 1.00ms
+2023-08-08 12:17:10,227 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 0.00ms
+2023-08-08 12:17:10,230 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 0.98ms
+2023-08-08 12:17:10,253 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.02ms
+2023-08-08 12:21:19,608 [tornado.access.INFO] 101 GET /scripts/1.%20Install%20DBeaver?initWithValues=false (127.0.0.1) 0.99ms
+2023-08-08 12:21:22,764 [web_server.INFO] Calling script 1. Install DBeaver. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-08 12:21:22,765 [script_server.execution_service.INFO] Calling script #14: powershell -file .\conf\runners\scripts\Install_Dbeaver.ps1 ******
+2023-08-08 12:21:22,779 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 19.00ms
+2023-08-08 12:21:23,085 [tornado.access.INFO] 101 GET /executions/io/14 (127.0.0.1) 0.98ms
+2023-08-08 12:22:14,146 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-08 12:22:14,179 [tornado.access.INFO] 200 POST /executions/cleanup/14 (127.0.0.1) 29.00ms
+2023-08-08 12:23:15,543 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 1.97ms
+2023-08-08 12:23:15,559 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 12:23:15,566 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 4.01ms
+2023-08-08 12:23:15,570 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 3.00ms
+2023-08-08 12:23:15,599 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 26.00ms
+2023-08-08 12:23:15,624 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 8.00ms
+2023-08-08 12:23:15,715 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 12:23:15,718 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 1.00ms
+2023-08-08 12:23:15,723 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 3.00ms
+2023-08-08 12:23:15,725 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 0.97ms
+2023-08-08 12:23:15,735 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.99ms
+2023-08-08 12:23:15,738 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.00ms
+2023-08-08 12:23:15,752 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 3.00ms
+2023-08-08 12:23:15,779 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 12:23:16,064 [tornado.access.INFO] 101 GET /scripts/1.%20Install%20DBeaver?initWithValues=false (127.0.0.1) 2.00ms
+2023-08-08 12:23:19,510 [web_server.INFO] Calling script 1. Install DBeaver. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-08 12:23:19,511 [script_server.execution_service.INFO] Calling script #15: powershell -file .\conf\runners\scripts\Install_Dbeaver.ps1 ******
+2023-08-08 12:23:19,525 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 19.00ms
+2023-08-08 12:23:19,830 [tornado.access.INFO] 101 GET /executions/io/15 (127.0.0.1) 1.00ms
+2023-08-08 12:23:41,950 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-08 12:23:41,961 [tornado.access.INFO] 200 POST /executions/cleanup/15 (127.0.0.1) 9.99ms
+2023-08-08 12:25:28,761 [tornado.access.INFO] 101 GET /scripts/2.%20Install%20DBeaver?initWithValues=false (127.0.0.1) 0.00ms
+2023-08-08 12:25:32,369 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 2.00ms
+2023-08-08 12:25:32,383 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.96ms
+2023-08-08 12:25:32,390 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 4.95ms
+2023-08-08 12:25:32,393 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 3.04ms
+2023-08-08 12:25:32,421 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 27.00ms
+2023-08-08 12:25:32,432 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 8.00ms
+2023-08-08 12:25:32,513 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 12:25:32,515 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 1.00ms
+2023-08-08 12:25:32,519 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 1.99ms
+2023-08-08 12:25:32,521 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 1.03ms
+2023-08-08 12:25:32,531 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 0.98ms
+2023-08-08 12:25:32,534 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.00ms
+2023-08-08 12:25:32,544 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 2.00ms
+2023-08-08 12:25:32,569 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.00ms
+2023-08-08 12:25:32,852 [tornado.access.INFO] 101 GET /scripts/2.%20Install%20DBeaver?initWithValues=false (127.0.0.1) 1.00ms
+2023-08-08 12:25:41,211 [root.INFO] Starting Script Server, v1.17.1
+2023-08-08 12:25:41,728 [tornado.access.INFO] 101 GET /scripts/1.%20Install%20DBeaver?initWithValues=true (127.0.0.1) 1.00ms
+2023-08-08 12:25:45,082 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 37.99ms
+2023-08-08 12:25:45,093 [tornado.general.ERROR] Could not open static file 'C:\\Users\\Administrator\\Documents\\script-server\\conf\\theme\\theme.css'
+2023-08-08 12:25:45,094 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 12:25:45,100 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 5.00ms
+2023-08-08 12:25:45,104 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 3.00ms
+2023-08-08 12:25:45,119 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 9.00ms
+2023-08-08 12:25:45,146 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 36.00ms
+2023-08-08 12:25:45,181 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 12:25:45,183 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 1.00ms
+2023-08-08 12:25:45,186 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 3.00ms
+2023-08-08 12:25:45,187 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 0.00ms
+2023-08-08 12:25:45,199 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.99ms
+2023-08-08 12:25:45,201 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.01ms
+2023-08-08 12:25:45,207 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 1.00ms
+2023-08-08 12:25:45,234 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 0.96ms
+2023-08-08 12:25:45,516 [tornado.access.INFO] 101 GET /scripts/2.%20Install%20DBeaver?initWithValues=false (127.0.0.1) 0.00ms
+2023-08-08 12:25:47,339 [tornado.access.INFO] 101 GET /scripts/1.%20Install%20DBeaver?initWithValues=false (127.0.0.1) 1.00ms
+2023-08-08 12:25:48,854 [tornado.access.INFO] 101 GET /scripts/2.%20Install%20Inteliji?initWithValues=false (127.0.0.1) 0.00ms
+2023-08-08 12:25:49,799 [tornado.access.INFO] 101 GET /scripts/3.%20GitHub%20Added%20SSH%20Key?initWithValues=false (127.0.0.1) 0.98ms
+2023-08-08 12:25:51,152 [tornado.access.INFO] 101 GET /scripts/1.%20Install%20DBeaver?initWithValues=false (127.0.0.1) 0.00ms
+2023-08-08 12:25:54,297 [web_server.INFO] Calling script 1. Install DBeaver. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-08 12:25:54,298 [script_server.execution_service.INFO] Calling script #16: powershell -file .\conf\runners\scripts\Install_Dbeaver.ps1 ******
+2023-08-08 12:25:54,312 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 20.00ms
+2023-08-08 12:25:54,618 [tornado.access.INFO] 101 GET /executions/io/16 (127.0.0.1) 1.00ms
+2023-08-08 12:26:17,843 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-08 12:26:17,851 [tornado.access.INFO] 200 POST /executions/cleanup/16 (127.0.0.1) 8.00ms
+2023-08-08 12:26:50,804 [web_server.INFO] Calling script 1. Install DBeaver. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-08 12:26:50,805 [script_server.execution_service.INFO] Calling script #17: powershell -file .\conf\runners\scripts\Install_Dbeaver.ps1 ******
+2023-08-08 12:26:50,811 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 11.04ms
+2023-08-08 12:26:51,117 [tornado.access.INFO] 101 GET /executions/io/17 (127.0.0.1) 0.00ms
+2023-08-08 12:27:14,039 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-08 12:27:14,047 [tornado.access.INFO] 200 POST /executions/cleanup/17 (127.0.0.1) 5.99ms
+2023-08-08 12:27:31,694 [web_server.INFO] Calling script 1. Install DBeaver. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-08 12:27:31,695 [script_server.execution_service.INFO] Calling script #18: powershell -file .\conf\runners\scripts\Install_Dbeaver.ps1 ******
+2023-08-08 12:27:31,704 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 15.00ms
+2023-08-08 12:27:32,010 [tornado.access.INFO] 101 GET /executions/io/18 (127.0.0.1) 1.00ms
+2023-08-08 12:28:23,892 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-08 12:28:23,904 [tornado.access.INFO] 200 POST /executions/cleanup/18 (127.0.0.1) 10.00ms
+2023-08-08 12:31:52,085 [tornado.access.INFO] 101 GET /scripts/3.%20GitHub%20Added%20SSH%20Key?initWithValues=false (127.0.0.1) 0.98ms
+2023-08-08 12:31:56,075 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 12:31:56,216 [tornado.access.INFO] 200 GET /history/execution_log/short (127.0.0.1) 32.99ms
+2023-08-08 12:31:56,219 [tornado.access.INFO] 304 GET /fonts/roboto-latin-700.2735a3a6.woff2 (127.0.0.1) 1.00ms
+2023-08-08 12:31:56,221 [tornado.access.INFO] 304 GET /auth/info (127.0.0.1) 0.00ms
+2023-08-08 12:31:57,744 [tornado.access.INFO] 200 GET /scripts?mode=edit (127.0.0.1) 3.00ms
+2023-08-08 12:31:59,110 [tornado.access.INFO] 304 GET /history/execution_log/short (127.0.0.1) 6.00ms
+2023-08-08 12:32:00,027 [tornado.access.INFO] 200 GET /history/execution_log/long/18 (127.0.0.1) 15.99ms
+2023-08-08 12:32:08,252 [tornado.access.INFO] 304 GET /scripts?mode=edit (127.0.0.1) 6.00ms
+2023-08-08 12:32:09,753 [tornado.access.INFO] 200 GET /admin/scripts/3.%20GitHub%20Added%20SSH%20Key (127.0.0.1) 3.00ms
+2023-08-08 12:32:30,374 [tornado.access.INFO] 200 GET /admin.html (127.0.0.1) 2.00ms
+2023-08-08 12:32:30,387 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.98ms
+2023-08-08 12:32:30,391 [tornado.access.INFO] 200 GET /css/admin.ee33e5eb.css (127.0.0.1) 3.00ms
+2023-08-08 12:32:30,396 [tornado.access.INFO] 200 GET /css/chunk-admin-vendors.f2833d6d.css (127.0.0.1) 4.00ms
+2023-08-08 12:32:30,406 [tornado.access.INFO] 200 GET /js/admin.d0e2842d.js (127.0.0.1) 8.00ms
+2023-08-08 12:32:30,451 [tornado.access.INFO] 200 GET /js/chunk-admin-vendors.afd45d69.js (127.0.0.1) 52.00ms
+2023-08-08 12:32:30,551 [tornado.access.INFO] 200 GET /admin/scripts/3.%20GitHub%20Added%20SSH%20Key (127.0.0.1) 12.00ms
+2023-08-08 12:32:30,554 [tornado.access.INFO] 200 GET /fonts/roboto-latin-500.020c97dc.woff2 (127.0.0.1) 2.00ms
+2023-08-08 12:32:30,555 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 3.01ms
+2023-08-08 12:32:30,557 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 12:32:30,559 [tornado.access.INFO] 200 GET /fonts/roboto-latin-400.479970ff.woff2 (127.0.0.1) 2.00ms
+2023-08-08 12:32:30,639 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.01ms
+2023-08-08 12:34:57,003 [config_service.INFO] Updating script config "3. GitHub Added SSH Key" in conf\runners\github-ssh-key.json
+2023-08-08 12:34:57,005 [tornado.access.INFO] 200 PUT /admin/scripts (127.0.0.1) 8.00ms
+2023-08-08 12:34:57,020 [tornado.access.INFO] 200 GET /admin/scripts/3.%20GitHub%20Added%20SSH%20Key (127.0.0.1) 11.00ms
+2023-08-08 12:35:01,080 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 1.00ms
+2023-08-08 12:35:01,091 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.99ms
+2023-08-08 12:35:01,096 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 4.00ms
+2023-08-08 12:35:01,105 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 8.00ms
+2023-08-08 12:35:01,116 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 2.99ms
+2023-08-08 12:35:01,144 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 30.00ms
+2023-08-08 12:35:01,223 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 0.96ms
+2023-08-08 12:35:01,228 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 4.00ms
+2023-08-08 12:35:01,228 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 4.00ms
+2023-08-08 12:35:01,230 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 1.00ms
+2023-08-08 12:35:01,242 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.99ms
+2023-08-08 12:35:01,245 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 12:35:01,265 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 1.00ms
+2023-08-08 12:35:01,298 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.01ms
+2023-08-08 12:35:01,566 [tornado.access.INFO] 101 GET /scripts/3.%20GitHub%20Added%20SSH%20Key?initWithValues=false (127.0.0.1) 0.98ms
+2023-08-08 12:35:18,974 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 1.00ms
+2023-08-08 12:35:18,985 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.00ms
+2023-08-08 12:35:18,990 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 4.00ms
+2023-08-08 12:35:18,993 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 2.99ms
+2023-08-08 12:35:19,002 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 9.00ms
+2023-08-08 12:35:19,030 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 36.00ms
+2023-08-08 12:35:19,065 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 4.00ms
+2023-08-08 12:35:19,066 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 0.00ms
+2023-08-08 12:35:19,069 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 3.00ms
+2023-08-08 12:35:19,070 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 3.00ms
+2023-08-08 12:35:19,079 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 2.03ms
+2023-08-08 12:35:19,081 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.00ms
+2023-08-08 12:35:19,087 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 2.00ms
+2023-08-08 12:35:19,116 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 12:35:19,397 [tornado.access.INFO] 101 GET /scripts/3.%20GitHub%20Added%20SSH%20Key?initWithValues=false (127.0.0.1) 0.95ms
+2023-08-08 12:35:32,680 [config_service.INFO] Updating script config "3. GitHub Added SSH Key" in conf\runners\github-ssh-key.json
+2023-08-08 12:35:32,682 [tornado.access.INFO] 200 PUT /admin/scripts (127.0.0.1) 5.00ms
+2023-08-08 12:35:32,695 [tornado.access.INFO] 200 GET /admin/scripts/3.%20GitHub%20Added%20SSH%20Key (127.0.0.1) 9.99ms
+2023-08-08 12:35:35,558 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 1.00ms
+2023-08-08 12:35:35,569 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 12:35:35,574 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 4.00ms
+2023-08-08 12:35:35,578 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 3.00ms
+2023-08-08 12:35:35,604 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 29.00ms
+2023-08-08 12:35:35,618 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 43.00ms
+2023-08-08 12:35:35,650 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 12:35:35,653 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 2.03ms
+2023-08-08 12:35:35,655 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 4.03ms
+2023-08-08 12:35:35,656 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 0.00ms
+2023-08-08 12:35:35,667 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 2.00ms
+2023-08-08 12:35:35,669 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.00ms
+2023-08-08 12:35:35,686 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 1.00ms
+2023-08-08 12:35:35,708 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.98ms
+2023-08-08 12:35:35,989 [tornado.access.INFO] 101 GET /scripts/3.%20GitHub%20Added%20SSH%20Key?initWithValues=false (127.0.0.1) 0.98ms
+2023-08-08 12:35:35,995 [asyncio.ERROR] Future exception was never retrieved
+future: <Future finished exception=InvalidValueException('has value ******, but should be in []')>
+Traceback (most recent call last):
+  File "c:\python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\Documents\script-server\src\web\script_config_socket.py", line 114, in _set_parameter_value
+    self.config_model.set_param_value(parameter, value)
+  File "C:\Users\Administrator\Documents\script-server\src\model\script_config.py", line 91, in set_param_value
+    raise InvalidValueException(param_name, validation_error)
+model.model_helper.InvalidValueException: has value ******, but should be in []
+2023-08-08 12:35:54,200 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 1.98ms
+2023-08-08 12:35:54,211 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.00ms
+2023-08-08 12:35:54,216 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 4.02ms
+2023-08-08 12:35:54,242 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 25.00ms
+2023-08-08 12:35:54,245 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 28.00ms
+2023-08-08 12:35:54,253 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 7.00ms
+2023-08-08 12:35:54,286 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 12:35:54,302 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 15.00ms
+2023-08-08 12:35:54,302 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 13.00ms
+2023-08-08 12:35:54,304 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 1.00ms
+2023-08-08 12:35:54,305 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.00ms
+2023-08-08 12:35:54,308 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 12:35:54,312 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 2.00ms
+2023-08-08 12:35:54,341 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.01ms
+2023-08-08 12:35:54,624 [tornado.access.INFO] 101 GET /scripts/3.%20GitHub%20Added%20SSH%20Key?initWithValues=false (127.0.0.1) 1.01ms
+2023-08-08 12:35:54,629 [asyncio.ERROR] Future exception was never retrieved
+future: <Future finished exception=InvalidValueException('has value ******, but should be in []')>
+Traceback (most recent call last):
+  File "c:\python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\Documents\script-server\src\web\script_config_socket.py", line 114, in _set_parameter_value
+    self.config_model.set_param_value(parameter, value)
+  File "C:\Users\Administrator\Documents\script-server\src\model\script_config.py", line 91, in set_param_value
+    raise InvalidValueException(param_name, validation_error)
+model.model_helper.InvalidValueException: has value ******, but should be in []
+2023-08-08 12:36:07,206 [tornado.access.INFO] 200 GET /admin.html (127.0.0.1) 2.00ms
+2023-08-08 12:36:07,218 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 12:36:07,221 [tornado.access.INFO] 200 GET /css/admin.ee33e5eb.css (127.0.0.1) 2.00ms
+2023-08-08 12:36:07,227 [tornado.access.INFO] 200 GET /css/chunk-admin-vendors.f2833d6d.css (127.0.0.1) 5.03ms
+2023-08-08 12:36:07,233 [tornado.access.INFO] 200 GET /js/admin.d0e2842d.js (127.0.0.1) 10.00ms
+2023-08-08 12:36:07,275 [tornado.access.INFO] 200 GET /js/chunk-admin-vendors.afd45d69.js (127.0.0.1) 52.00ms
+2023-08-08 12:36:07,324 [tornado.access.INFO] 200 GET /admin/scripts/3.%20GitHub%20Added%20SSH%20Key (127.0.0.1) 5.00ms
+2023-08-08 12:36:07,329 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 2.00ms
+2023-08-08 12:36:07,337 [tornado.access.INFO] 200 GET /fonts/roboto-latin-500.020c97dc.woff2 (127.0.0.1) 2.00ms
+2023-08-08 12:36:07,338 [tornado.access.INFO] 200 GET /fonts/roboto-latin-400.479970ff.woff2 (127.0.0.1) 3.00ms
+2023-08-08 12:36:07,339 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 12:36:07,410 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 12:36:14,947 [config_service.INFO] Updating script config "3. GitHub Added SSH Key" in conf\runners\github-ssh-key.json
+2023-08-08 12:36:14,948 [tornado.access.INFO] 200 PUT /admin/scripts (127.0.0.1) 7.00ms
+2023-08-08 12:36:14,961 [tornado.access.INFO] 200 GET /admin/scripts/3.%20GitHub%20Added%20SSH%20Key (127.0.0.1) 10.00ms
+2023-08-08 12:36:16,889 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 2.00ms
+2023-08-08 12:36:16,899 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 12:36:16,904 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 4.00ms
+2023-08-08 12:36:16,908 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 3.00ms
+2023-08-08 12:36:16,932 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 27.00ms
+2023-08-08 12:36:16,941 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 35.01ms
+2023-08-08 12:36:16,976 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 12:36:16,980 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 1.00ms
+2023-08-08 12:36:16,983 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 3.00ms
+2023-08-08 12:36:16,984 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 0.00ms
+2023-08-08 12:36:16,994 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.00ms
+2023-08-08 12:36:16,996 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 12:36:17,015 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 2.00ms
+2023-08-08 12:36:17,032 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 12:36:17,316 [tornado.access.INFO] 101 GET /scripts/3.%20GitHub%20Added%20SSH%20Key?initWithValues=false (127.0.0.1) 0.00ms
+2023-08-08 12:36:34,905 [config_service.INFO] Updating script config "3. GitHub Added SSH Key" in conf\runners\github-ssh-key.json
+2023-08-08 12:36:34,907 [tornado.access.INFO] 200 PUT /admin/scripts (127.0.0.1) 7.99ms
+2023-08-08 12:36:34,921 [tornado.access.INFO] 200 GET /admin/scripts/3.%20GitHub%20Added%20SSH%20Key (127.0.0.1) 11.95ms
+2023-08-08 12:36:46,392 [config_service.INFO] Updating script config "3. GitHub Added SSH Key" in conf\runners\github-ssh-key.json
+2023-08-08 12:36:46,394 [tornado.access.INFO] 200 PUT /admin/scripts (127.0.0.1) 5.03ms
+2023-08-08 12:36:46,409 [tornado.access.INFO] 200 GET /admin/scripts/3.%20GitHub%20Added%20SSH%20Key (127.0.0.1) 13.00ms
+2023-08-08 12:36:48,404 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 1.95ms
+2023-08-08 12:36:48,414 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.00ms
+2023-08-08 12:36:48,419 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 4.00ms
+2023-08-08 12:36:48,444 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 24.00ms
+2023-08-08 12:36:48,448 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 28.00ms
+2023-08-08 12:36:48,463 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 43.00ms
+2023-08-08 12:36:48,492 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 0.97ms
+2023-08-08 12:36:48,493 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 0.00ms
+2023-08-08 12:36:48,497 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 3.01ms
+2023-08-08 12:36:48,498 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 1.01ms
+2023-08-08 12:36:48,513 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 2.00ms
+2023-08-08 12:36:48,515 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 12:36:48,528 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 2.00ms
+2023-08-08 12:36:48,551 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 0.99ms
+2023-08-08 12:36:48,833 [tornado.access.INFO] 101 GET /scripts/3.%20GitHub%20Added%20SSH%20Key?initWithValues=false (127.0.0.1) 1.01ms
+2023-08-08 12:36:48,839 [asyncio.ERROR] Future exception was never retrieved
+future: <Future finished exception=InvalidValueException("has value ******, but should be in ('1', '2', '3')")>
+Traceback (most recent call last):
+  File "c:\python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\Documents\script-server\src\web\script_config_socket.py", line 114, in _set_parameter_value
+    self.config_model.set_param_value(parameter, value)
+  File "C:\Users\Administrator\Documents\script-server\src\model\script_config.py", line 91, in set_param_value
+    raise InvalidValueException(param_name, validation_error)
+model.model_helper.InvalidValueException: has value ******, but should be in ('1', '2', '3')
+2023-08-08 12:37:09,714 [config_service.INFO] Updating script config "3. GitHub Added SSH Key" in conf\runners\github-ssh-key.json
+2023-08-08 12:37:09,715 [tornado.access.INFO] 200 PUT /admin/scripts (127.0.0.1) 7.00ms
+2023-08-08 12:37:09,729 [tornado.access.INFO] 200 GET /admin/scripts/3.%20GitHub%20Added%20SSH%20Key (127.0.0.1) 10.95ms
+2023-08-08 12:37:11,888 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 1.99ms
+2023-08-08 12:37:11,899 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 12:37:11,904 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 5.00ms
+2023-08-08 12:37:11,907 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 3.00ms
+2023-08-08 12:37:11,918 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 9.00ms
+2023-08-08 12:37:11,943 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 33.00ms
+2023-08-08 12:37:11,976 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 12:37:11,979 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 1.00ms
+2023-08-08 12:37:11,982 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 3.00ms
+2023-08-08 12:37:11,983 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 0.00ms
+2023-08-08 12:37:11,993 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.01ms
+2023-08-08 12:37:11,997 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.00ms
+2023-08-08 12:37:12,010 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 3.00ms
+2023-08-08 12:37:12,028 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 12:37:12,310 [tornado.access.INFO] 101 GET /scripts/3.%20GitHub%20Added%20SSH%20Key?initWithValues=false (127.0.0.1) 1.00ms
+2023-08-08 12:40:28,515 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 2.04ms
+2023-08-08 12:40:28,526 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 12:40:28,531 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 4.02ms
+2023-08-08 12:40:28,534 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 2.00ms
+2023-08-08 12:40:28,560 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 26.00ms
+2023-08-08 12:40:28,568 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 8.00ms
+2023-08-08 12:40:28,603 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 12:40:28,605 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 1.00ms
+2023-08-08 12:40:28,609 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 3.02ms
+2023-08-08 12:40:28,610 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 1.00ms
+2023-08-08 12:40:28,619 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 2.06ms
+2023-08-08 12:40:28,621 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.00ms
+2023-08-08 12:40:28,629 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 1.99ms
+2023-08-08 12:40:28,657 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 12:40:28,944 [tornado.access.INFO] 101 GET /scripts/3.%20GitHub%20Added%20SSH%20Key?initWithValues=false (127.0.0.1) 0.00ms
+2023-08-08 12:40:30,210 [web_server.INFO] Calling script 3. GitHub Added SSH Key. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-08 12:40:30,210 [script_server.execution_service.INFO] Calling script #19: powershell -file .\conf\runners\scripts\github-ssh.ps1 ******
+2023-08-08 12:40:30,225 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 19.96ms
+2023-08-08 12:40:30,530 [tornado.access.INFO] 101 GET /executions/io/19 (127.0.0.1) 0.98ms
+2023-08-08 12:41:09,134 [tornado.access.INFO] 200 POST /executions/stop/19 (127.0.0.1) 4.00ms
+2023-08-08 12:41:09,197 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-08 12:41:09,210 [tornado.access.INFO] 200 POST /executions/cleanup/19 (127.0.0.1) 7.00ms
+2023-08-08 12:48:55,549 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 2.00ms
+2023-08-08 12:48:55,559 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.00ms
+2023-08-08 12:48:55,565 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 4.00ms
+2023-08-08 12:48:55,570 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 2.00ms
+2023-08-08 12:48:55,596 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 25.01ms
+2023-08-08 12:48:55,607 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 8.00ms
+2023-08-08 12:48:55,640 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 12:48:55,642 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 1.03ms
+2023-08-08 12:48:55,646 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 2.99ms
+2023-08-08 12:48:55,647 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 0.00ms
+2023-08-08 12:48:55,656 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.00ms
+2023-08-08 12:48:55,657 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.96ms
+2023-08-08 12:48:55,666 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 2.00ms
+2023-08-08 12:48:55,695 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 0.99ms
+2023-08-08 12:48:55,979 [tornado.access.INFO] 101 GET /scripts/3.%20GitHub%20Added%20SSH%20Key?initWithValues=false (127.0.0.1) 1.01ms
+2023-08-08 12:48:57,539 [web_server.INFO] Calling script 3. GitHub Added SSH Key. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-08 12:48:57,540 [script_server.execution_service.INFO] Calling script #20: powershell -file .\conf\runners\scripts\github-ssh.ps1 ******
+2023-08-08 12:48:57,546 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 14.00ms
+2023-08-08 12:48:57,854 [tornado.access.INFO] 101 GET /executions/io/20 (127.0.0.1) 0.00ms
+2023-08-08 12:48:59,768 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-08 12:48:59,778 [tornado.access.INFO] 200 POST /executions/cleanup/20 (127.0.0.1) 4.00ms
+2023-08-08 12:50:00,043 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 2.00ms
+2023-08-08 12:50:00,054 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.00ms
+2023-08-08 12:50:00,060 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 5.00ms
+2023-08-08 12:50:00,063 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 2.00ms
+2023-08-08 12:50:00,089 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 25.00ms
+2023-08-08 12:50:00,102 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 8.02ms
+2023-08-08 12:50:00,132 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 12:50:00,134 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 1.00ms
+2023-08-08 12:50:00,137 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 2.00ms
+2023-08-08 12:50:00,139 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 0.00ms
+2023-08-08 12:50:00,150 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.00ms
+2023-08-08 12:50:00,152 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 12:50:00,166 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 2.00ms
+2023-08-08 12:50:00,191 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.00ms
+2023-08-08 12:50:00,472 [tornado.access.INFO] 101 GET /scripts/3.%20GitHub%20Added%20SSH%20Key?initWithValues=false (127.0.0.1) 1.00ms
+2023-08-08 12:50:01,361 [web_server.INFO] Calling script 3. GitHub Added SSH Key. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-08 12:50:01,362 [script_server.execution_service.INFO] Calling script #21: powershell -file .\conf\runners\scripts\github-ssh.ps1 ******
+2023-08-08 12:50:01,372 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 16.01ms
+2023-08-08 12:50:01,677 [tornado.access.INFO] 101 GET /executions/io/21 (127.0.0.1) 1.00ms
+2023-08-08 12:50:17,425 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-08 12:50:17,432 [tornado.access.INFO] 200 POST /executions/cleanup/21 (127.0.0.1) 7.01ms
+2023-08-08 12:50:44,050 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 1.00ms
+2023-08-08 12:50:44,060 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.00ms
+2023-08-08 12:50:44,066 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 5.00ms
+2023-08-08 12:50:44,075 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 8.99ms
+2023-08-08 12:50:44,099 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 32.00ms
+2023-08-08 12:50:44,103 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 36.00ms
+2023-08-08 12:50:44,138 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 12:50:44,139 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 0.00ms
+2023-08-08 12:50:44,144 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 3.97ms
+2023-08-08 12:50:44,145 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 1.03ms
+2023-08-08 12:50:44,154 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.00ms
+2023-08-08 12:50:44,156 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 12:50:44,164 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 2.00ms
+2023-08-08 12:50:44,194 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 12:50:44,478 [tornado.access.INFO] 101 GET /scripts/3.%20GitHub%20Added%20SSH%20Key?initWithValues=false (127.0.0.1) 1.01ms
+2023-08-08 12:50:45,370 [web_server.INFO] Calling script 3. GitHub Added SSH Key. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-08 12:50:45,370 [script_server.execution_service.INFO] Calling script #22: powershell -file .\conf\runners\scripts\github-ssh.ps1 ******
+2023-08-08 12:50:45,377 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 12.00ms
+2023-08-08 12:50:45,682 [tornado.access.INFO] 101 GET /executions/io/22 (127.0.0.1) 1.00ms
+2023-08-08 12:50:58,108 [tornado.access.INFO] 200 POST /executions/stop/22 (127.0.0.1) 4.00ms
+2023-08-08 12:50:58,199 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-08 12:50:58,211 [tornado.access.INFO] 200 POST /executions/cleanup/22 (127.0.0.1) 10.00ms
+2023-08-08 12:59:11,286 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 2.01ms
+2023-08-08 12:59:11,296 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.00ms
+2023-08-08 12:59:11,302 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 5.00ms
+2023-08-08 12:59:11,305 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 2.02ms
+2023-08-08 12:59:11,329 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 23.00ms
+2023-08-08 12:59:11,341 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 9.00ms
+2023-08-08 12:59:11,378 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 4.00ms
+2023-08-08 12:59:11,379 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 0.00ms
+2023-08-08 12:59:11,382 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 2.01ms
+2023-08-08 12:59:11,384 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 1.00ms
+2023-08-08 12:59:11,390 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.00ms
+2023-08-08 12:59:11,394 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.00ms
+2023-08-08 12:59:11,410 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 1.00ms
+2023-08-08 12:59:11,427 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.04ms
+2023-08-08 12:59:11,715 [tornado.access.INFO] 101 GET /scripts/3.%20GitHub%20Added%20SSH%20Key?initWithValues=false (127.0.0.1) 1.00ms
+2023-08-08 12:59:13,805 [web_server.INFO] Calling script 3. GitHub Added SSH Key. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-08 12:59:13,806 [script_server.execution_service.INFO] Calling script #23: powershell -file .\conf\runners\scripts\github-ssh.ps1 ******
+2023-08-08 12:59:13,818 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 18.01ms
+2023-08-08 12:59:14,123 [tornado.access.INFO] 101 GET /executions/io/23 (127.0.0.1) 0.00ms
+2023-08-08 12:59:21,808 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-08 12:59:21,819 [tornado.access.INFO] 200 POST /executions/cleanup/23 (127.0.0.1) 4.00ms
+2023-08-08 13:00:53,839 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 1.99ms
+2023-08-08 13:00:53,851 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 13:00:53,856 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 4.00ms
+2023-08-08 13:00:53,882 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 25.00ms
+2023-08-08 13:00:53,886 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 3.00ms
+2023-08-08 13:00:53,896 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 8.00ms
+2023-08-08 13:00:53,932 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 5.00ms
+2023-08-08 13:00:53,936 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 2.00ms
+2023-08-08 13:00:53,937 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 0.00ms
+2023-08-08 13:00:53,939 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 1.00ms
+2023-08-08 13:00:53,945 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.00ms
+2023-08-08 13:00:53,947 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 13:00:53,966 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 2.00ms
+2023-08-08 13:00:53,978 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 13:00:54,268 [tornado.access.INFO] 101 GET /scripts/3.%20GitHub%20Added%20SSH%20Key?initWithValues=false (127.0.0.1) 0.00ms
+2023-08-08 13:00:55,264 [web_server.INFO] Calling script 3. GitHub Added SSH Key. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-08 13:00:55,265 [script_server.execution_service.INFO] Calling script #24: powershell -file .\conf\runners\scripts\github-ssh.ps1 ******
+2023-08-08 13:00:55,271 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 11.00ms
+2023-08-08 13:00:55,576 [tornado.access.INFO] 101 GET /executions/io/24 (127.0.0.1) 0.00ms
+2023-08-08 13:01:00,419 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-08 13:01:00,427 [tornado.access.INFO] 200 POST /executions/cleanup/24 (127.0.0.1) 6.01ms
+2023-08-08 13:05:11,507 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 2.00ms
+2023-08-08 13:05:11,517 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.00ms
+2023-08-08 13:05:11,523 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 5.00ms
+2023-08-08 13:05:11,548 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 25.00ms
+2023-08-08 13:05:11,553 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 3.00ms
+2023-08-08 13:05:11,563 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 9.00ms
+2023-08-08 13:05:11,602 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 4.03ms
+2023-08-08 13:05:11,603 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 0.00ms
+2023-08-08 13:05:11,607 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 3.00ms
+2023-08-08 13:05:11,608 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 1.00ms
+2023-08-08 13:05:11,615 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 2.01ms
+2023-08-08 13:05:11,617 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 13:05:11,630 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 2.00ms
+2023-08-08 13:05:11,649 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 13:05:11,937 [tornado.access.INFO] 101 GET /scripts/3.%20GitHub%20Added%20SSH%20Key?initWithValues=false (127.0.0.1) 1.00ms
+2023-08-08 13:05:12,628 [web_server.INFO] Calling script 3. GitHub Added SSH Key. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-08 13:05:12,629 [script_server.execution_service.INFO] Calling script #25: powershell -file .\conf\runners\scripts\github-ssh.ps1 ******
+2023-08-08 13:05:12,636 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 13.00ms
+2023-08-08 13:05:12,941 [tornado.access.INFO] 101 GET /executions/io/25 (127.0.0.1) 0.97ms
+2023-08-08 13:05:27,777 [tornado.access.INFO] 200 POST /executions/stop/25 (127.0.0.1) 4.66ms
+2023-08-08 13:05:27,878 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-08 13:05:27,887 [tornado.access.INFO] 200 POST /executions/cleanup/25 (127.0.0.1) 7.00ms
+2023-08-08 13:06:35,439 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 1.00ms
+2023-08-08 13:06:35,451 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.00ms
+2023-08-08 13:06:35,456 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 4.00ms
+2023-08-08 13:06:35,460 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 1.99ms
+2023-08-08 13:06:35,486 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 26.00ms
+2023-08-08 13:06:35,498 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 9.00ms
+2023-08-08 13:06:35,533 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 3.00ms
+2023-08-08 13:06:35,535 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 1.03ms
+2023-08-08 13:06:35,538 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 3.00ms
+2023-08-08 13:06:35,539 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 0.00ms
+2023-08-08 13:06:35,545 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.00ms
+2023-08-08 13:06:35,547 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.00ms
+2023-08-08 13:06:35,562 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 1.00ms
+2023-08-08 13:06:35,586 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 13:06:35,870 [tornado.access.INFO] 101 GET /scripts/3.%20GitHub%20Added%20SSH%20Key?initWithValues=false (127.0.0.1) 1.00ms
+2023-08-08 13:06:37,477 [web_server.INFO] Calling script 3. GitHub Added SSH Key. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-08 13:06:37,478 [script_server.execution_service.INFO] Calling script #26: powershell -file .\conf\runners\scripts\github-ssh.ps1 ******
+2023-08-08 13:06:37,484 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 10.99ms
+2023-08-08 13:06:37,789 [tornado.access.INFO] 101 GET /executions/io/26 (127.0.0.1) 0.00ms
+2023-08-08 13:06:52,838 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-08 13:06:52,847 [tornado.access.INFO] 200 POST /executions/cleanup/26 (127.0.0.1) 8.02ms
+2023-08-08 13:08:30,452 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 2.00ms
+2023-08-08 13:08:30,463 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.00ms
+2023-08-08 13:08:30,469 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 4.04ms
+2023-08-08 13:08:30,473 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 3.00ms
+2023-08-08 13:08:30,502 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 27.00ms
+2023-08-08 13:08:30,522 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 8.01ms
+2023-08-08 13:08:30,550 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 13:08:30,557 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 3.00ms
+2023-08-08 13:08:30,559 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 1.00ms
+2023-08-08 13:08:30,564 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 0.00ms
+2023-08-08 13:08:30,569 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 2.00ms
+2023-08-08 13:08:30,572 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 13:08:30,586 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 1.00ms
+2023-08-08 13:08:30,608 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.98ms
+2023-08-08 13:08:30,890 [tornado.access.INFO] 101 GET /scripts/3.%20GitHub%20Added%20SSH%20Key?initWithValues=false (127.0.0.1) 0.96ms
+2023-08-08 13:08:32,026 [web_server.INFO] Calling script 3. GitHub Added SSH Key. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-08 13:08:32,027 [script_server.execution_service.INFO] Calling script #27: powershell -file .\conf\runners\scripts\github-ssh.ps1 ******
+2023-08-08 13:08:32,036 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 14.01ms
+2023-08-08 13:08:32,343 [tornado.access.INFO] 101 GET /executions/io/27 (127.0.0.1) 1.00ms
+2023-08-08 13:08:47,162 [tornado.access.INFO] 200 POST /executions/stop/27 (127.0.0.1) 4.00ms
+2023-08-08 13:08:47,191 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-08 13:08:47,205 [tornado.access.INFO] 200 POST /executions/cleanup/27 (127.0.0.1) 9.00ms
+2023-08-08 13:09:22,164 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 2.00ms
+2023-08-08 13:09:22,175 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.00ms
+2023-08-08 13:09:22,180 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 4.00ms
+2023-08-08 13:09:22,207 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 25.01ms
+2023-08-08 13:09:22,210 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 27.03ms
+2023-08-08 13:09:22,220 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 8.99ms
+2023-08-08 13:09:22,259 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 4.00ms
+2023-08-08 13:09:22,263 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 3.00ms
+2023-08-08 13:09:22,263 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 3.00ms
+2023-08-08 13:09:22,264 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 4.00ms
+2023-08-08 13:09:22,270 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.00ms
+2023-08-08 13:09:22,274 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.00ms
+2023-08-08 13:09:22,289 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 2.00ms
+2023-08-08 13:09:22,307 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.00ms
+2023-08-08 13:09:22,594 [tornado.access.INFO] 101 GET /scripts/3.%20GitHub%20Added%20SSH%20Key?initWithValues=false (127.0.0.1) 0.99ms
+2023-08-08 13:09:23,309 [web_server.INFO] Calling script 3. GitHub Added SSH Key. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-08 13:09:23,310 [script_server.execution_service.INFO] Calling script #28: powershell -file .\conf\runners\scripts\github-ssh.ps1 ******
+2023-08-08 13:09:23,318 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 13.00ms
+2023-08-08 13:09:23,624 [tornado.access.INFO] 101 GET /executions/io/28 (127.0.0.1) 0.00ms
+2023-08-08 13:09:35,261 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-08 13:09:35,271 [tornado.access.INFO] 200 POST /executions/cleanup/28 (127.0.0.1) 7.00ms
+2023-08-08 13:11:41,358 [tornado.access.INFO] 200 GET /admin.html (127.0.0.1) 2.00ms
+2023-08-08 13:11:41,369 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.00ms
+2023-08-08 13:11:41,373 [tornado.access.INFO] 200 GET /css/admin.ee33e5eb.css (127.0.0.1) 2.00ms
+2023-08-08 13:11:41,379 [tornado.access.INFO] 200 GET /css/chunk-admin-vendors.f2833d6d.css (127.0.0.1) 5.00ms
+2023-08-08 13:11:41,385 [tornado.access.INFO] 200 GET /js/admin.d0e2842d.js (127.0.0.1) 9.99ms
+2023-08-08 13:11:41,426 [tornado.access.INFO] 200 GET /js/chunk-admin-vendors.afd45d69.js (127.0.0.1) 51.00ms
+2023-08-08 13:11:41,534 [tornado.access.INFO] 200 GET /admin/scripts/3.%20GitHub%20Added%20SSH%20Key (127.0.0.1) 8.00ms
+2023-08-08 13:11:41,539 [tornado.access.INFO] 200 GET /fonts/roboto-latin-500.020c97dc.woff2 (127.0.0.1) 3.00ms
+2023-08-08 13:11:41,541 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 3.99ms
+2023-08-08 13:11:41,542 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 5.00ms
+2023-08-08 13:11:41,543 [tornado.access.INFO] 200 GET /fonts/roboto-latin-400.479970ff.woff2 (127.0.0.1) 6.00ms
+2023-08-08 13:11:41,613 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.00ms
+2023-08-08 13:12:02,794 [config_service.INFO] Updating script config "3. GitHub Added SSH Key" in conf\runners\github-ssh-key.json
+2023-08-08 13:12:02,796 [tornado.access.INFO] 200 PUT /admin/scripts (127.0.0.1) 7.97ms
+2023-08-08 13:12:02,811 [tornado.access.INFO] 200 GET /admin/scripts/3.%20GitHub%20Added%20SSH%20Key (127.0.0.1) 13.00ms
+2023-08-08 13:12:20,321 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 1.99ms
+2023-08-08 13:12:20,331 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.00ms
+2023-08-08 13:12:20,337 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 4.96ms
+2023-08-08 13:12:20,340 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 3.04ms
+2023-08-08 13:12:20,366 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 26.00ms
+2023-08-08 13:12:20,378 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 38.00ms
+2023-08-08 13:12:20,413 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 4.02ms
+2023-08-08 13:12:20,415 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 1.00ms
+2023-08-08 13:12:20,418 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 3.00ms
+2023-08-08 13:12:20,418 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 3.00ms
+2023-08-08 13:12:20,424 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.00ms
+2023-08-08 13:12:20,427 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.04ms
+2023-08-08 13:12:20,444 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 2.00ms
+2023-08-08 13:12:20,461 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 13:12:20,745 [tornado.access.INFO] 101 GET /scripts/3.%20GitHub%20Added%20SSH%20Key?initWithValues=false (127.0.0.1) 1.00ms
+2023-08-08 13:12:21,990 [web_server.INFO] Calling script 3. GitHub Added SSH Key. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-08 13:12:21,990 [script_server.execution_service.INFO] Calling script #29: powershell -file .\conf\runners\scripts\github-ssh.ps1 ******
+2023-08-08 13:12:21,996 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 11.01ms
+2023-08-08 13:12:22,301 [tornado.access.INFO] 101 GET /executions/io/29 (127.0.0.1) 0.00ms
+2023-08-08 13:12:32,801 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-08 13:12:32,819 [tornado.access.INFO] 200 POST /executions/cleanup/29 (127.0.0.1) 15.00ms
+2023-08-08 13:13:28,045 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 1.99ms
+2023-08-08 13:13:28,056 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 13:13:28,061 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 4.00ms
+2023-08-08 13:13:28,065 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 3.00ms
+2023-08-08 13:13:28,090 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 28.00ms
+2023-08-08 13:13:28,099 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 37.00ms
+2023-08-08 13:13:28,140 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 3.99ms
+2023-08-08 13:13:28,145 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 4.00ms
+2023-08-08 13:13:28,146 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 4.00ms
+2023-08-08 13:13:28,147 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 5.00ms
+2023-08-08 13:13:28,154 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 2.00ms
+2023-08-08 13:13:28,157 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.00ms
+2023-08-08 13:13:28,170 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 2.01ms
+2023-08-08 13:13:28,195 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.00ms
+2023-08-08 13:13:28,477 [tornado.access.INFO] 101 GET /scripts/3.%20GitHub%20Added%20SSH%20Key?initWithValues=false (127.0.0.1) 0.00ms
+2023-08-08 13:13:29,597 [web_server.INFO] Calling script 3. GitHub Added SSH Key. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-08 13:13:29,598 [script_server.execution_service.INFO] Calling script #30: powershell -file .\conf\runners\scripts\github-ssh.ps1 ******
+2023-08-08 13:13:29,605 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 13.00ms
+2023-08-08 13:13:29,910 [tornado.access.INFO] 101 GET /executions/io/30 (127.0.0.1) 1.00ms
+2023-08-08 13:13:35,464 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-08 13:13:35,481 [tornado.access.INFO] 200 POST /executions/cleanup/30 (127.0.0.1) 14.99ms
+2023-08-08 13:14:37,310 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 2.00ms
+2023-08-08 13:14:37,320 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.00ms
+2023-08-08 13:14:37,326 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 4.00ms
+2023-08-08 13:14:37,329 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 1.99ms
+2023-08-08 13:14:37,338 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 8.00ms
+2023-08-08 13:14:37,365 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 35.00ms
+2023-08-08 13:14:37,404 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 4.01ms
+2023-08-08 13:14:37,409 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 4.00ms
+2023-08-08 13:14:37,409 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 4.00ms
+2023-08-08 13:14:37,410 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 4.00ms
+2023-08-08 13:14:37,417 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 2.02ms
+2023-08-08 13:14:37,418 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 13:14:37,427 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 2.00ms
+2023-08-08 13:14:37,455 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 13:14:37,737 [tornado.access.INFO] 101 GET /scripts/3.%20GitHub%20Added%20SSH%20Key?initWithValues=false (127.0.0.1) 0.00ms
+2023-08-08 13:14:38,371 [web_server.INFO] Calling script 3. GitHub Added SSH Key. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-08 13:14:38,372 [script_server.execution_service.INFO] Calling script #31: powershell -file .\conf\runners\scripts\github-ssh.ps1 ******
+2023-08-08 13:14:38,380 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 12.99ms
+2023-08-08 13:14:38,685 [tornado.access.INFO] 101 GET /executions/io/31 (127.0.0.1) 1.00ms
+2023-08-08 13:14:46,059 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-08 13:14:46,071 [tornado.access.INFO] 200 POST /executions/cleanup/31 (127.0.0.1) 10.00ms
+2023-08-08 13:19:06,220 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 1.99ms
+2023-08-08 13:19:06,230 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.00ms
+2023-08-08 13:19:06,236 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 4.00ms
+2023-08-08 13:19:06,240 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 2.99ms
+2023-08-08 13:19:06,266 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 25.01ms
+2023-08-08 13:19:06,275 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 33.99ms
+2023-08-08 13:19:06,311 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 4.99ms
+2023-08-08 13:19:06,316 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 4.01ms
+2023-08-08 13:19:06,317 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 5.00ms
+2023-08-08 13:19:06,317 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 4.00ms
+2023-08-08 13:19:06,324 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.00ms
+2023-08-08 13:19:06,326 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 13:19:06,339 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 2.00ms
+2023-08-08 13:19:06,362 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 13:19:06,646 [tornado.access.INFO] 101 GET /scripts/3.%20GitHub%20Added%20SSH%20Key?initWithValues=false (127.0.0.1) 1.00ms
+2023-08-08 13:19:07,754 [web_server.INFO] Calling script 3. GitHub Added SSH Key. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-08 13:19:07,755 [script_server.execution_service.INFO] Calling script #32: powershell -file .\conf\runners\scripts\github-ssh.ps1 ******
+2023-08-08 13:19:07,762 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 12.99ms
+2023-08-08 13:19:08,069 [tornado.access.INFO] 101 GET /executions/io/32 (127.0.0.1) 1.00ms
+2023-08-08 13:19:20,588 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-08 13:19:20,602 [tornado.access.INFO] 200 POST /executions/cleanup/32 (127.0.0.1) 12.00ms
+2023-08-08 13:19:29,475 [web_server.INFO] Calling script 3. GitHub Added SSH Key. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-08 13:19:29,475 [script_server.execution_service.INFO] Calling script #33: powershell -file .\conf\runners\scripts\github-ssh.ps1 ******
+2023-08-08 13:19:29,483 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 16.01ms
+2023-08-08 13:19:29,788 [tornado.access.INFO] 101 GET /executions/io/33 (127.0.0.1) 1.00ms
+2023-08-08 13:19:40,992 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-08 13:19:41,004 [tornado.access.INFO] 200 POST /executions/cleanup/33 (127.0.0.1) 9.00ms
+2023-08-08 13:22:08,419 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 2.00ms
+2023-08-08 13:22:08,431 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 13:22:08,436 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 5.00ms
+2023-08-08 13:22:08,439 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 2.01ms
+2023-08-08 13:22:08,449 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 9.01ms
+2023-08-08 13:22:08,477 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 37.00ms
+2023-08-08 13:22:08,518 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 4.00ms
+2023-08-08 13:22:08,522 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 3.00ms
+2023-08-08 13:22:08,523 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 3.99ms
+2023-08-08 13:22:08,523 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 2.99ms
+2023-08-08 13:22:08,532 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 3.00ms
+2023-08-08 13:22:08,537 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 3.00ms
+2023-08-08 13:22:08,548 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 1.00ms
+2023-08-08 13:22:08,569 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.00ms
+2023-08-08 13:22:08,853 [tornado.access.INFO] 101 GET /scripts/3.%20GitHub%20Added%20SSH%20Key?initWithValues=false (127.0.0.1) 1.00ms
+2023-08-08 13:22:10,158 [web_server.INFO] Calling script 3. GitHub Added SSH Key. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-08 13:22:10,159 [script_server.execution_service.INFO] Calling script #34: powershell -file .\conf\runners\scripts\github-ssh.ps1 ******
+2023-08-08 13:22:10,167 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 13.00ms
+2023-08-08 13:22:10,472 [tornado.access.INFO] 101 GET /executions/io/34 (127.0.0.1) 0.00ms
+2023-08-08 13:22:19,056 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-08 13:22:19,066 [tornado.access.INFO] 200 POST /executions/cleanup/34 (127.0.0.1) 8.04ms
+2023-08-08 13:24:25,699 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 0.99ms
+2023-08-08 13:24:25,711 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.00ms
+2023-08-08 13:24:25,716 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 4.00ms
+2023-08-08 13:24:25,720 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 3.00ms
+2023-08-08 13:24:25,746 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 28.01ms
+2023-08-08 13:24:25,754 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 36.01ms
+2023-08-08 13:24:25,792 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 3.01ms
+2023-08-08 13:24:25,797 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 4.00ms
+2023-08-08 13:24:25,797 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 3.00ms
+2023-08-08 13:24:25,798 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 4.00ms
+2023-08-08 13:24:25,803 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.01ms
+2023-08-08 13:24:25,805 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 13:24:25,817 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 0.99ms
+2023-08-08 13:24:25,838 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 13:24:26,122 [tornado.access.INFO] 101 GET /scripts/3.%20GitHub%20Added%20SSH%20Key?initWithValues=false (127.0.0.1) 0.99ms
+2023-08-08 13:24:27,151 [web_server.INFO] Calling script 3. GitHub Added SSH Key. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-08 13:24:27,152 [script_server.execution_service.INFO] Calling script #35: powershell -file .\conf\runners\scripts\github-ssh.ps1 ******
+2023-08-08 13:24:27,158 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 11.00ms
+2023-08-08 13:24:27,463 [tornado.access.INFO] 101 GET /executions/io/35 (127.0.0.1) 0.00ms
+2023-08-08 13:24:40,293 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-08 13:24:40,300 [tornado.access.INFO] 200 POST /executions/cleanup/35 (127.0.0.1) 6.00ms
+2023-08-08 13:25:32,033 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 1.00ms
+2023-08-08 13:25:32,045 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.00ms
+2023-08-08 13:25:32,051 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 5.00ms
+2023-08-08 13:25:32,054 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 2.00ms
+2023-08-08 13:25:32,080 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 27.99ms
+2023-08-08 13:25:32,092 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 8.00ms
+2023-08-08 13:25:32,124 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 4.02ms
+2023-08-08 13:25:32,128 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 3.00ms
+2023-08-08 13:25:32,129 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 4.00ms
+2023-08-08 13:25:32,129 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 4.00ms
+2023-08-08 13:25:32,138 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.00ms
+2023-08-08 13:25:32,141 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 13:25:32,154 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 2.00ms
+2023-08-08 13:25:32,177 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 13:25:32,457 [tornado.access.INFO] 101 GET /scripts/3.%20GitHub%20Added%20SSH%20Key?initWithValues=false (127.0.0.1) 1.00ms
+2023-08-08 13:25:45,065 [web_server.INFO] Calling script 3. GitHub Added SSH Key. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-08 13:25:45,065 [script_server.execution_service.INFO] Calling script #36: powershell -file .\conf\runners\scripts\github-ssh.ps1 ******
+2023-08-08 13:25:45,082 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 22.00ms
+2023-08-08 13:25:45,389 [tornado.access.INFO] 101 GET /executions/io/36 (127.0.0.1) 1.00ms
+2023-08-08 13:25:54,273 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-08 13:25:54,280 [tornado.access.INFO] 200 POST /executions/cleanup/36 (127.0.0.1) 7.01ms
+2023-08-08 13:26:57,028 [web_server.INFO] Calling script 3. GitHub Added SSH Key. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-08 13:26:57,029 [script_server.execution_service.INFO] Calling script #37: powershell -file .\conf\runners\scripts\github-ssh.ps1 ******
+2023-08-08 13:26:57,035 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 14.00ms
+2023-08-08 13:26:57,340 [tornado.access.INFO] 101 GET /executions/io/37 (127.0.0.1) 0.00ms
+2023-08-08 13:27:06,227 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-08 13:27:06,238 [tornado.access.INFO] 200 POST /executions/cleanup/37 (127.0.0.1) 8.00ms
+2023-08-08 13:32:11,734 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 2.00ms
+2023-08-08 13:32:11,744 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.00ms
+2023-08-08 13:32:11,750 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 5.00ms
+2023-08-08 13:32:11,753 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 2.96ms
+2023-08-08 13:32:11,778 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 25.04ms
+2023-08-08 13:32:11,788 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 8.00ms
+2023-08-08 13:32:11,828 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 5.00ms
+2023-08-08 13:32:11,829 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 0.00ms
+2023-08-08 13:32:11,832 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 2.04ms
+2023-08-08 13:32:11,833 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 0.00ms
+2023-08-08 13:32:11,840 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.00ms
+2023-08-08 13:32:11,842 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 13:32:11,857 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 1.01ms
+2023-08-08 13:32:11,875 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 13:32:12,160 [tornado.access.INFO] 101 GET /scripts/3.%20GitHub%20Added%20SSH%20Key?initWithValues=false (127.0.0.1) 0.98ms
+2023-08-08 13:32:13,367 [web_server.INFO] Calling script 3. GitHub Added SSH Key. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-08 13:32:13,368 [script_server.execution_service.INFO] Calling script #38: powershell -file .\conf\runners\scripts\github-ssh.ps1 ******
+2023-08-08 13:32:13,374 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 11.00ms
+2023-08-08 13:32:13,679 [tornado.access.INFO] 101 GET /executions/io/38 (127.0.0.1) 1.01ms
+2023-08-08 13:32:30,336 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-08 13:32:30,347 [tornado.access.INFO] 200 POST /executions/cleanup/38 (127.0.0.1) 7.00ms
+2023-08-08 13:33:53,122 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 1.95ms
+2023-08-08 13:33:53,133 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 13:33:53,139 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 4.05ms
+2023-08-08 13:33:53,164 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 25.00ms
+2023-08-08 13:33:53,168 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 4.00ms
+2023-08-08 13:33:53,180 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 7.00ms
+2023-08-08 13:33:53,210 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 4.00ms
+2023-08-08 13:33:53,211 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 1.00ms
+2023-08-08 13:33:53,223 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 10.99ms
+2023-08-08 13:33:53,224 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 0.00ms
+2023-08-08 13:33:53,226 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.00ms
+2023-08-08 13:33:53,232 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.99ms
+2023-08-08 13:33:53,235 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 1.00ms
+2023-08-08 13:33:53,254 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.00ms
+2023-08-08 13:33:53,540 [tornado.access.INFO] 101 GET /scripts/3.%20GitHub%20Added%20SSH%20Key?initWithValues=false (127.0.0.1) 1.01ms
+2023-08-08 13:33:54,255 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 1.00ms
+2023-08-08 13:33:54,265 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.00ms
+2023-08-08 13:33:54,271 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 4.96ms
+2023-08-08 13:33:54,298 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 25.99ms
+2023-08-08 13:33:54,302 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 29.97ms
+2023-08-08 13:33:54,310 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 37.99ms
+2023-08-08 13:33:54,337 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 13:33:54,338 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 0.00ms
+2023-08-08 13:33:54,342 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 3.00ms
+2023-08-08 13:33:54,342 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 0.00ms
+2023-08-08 13:33:54,355 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 2.00ms
+2023-08-08 13:33:54,357 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 13:33:54,365 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 2.00ms
+2023-08-08 13:33:54,386 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 3.00ms
+2023-08-08 13:33:54,673 [tornado.access.INFO] 101 GET /scripts/3.%20GitHub%20Added%20SSH%20Key?initWithValues=false (127.0.0.1) 0.00ms
+2023-08-08 13:33:56,090 [tornado.access.INFO] 101 GET /scripts/1.%20Install%20DBeaver?initWithValues=false (127.0.0.1) 1.00ms
+2023-08-08 13:33:56,754 [tornado.access.INFO] 101 GET /scripts/3.%20GitHub%20configuration?initWithValues=false (127.0.0.1) 1.01ms
+2023-08-08 13:34:06,044 [tornado.access.INFO] 200 GET /scripts?mode=edit (127.0.0.1) 4.05ms
+2023-08-08 13:34:07,013 [tornado.access.INFO] 200 GET /admin.html (127.0.0.1) 3.00ms
+2023-08-08 13:34:07,025 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 13:34:07,028 [tornado.access.INFO] 200 GET /css/admin.ee33e5eb.css (127.0.0.1) 2.00ms
+2023-08-08 13:34:07,071 [tornado.access.INFO] 200 GET /js/chunk-admin-vendors.afd45d69.js (127.0.0.1) 41.98ms
+2023-08-08 13:34:07,077 [tornado.access.INFO] 200 GET /css/chunk-admin-vendors.f2833d6d.css (127.0.0.1) 48.00ms
+2023-08-08 13:34:07,085 [tornado.access.INFO] 200 GET /js/admin.d0e2842d.js (127.0.0.1) 55.00ms
+2023-08-08 13:34:07,178 [tornado.access.INFO] 200 GET /scripts?mode=edit (127.0.0.1) 3.00ms
+2023-08-08 13:34:07,181 [tornado.access.INFO] 200 GET /fonts/roboto-latin-500.020c97dc.woff2 (127.0.0.1) 2.00ms
+2023-08-08 13:34:07,183 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 4.00ms
+2023-08-08 13:34:07,185 [tornado.access.INFO] 200 GET /fonts/roboto-latin-400.479970ff.woff2 (127.0.0.1) 4.99ms
+2023-08-08 13:34:07,186 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 0.00ms
+2023-08-08 13:34:07,213 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 0.99ms
+2023-08-08 13:34:08,359 [tornado.access.INFO] 200 GET /admin/scripts/3.%20GitHub%20configuration (127.0.0.1) 6.00ms
+2023-08-08 13:34:37,908 [config_service.INFO] Updating script config "3. GitHub configuration" in conf\runners\github-ssh-key.json
+2023-08-08 13:34:37,912 [tornado.access.INFO] 200 PUT /admin/scripts (127.0.0.1) 10.02ms
+2023-08-08 13:34:37,926 [tornado.access.INFO] 200 GET /admin/scripts/3.%20GitHub%20configuration (127.0.0.1) 12.00ms
+2023-08-08 13:34:40,129 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 1.00ms
+2023-08-08 13:34:40,140 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.03ms
+2023-08-08 13:34:40,145 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 4.00ms
+2023-08-08 13:34:40,172 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 26.00ms
+2023-08-08 13:34:40,178 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 31.00ms
+2023-08-08 13:34:40,185 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 38.00ms
+2023-08-08 13:34:40,215 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 13:34:40,217 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 0.99ms
+2023-08-08 13:34:40,220 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 3.00ms
+2023-08-08 13:34:40,221 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 1.00ms
+2023-08-08 13:34:40,233 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.00ms
+2023-08-08 13:34:40,235 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 13:34:40,256 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 12.00ms
+2023-08-08 13:34:40,275 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 13:34:40,554 [tornado.access.INFO] 101 GET /scripts/3.%20GitHub%20configuration?initWithValues=false (127.0.0.1) 0.98ms
+2023-08-08 13:35:18,252 [config_service.INFO] Updating script config "3. GitHub configuration" in conf\runners\github-ssh-key.json
+2023-08-08 13:35:18,254 [tornado.access.INFO] 200 PUT /admin/scripts (127.0.0.1) 7.99ms
+2023-08-08 13:35:18,269 [tornado.access.INFO] 200 GET /admin/scripts/3.%20GitHub%20configuration (127.0.0.1) 13.00ms
+2023-08-08 13:36:30,703 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 2.00ms
+2023-08-08 13:36:30,712 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.00ms
+2023-08-08 13:36:30,718 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 5.00ms
+2023-08-08 13:36:30,727 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 8.00ms
+2023-08-08 13:36:30,752 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 33.00ms
+2023-08-08 13:36:30,755 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 36.00ms
+2023-08-08 13:36:30,787 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 4.00ms
+2023-08-08 13:36:30,791 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 3.00ms
+2023-08-08 13:36:30,792 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 4.00ms
+2023-08-08 13:36:30,792 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 3.01ms
+2023-08-08 13:36:30,804 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.00ms
+2023-08-08 13:36:30,806 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.00ms
+2023-08-08 13:36:30,814 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 2.00ms
+2023-08-08 13:36:30,840 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 0.99ms
+2023-08-08 13:36:31,122 [tornado.access.INFO] 101 GET /scripts/3.%20GitHub%20configuration?initWithValues=false (127.0.0.1) 0.98ms
+2023-08-08 13:37:13,324 [config_service.INFO] Updating script config "3. GitHub configuration" in conf\runners\github-ssh-key.json
+2023-08-08 13:37:13,326 [tornado.access.INFO] 200 PUT /admin/scripts (127.0.0.1) 7.00ms
+2023-08-08 13:37:13,342 [tornado.access.INFO] 200 GET /admin/scripts/3.%20GitHub%20configuration (127.0.0.1) 13.00ms
+2023-08-08 13:37:16,199 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 2.04ms
+2023-08-08 13:37:16,209 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 13:37:16,215 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 5.00ms
+2023-08-08 13:37:16,218 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 2.01ms
+2023-08-08 13:37:16,245 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 29.01ms
+2023-08-08 13:37:16,253 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 37.01ms
+2023-08-08 13:37:16,286 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 13:37:16,288 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 1.01ms
+2023-08-08 13:37:16,291 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 3.01ms
+2023-08-08 13:37:16,292 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 0.00ms
+2023-08-08 13:37:16,301 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.00ms
+2023-08-08 13:37:16,303 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 13:37:16,313 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 1.99ms
+2023-08-08 13:37:16,340 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.96ms
+2023-08-08 13:37:16,621 [tornado.access.INFO] 101 GET /scripts/3.%20GitHub%20configuration?initWithValues=false (127.0.0.1) 1.00ms
+2023-08-08 13:37:18,878 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 1.99ms
+2023-08-08 13:37:18,890 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-08 13:37:18,895 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 4.99ms
+2023-08-08 13:37:18,898 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 3.00ms
+2023-08-08 13:37:18,924 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 28.00ms
+2023-08-08 13:37:18,935 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 8.00ms
+2023-08-08 13:37:18,961 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.02ms
+2023-08-08 13:37:18,963 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 1.00ms
+2023-08-08 13:37:18,966 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 2.99ms
+2023-08-08 13:37:18,967 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 1.00ms
+2023-08-08 13:37:18,976 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.00ms
+2023-08-08 13:37:18,978 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 13:37:18,986 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 1.00ms
+2023-08-08 13:37:19,005 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.00ms
+2023-08-08 13:37:19,032 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 1.00ms
+2023-08-08 13:37:19,042 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.00ms
+2023-08-08 13:37:19,048 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 5.00ms
+2023-08-08 13:37:19,074 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 25.00ms
+2023-08-08 13:37:19,085 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 35.00ms
+2023-08-08 13:37:19,088 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 38.00ms
+2023-08-08 13:37:19,122 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.96ms
+2023-08-08 13:37:19,125 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 1.99ms
+2023-08-08 13:37:19,126 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 2.95ms
+2023-08-08 13:37:19,127 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 1.04ms
+2023-08-08 13:37:19,135 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 2.00ms
+2023-08-08 13:37:19,137 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.98ms
+2023-08-08 13:37:19,153 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 2.00ms
+2023-08-08 13:37:19,164 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 2.00ms
+2023-08-08 13:37:19,180 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 2.00ms
+2023-08-08 13:37:19,187 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 4.00ms
+2023-08-08 13:37:19,214 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 26.00ms
+2023-08-08 13:37:19,217 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 29.00ms
+2023-08-08 13:37:19,226 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 8.00ms
+2023-08-08 13:37:19,243 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 13:37:19,254 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 0.00ms
+2023-08-08 13:37:19,258 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 0.00ms
+2023-08-08 13:37:19,262 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 2.96ms
+2023-08-08 13:37:19,262 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 2.96ms
+2023-08-08 13:37:19,273 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 2.01ms
+2023-08-08 13:37:19,279 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 1.00ms
+2023-08-08 13:37:19,317 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 13:37:19,320 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 1.00ms
+2023-08-08 13:37:19,340 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.00ms
+2023-08-08 13:37:19,346 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 4.00ms
+2023-08-08 13:37:19,349 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 7.00ms
+2023-08-08 13:37:19,358 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 8.99ms
+2023-08-08 13:37:19,383 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 34.00ms
+2023-08-08 13:37:19,386 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.00ms
+2023-08-08 13:37:19,413 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 13:37:19,415 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 1.00ms
+2023-08-08 13:37:19,418 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 3.00ms
+2023-08-08 13:37:19,419 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 1.00ms
+2023-08-08 13:37:19,428 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.00ms
+2023-08-08 13:37:19,430 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 13:37:19,436 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 2.00ms
+2023-08-08 13:37:19,445 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 2.00ms
+2023-08-08 13:37:19,469 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.00ms
+2023-08-08 13:37:19,501 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 26.00ms
+2023-08-08 13:37:19,509 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 34.00ms
+2023-08-08 13:37:19,515 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 40.00ms
+2023-08-08 13:37:19,519 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 44.00ms
+2023-08-08 13:37:19,537 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 13:37:19,547 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 13:37:19,548 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 1.00ms
+2023-08-08 13:37:19,551 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 2.02ms
+2023-08-08 13:37:19,553 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 0.00ms
+2023-08-08 13:37:19,561 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 2.01ms
+2023-08-08 13:37:19,574 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 2.00ms
+2023-08-08 13:37:19,594 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 13:37:19,877 [tornado.access.INFO] 101 GET /scripts/3.%20GitHub%20configuration?initWithValues=false (127.0.0.1) 1.01ms
+2023-08-08 13:37:21,362 [tornado.access.INFO] 101 GET /scripts/1.%20Install%20DBeaver?initWithValues=false (127.0.0.1) 0.00ms
+2023-08-08 13:37:22,807 [tornado.access.INFO] 101 GET /scripts/3.%20GitHub%20configuration?initWithValues=false (127.0.0.1) 1.00ms
+2023-08-08 13:37:46,283 [config_service.INFO] Updating script config "3. GitHub configuration" in conf\runners\github-ssh-key.json
+2023-08-08 13:37:46,285 [tornado.access.INFO] 200 PUT /admin/scripts (127.0.0.1) 7.02ms
+2023-08-08 13:37:46,291 [tornado.access.INFO] 200 GET /admin/scripts/3.%20GitHub%20configuration (127.0.0.1) 3.04ms
+2023-08-08 13:37:48,450 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 2.00ms
+2023-08-08 13:37:48,461 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.00ms
+2023-08-08 13:37:48,466 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 4.00ms
+2023-08-08 13:37:48,475 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 8.00ms
+2023-08-08 13:37:48,479 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 11.00ms
+2023-08-08 13:37:48,504 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 36.00ms
+2023-08-08 13:37:48,535 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-08 13:37:48,539 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 3.00ms
+2023-08-08 13:37:48,539 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 3.00ms
+2023-08-08 13:37:48,540 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 0.00ms
+2023-08-08 13:37:48,552 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.00ms
+2023-08-08 13:37:48,555 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-08 13:37:48,566 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 1.00ms
+2023-08-08 13:37:48,592 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.00ms
+2023-08-08 13:37:48,874 [tornado.access.INFO] 101 GET /scripts/3.%20GitHub%20configuration?initWithValues=false (127.0.0.1) 0.00ms
+2023-08-08 13:38:09,110 [tornado.access.INFO] 101 GET /scripts/1.%20Install%20DBeaver?initWithValues=false (127.0.0.1) 0.00ms
+2023-08-08 13:38:10,461 [tornado.access.INFO] 101 GET /scripts/2.%20Install%20Inteliji?initWithValues=false (127.0.0.1) 0.00ms
+2023-08-08 13:38:12,128 [tornado.access.INFO] 101 GET /scripts/3.%20GitHub%20configuration?initWithValues=false (127.0.0.1) 0.97ms

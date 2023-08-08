@@ -1,0 +1,22 @@
+{
+    "folders":  {
+
+                },
+    "connections":  {
+
+                    },
+    "connection-types":  {
+                             "dev":  {
+                                         "name":  "Development",
+                                         "color":  "255,255,255",
+                                         "description":  "Regular development database",
+                                         "auto-commit":  true,
+                                         "confirm-execute":  false,
+                                         "confirm-data-change":  false,
+                                         "smart-commit":  false,
+                                         "smart-commit-recover":  true,
+                                         "auto-close-transactions":  true,
+                                         "close-transactions-period":  1800
+                                     }
+                         }
+}

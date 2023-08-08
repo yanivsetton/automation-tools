@@ -1,0 +1,40 @@
+id:29
+user_name:EC2AMAZ-JSC8TMR
+user_id:127.0.0.1
+script:3. GitHub Added SSH Key
+start_time:1691500341995
+command:powershell -file .\conf\runners\scripts\github-ssh.ps1 ******
+output_format:terminal
+exit_code:0
+>>>>>  OUTPUT STARTED <<<<<
+The selected folder is: C:\Users\Administrator\Desktop
+Generating public/private rsa key pair.
+Your identification has been saved in C:\Users\Administrator\.ssh\id_rsa_20230808131226
+Your public key has been saved in C:\Users\Administrator\.ssh\id_rsa_20230808131226.pub
+The key fingerprint is:
+SHA256:o3YuCQDxDoqeCuLCor7+fFzho9x3MXTR8pzdESzlSno Administrator@EC2AMAZ-JSC8TMR
+The key's randomart image is:
++---[RSA 4096]----+
+|..            +o.|
+|..           +.+ |
+|...          .*.=|
+|oo.    .   .o..+o|
+|o ..  . S ...E   |
+|. . .  = . o.    |
+|+o  o.*.o   o    |
+|B..  *o+ . .     |
+|O=oo.  .o .      |
++----[SHA256]-----+
+Public SSH key has been copied to clipboard
+
+Did you paste the ssh key? 
+Please type Y to proceed or N to abort
+Y
+Y
+Proceeding...
+Cloning into 'Desktop'...
+fatal: 'C:\Users\Administrator\Desktop' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.

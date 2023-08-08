@@ -1,0 +1,20 @@
+{
+  "name": "3. GitHub configuration",
+  "script_path": "powershell -file '.\\conf\\runners\\scripts\\github-ssh.ps1'",
+  "description": "This script will create SSH key automatically and open GutHub setting for you so you just need to paste.\nIt also will ask you if you wish to clone the repo",
+  "output_format": "terminal",
+  "parameters": [
+    {
+      "name": "REPO",
+      "required": false,
+      "type": "list",
+      "default": "https://github.com/yanivsetton/automation-tools.git",
+      "constant": false,
+      "description": "Please select the repo to clone to your PC",
+      "secure": true,
+      "values": [
+        "https://github.com/yanivsetton/automation-tools.git"
+      ]
+    }
+  ]
+}

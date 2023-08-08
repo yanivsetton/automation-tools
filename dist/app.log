@@ -1,0 +1,12 @@
+2023-08-04 12:21:25,343 Received request for the homepage
+2023-08-04 12:21:29,325 Received request to run script: Install_Dbeaver.ps1
+2023-08-04 12:21:29,452 Error running script: Install_Dbeaver.ps1, Error: The argument './Install_Dbeaver.ps1' to the -File parameter does not exist. Provide the path to an existing '.ps1' file as an argument to the -File parameter.
+
+2023-08-04 12:42:26,451 Received request for the homepage
+2023-08-04 12:42:28,015 Received request to run script: Install_Dbeaver.ps1
+2023-08-04 12:42:28,117 Error running script: Install_Dbeaver.ps1, Error: The argument 'Install_Dbeaver.ps1' to the -File parameter does not exist. Provide the path to an existing '.ps1' file as an argument to the -File parameter.
+
+2023-08-04 12:42:53,047 Received request to run script: Install_inteliji.ps1
+2023-08-04 12:42:53,143 Error running script: Install_inteliji.ps1, Error: The argument 'Install_inteliji.ps1' to the -File parameter does not exist. Provide the path to an existing '.ps1' file as an argument to the -File parameter.
+
+2023-08-04 12:45:03,893 Received request for the homepage

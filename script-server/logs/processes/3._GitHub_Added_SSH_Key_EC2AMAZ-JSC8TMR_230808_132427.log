@@ -1,0 +1,36 @@
+id:35
+user_name:EC2AMAZ-JSC8TMR
+user_id:127.0.0.1
+script:3. GitHub Added SSH Key
+start_time:1691501067157
+command:powershell -file .\conf\runners\scripts\github-ssh.ps1 ******
+output_format:terminal
+exit_code:0
+>>>>>  OUTPUT STARTED <<<<<
+The selected folder is: C:\Users\Administrator\Downloads\github
+Generating public/private rsa key pair.
+Your identification has been saved in C:\Users\Administrator\.ssh\id_rsa_20230808132433
+Your public key has been saved in C:\Users\Administrator\.ssh\id_rsa_20230808132433.pub
+The key fingerprint is:
+SHA256:qZLR250vB55wKTeoXYPjpdIzBW0OZzMve3PVE9uFu4s Administrator@EC2AMAZ-JSC8TMR
+The key's randomart image is:
++---[RSA 4096]----+
+|                 |
+|                 |
+|         .     . |
+|     .  o.B   ...|
+|    . . SX =   .*|
+|     o +*.&.. .o+|
+|    o o=.%oB   o.|
+|     .o B =.+.o  |
+|       . o +Eo.. |
++----[SHA256]-----+
+Public SSH key has been copied to clipboard
+
+Did you paste the ssh key? 
+Please type Y to proceed or N to abort
+Y
+Y
+Proceeding...
+Cloning into 'C:\Users\Administrator\Downloads\github\\github'...
+Destination folder already exists. Please choose a different folder.
