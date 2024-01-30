@@ -1,0 +1,17 @@
+id:3
+user_name:EC2AMAZ-JSC8TMR
+user_id:127.0.0.1
+script:1. Install DBeaver
+start_time:1691567273926
+command:powershell -file .\conf\runners\scripts\Install_Dbeaver.ps1 ******
+output_format:terminal
+exit_code:0
+>>>>>  OUTPUT STARTED <<<<<
+
+Installing DBeaver for you..
+Yap totally full automation
+Ohh.. also
+Creating for you the profiles and connections
+ starting now..
+Dbeaver installation and configuration
+has been successfully applied

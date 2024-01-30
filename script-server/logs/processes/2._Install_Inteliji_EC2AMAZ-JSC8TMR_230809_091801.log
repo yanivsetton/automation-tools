@@ -1,0 +1,35 @@
+id:15
+user_name:EC2AMAZ-JSC8TMR
+user_id:127.0.0.1
+script:2. Install Inteliji
+start_time:1691572681656
+command:powershell -file .\conf\runners\scripts\Install_Inteliji.ps1 ******
+output_format:terminal
+exit_code:0
+>>>>>  OUTPUT STARTED <<<<<
+
+
+Installing Inteliji for you..
+Yap totally full automation
+Ohh.. also
+Setting for you the profiles
+ starting now..
+Installing IntelliJ IDEA Ultimate...
+Chocolatey v2.2.0
+Installing the following packages:
+intellijidea-ultimate
+By installing, you accept licenses for the packages.
+intellijidea-ultimate v2023.2.0 already installed.
+ Use --force to reinstall, specify a version to install, or try upgrade.
+
+Chocolatey installed 0/1 packages. 
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+
+Warnings:
+ - intellijidea-ultimate - intellijidea-ultimate v2023.2.0 already installed.
+ Use --force to reinstall, specify a version to install, or try upgrade.
+
+Enjoy using Chocolatey? Explore more amazing features to take your
+experience to the next level at
+ https://chocolatey.org/compare
+IntelliJ IDEA Ultimate installed successfully!

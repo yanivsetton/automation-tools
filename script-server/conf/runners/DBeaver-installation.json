@@ -1,5 +1,5 @@
 {
-  "name": "1. Install DBeaver",
+  "name": "1. Install DBeaver test",
   "script_path": "powershell -file '.\\conf\\runners\\scripts\\Install_Dbeaver.ps1'",
   "description": "This script will install DBeaver community edition and set the profiles for different Envs",
   "requires_terminal": false,

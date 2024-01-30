@@ -8,12 +8,12 @@
       "name": "REPO",
       "required": false,
       "type": "list",
-      "default": "https://github.com/yanivsetton/automation-tools.git",
+      "default": "https://github.com/change_me/automation-tools.git", /* Need to chnage to your github repo*/
       "constant": false,
       "description": "Please select the repo to clone to your PC",
       "secure": true,
       "values": [
-        "https://github.com/yanivsetton/automation-tools.git"
+        "https://github.com/change_me/automation-tools.git" /* Need to chnage to your github repo*/
       ]
     }
   ]

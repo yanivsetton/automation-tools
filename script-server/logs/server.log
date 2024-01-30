@@ -1,0 +1,900 @@
+2023-08-09 07:35:42,477 [root.INFO] Starting Script Server, v1.17.1
+2023-08-09 07:35:46,136 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 44.00ms
+2023-08-09 07:35:46,148 [tornado.general.ERROR] Could not open static file 'C:\\Users\\Administrator\\Documents\\automation-tools\\script-server\\conf\\theme\\theme.css'
+2023-08-09 07:35:46,149 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-09 07:35:46,169 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 19.00ms
+2023-08-09 07:35:46,315 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 145.00ms
+2023-08-09 07:35:46,331 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 15.02ms
+2023-08-09 07:35:46,380 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 47.00ms
+2023-08-09 07:35:46,569 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 111.00ms
+2023-08-09 07:35:46,582 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 12.99ms
+2023-08-09 07:35:46,599 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 15.00ms
+2023-08-09 07:35:46,600 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 16.00ms
+2023-08-09 07:35:46,602 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 16.00ms
+2023-08-09 07:35:46,614 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 28.99ms
+2023-08-09 07:35:46,629 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 14.00ms
+2023-08-09 07:35:46,642 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.03ms
+2023-08-09 07:35:46,921 [tornado.access.INFO] 101 GET /scripts/1.%20Install%20DBeaver?initWithValues=false (127.0.0.1) 1.00ms
+2023-08-09 07:35:50,532 [web_server.INFO] Calling script 1. Install DBeaver. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-09 07:35:50,533 [script_server.execution_service.INFO] Calling script #1: powershell -file .\conf\runners\scripts\Install_Dbeaver.ps1 ******
+2023-08-09 07:35:50,593 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 66.04ms
+2023-08-09 07:35:50,900 [tornado.access.INFO] 101 GET /executions/io/1 (127.0.0.1) 0.00ms
+2023-08-09 07:36:44,998 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-09 07:36:45,103 [tornado.access.INFO] 200 POST /executions/cleanup/1 (127.0.0.1) 104.00ms
+2023-08-09 07:44:06,649 [web_server.INFO] Calling script 1. Install DBeaver. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-09 07:44:06,649 [script_server.execution_service.INFO] Calling script #2: powershell -file .\conf\runners\scripts\Install_Dbeaver.ps1 ******
+2023-08-09 07:44:06,656 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 15.00ms
+2023-08-09 07:44:06,961 [tornado.access.INFO] 101 GET /executions/io/2 (127.0.0.1) 1.00ms
+2023-08-09 07:44:58,728 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-09 07:44:58,834 [tornado.access.INFO] 200 POST /executions/cleanup/2 (127.0.0.1) 103.00ms
+2023-08-09 07:47:50,178 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 1.99ms
+2023-08-09 07:47:50,195 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-09 07:47:50,204 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 5.00ms
+2023-08-09 07:47:50,208 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 3.00ms
+2023-08-09 07:47:50,235 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 26.00ms
+2023-08-09 07:47:50,245 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 9.00ms
+2023-08-09 07:47:50,319 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 4.00ms
+2023-08-09 07:47:50,321 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 1.00ms
+2023-08-09 07:47:50,324 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 1.99ms
+2023-08-09 07:47:50,326 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 1.00ms
+2023-08-09 07:47:50,334 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.01ms
+2023-08-09 07:47:50,336 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 0.99ms
+2023-08-09 07:47:50,348 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 1.00ms
+2023-08-09 07:47:50,369 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.99ms
+2023-08-09 07:47:50,650 [tornado.access.INFO] 101 GET /scripts/1.%20Install%20DBeaver?initWithValues=false (127.0.0.1) 0.00ms
+2023-08-09 07:47:53,889 [web_server.INFO] Calling script 1. Install DBeaver. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-09 07:47:53,890 [script_server.execution_service.INFO] Calling script #3: powershell -file .\conf\runners\scripts\Install_Dbeaver.ps1 ******
+2023-08-09 07:47:53,926 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 43.00ms
+2023-08-09 07:47:54,234 [tornado.access.INFO] 101 GET /executions/io/3 (127.0.0.1) 0.98ms
+2023-08-09 07:48:25,738 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-09 07:48:25,744 [tornado.access.INFO] 200 POST /executions/cleanup/3 (127.0.0.1) 4.00ms
+2023-08-09 07:50:11,877 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 0.99ms
+2023-08-09 07:50:11,888 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-09 07:50:11,895 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 4.00ms
+2023-08-09 07:50:11,899 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 3.00ms
+2023-08-09 07:50:11,925 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 25.04ms
+2023-08-09 07:50:11,934 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 8.00ms
+2023-08-09 07:50:11,963 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-09 07:50:11,965 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 0.00ms
+2023-08-09 07:50:11,969 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 2.00ms
+2023-08-09 07:50:11,971 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 0.00ms
+2023-08-09 07:50:11,980 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.00ms
+2023-08-09 07:50:11,982 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-09 07:50:11,992 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 1.00ms
+2023-08-09 07:50:12,011 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-09 07:50:12,298 [tornado.access.INFO] 101 GET /scripts/1.%20Install%20DBeaver?initWithValues=false (127.0.0.1) 1.00ms
+2023-08-09 07:50:14,006 [web_server.INFO] Calling script 1. Install DBeaver. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-09 07:50:14,007 [script_server.execution_service.INFO] Calling script #4: powershell -file .\conf\runners\scripts\Install_Dbeaver.ps1 ******
+2023-08-09 07:50:14,022 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 23.00ms
+2023-08-09 07:50:14,328 [tornado.access.INFO] 101 GET /executions/io/4 (127.0.0.1) 1.00ms
+2023-08-09 07:55:56,445 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-09 07:55:56,752 [tornado.access.INFO] 200 POST /executions/cleanup/4 (127.0.0.1) 1.99ms
+2023-08-09 07:59:09,040 [web_server.INFO] Calling script 1. Install DBeaver. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-09 07:59:09,041 [script_server.execution_service.INFO] Calling script #5: powershell -file .\conf\runners\scripts\Install_Dbeaver.ps1 ******
+2023-08-09 07:59:09,053 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 19.98ms
+2023-08-09 07:59:09,381 [tornado.access.INFO] 101 GET /executions/io/5 (127.0.0.1) 0.00ms
+2023-08-09 08:00:07,894 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-09 08:00:07,910 [tornado.access.INFO] 200 POST /executions/cleanup/5 (127.0.0.1) 10.03ms
+2023-08-09 08:01:27,939 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 1.00ms
+2023-08-09 08:01:27,957 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-09 08:01:27,964 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 4.00ms
+2023-08-09 08:01:27,967 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 2.00ms
+2023-08-09 08:01:27,994 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 25.00ms
+2023-08-09 08:01:28,003 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 8.00ms
+2023-08-09 08:01:28,074 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 3.99ms
+2023-08-09 08:01:28,076 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 1.00ms
+2023-08-09 08:01:28,080 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 3.00ms
+2023-08-09 08:01:28,081 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 0.00ms
+2023-08-09 08:01:28,089 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.00ms
+2023-08-09 08:01:28,091 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-09 08:01:28,099 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 1.01ms
+2023-08-09 08:01:28,124 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.99ms
+2023-08-09 08:01:28,406 [tornado.access.INFO] 101 GET /scripts/1.%20Install%20DBeaver?initWithValues=false (127.0.0.1) 1.00ms
+2023-08-09 08:01:30,861 [web_server.INFO] Calling script 1. Install DBeaver. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-09 08:01:30,861 [script_server.execution_service.INFO] Calling script #6: powershell -file .\conf\runners\scripts\Install_Dbeaver.ps1 ******
+2023-08-09 08:01:30,876 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 20.00ms
+2023-08-09 08:01:31,182 [tornado.access.INFO] 101 GET /executions/io/6 (127.0.0.1) 1.00ms
+2023-08-09 08:02:24,340 [tornado.access.INFO] 200 POST /executions/stop/6 (127.0.0.1) 4.00ms
+2023-08-09 08:03:18,797 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 0.99ms
+2023-08-09 08:03:18,812 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-09 08:03:18,816 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.98ms
+2023-08-09 08:03:18,821 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 4.00ms
+2023-08-09 08:03:18,824 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 2.00ms
+2023-08-09 08:03:18,851 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 26.00ms
+2023-08-09 08:03:18,862 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 10.00ms
+2023-08-09 08:03:18,939 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-09 08:03:18,941 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 0.00ms
+2023-08-09 08:03:18,945 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 3.00ms
+2023-08-09 08:03:18,947 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 1.00ms
+2023-08-09 08:03:18,959 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.99ms
+2023-08-09 08:03:18,961 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-09 08:03:18,970 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 1.00ms
+2023-08-09 08:03:18,982 [tornado.access.INFO] 200 GET /executions/config/6 (127.0.0.1) 1.00ms
+2023-08-09 08:03:19,005 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-09 08:03:19,276 [tornado.access.INFO] 101 GET /scripts/1.%20Install%20DBeaver?initWithValues=false (127.0.0.1) 1.00ms
+2023-08-09 08:03:19,294 [tornado.access.INFO] 101 GET /executions/io/6 (127.0.0.1) 1.00ms
+2023-08-09 08:03:24,312 [tornado.access.INFO] 200 POST /executions/stop/6 (127.0.0.1) 1.04ms
+2023-08-09 08:03:24,863 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-09 08:03:24,971 [tornado.access.INFO] 200 POST /executions/cleanup/6 (127.0.0.1) 2.04ms
+2023-08-09 08:03:26,096 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 1.00ms
+2023-08-09 08:03:26,116 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-09 08:03:26,144 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 26.00ms
+2023-08-09 08:03:26,149 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 31.00ms
+2023-08-09 08:03:26,152 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 34.00ms
+2023-08-09 08:03:26,161 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 8.00ms
+2023-08-09 08:03:26,186 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.01ms
+2023-08-09 08:03:26,187 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 0.00ms
+2023-08-09 08:03:26,189 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 1.00ms
+2023-08-09 08:03:26,191 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 3.00ms
+2023-08-09 08:03:26,199 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.00ms
+2023-08-09 08:03:26,203 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-09 08:03:26,214 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 2.00ms
+2023-08-09 08:03:26,229 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-09 08:03:26,518 [tornado.access.INFO] 101 GET /scripts/1.%20Install%20DBeaver?initWithValues=false (127.0.0.1) 2.00ms
+2023-08-09 08:03:28,365 [web_server.INFO] Calling script 1. Install DBeaver. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-09 08:03:28,366 [script_server.execution_service.INFO] Calling script #7: powershell -file .\conf\runners\scripts\Install_Dbeaver.ps1 ******
+2023-08-09 08:03:28,379 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 19.00ms
+2023-08-09 08:03:28,684 [tornado.access.INFO] 101 GET /executions/io/7 (127.0.0.1) 1.00ms
+2023-08-09 08:04:20,670 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-09 08:04:20,708 [tornado.access.INFO] 200 POST /executions/cleanup/7 (127.0.0.1) 32.00ms
+2023-08-09 08:05:23,767 [web_server.INFO] Calling script 1. Install DBeaver. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-09 08:05:23,768 [script_server.execution_service.INFO] Calling script #8: powershell -file .\conf\runners\scripts\Install_Dbeaver.ps1 ******
+2023-08-09 08:05:23,776 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 16.00ms
+2023-08-09 08:05:24,105 [tornado.access.INFO] 101 GET /executions/io/8 (127.0.0.1) 1.01ms
+2023-08-09 08:06:27,372 [tornado.access.INFO] 200 POST /executions/stop/8 (127.0.0.1) 3.02ms
+2023-08-09 08:07:16,912 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 2.00ms
+2023-08-09 08:07:16,924 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-09 08:07:16,932 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-09 08:07:16,937 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 4.02ms
+2023-08-09 08:07:16,946 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 9.00ms
+2023-08-09 08:07:16,949 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 12.00ms
+2023-08-09 08:07:16,976 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 37.97ms
+2023-08-09 08:07:17,054 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-09 08:07:17,058 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 1.00ms
+2023-08-09 08:07:17,061 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 3.00ms
+2023-08-09 08:07:17,064 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 4.00ms
+2023-08-09 08:07:17,072 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.00ms
+2023-08-09 08:07:17,074 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-09 08:07:17,086 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 2.00ms
+2023-08-09 08:07:17,102 [tornado.access.INFO] 200 GET /executions/config/8 (127.0.0.1) 1.04ms
+2023-08-09 08:07:17,122 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-09 08:07:17,397 [tornado.access.INFO] 101 GET /scripts/1.%20Install%20DBeaver?initWithValues=false (127.0.0.1) 0.00ms
+2023-08-09 08:07:17,411 [tornado.access.INFO] 101 GET /executions/io/8 (127.0.0.1) 0.98ms
+2023-08-09 08:07:22,427 [tornado.access.INFO] 200 POST /executions/stop/8 (127.0.0.1) 1.00ms
+2023-08-09 08:07:22,904 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-09 08:07:23,041 [tornado.access.INFO] 200 POST /executions/cleanup/8 (127.0.0.1) 2.00ms
+2023-08-09 08:07:23,879 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 1.00ms
+2023-08-09 08:07:23,898 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-09 08:07:23,904 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 4.01ms
+2023-08-09 08:07:23,908 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 8.00ms
+2023-08-09 08:07:23,916 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 7.95ms
+2023-08-09 08:07:23,942 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 32.98ms
+2023-08-09 08:07:23,969 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-09 08:07:23,970 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 0.00ms
+2023-08-09 08:07:23,973 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 2.00ms
+2023-08-09 08:07:23,974 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 0.00ms
+2023-08-09 08:07:23,982 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.00ms
+2023-08-09 08:07:23,986 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-09 08:07:23,997 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 1.00ms
+2023-08-09 08:07:24,014 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.99ms
+2023-08-09 08:07:24,303 [tornado.access.INFO] 101 GET /scripts/1.%20Install%20DBeaver?initWithValues=false (127.0.0.1) 0.99ms
+2023-08-09 08:07:25,810 [web_server.INFO] Calling script 1. Install DBeaver. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-09 08:07:25,810 [script_server.execution_service.INFO] Calling script #9: powershell -file .\conf\runners\scripts\Install_Dbeaver.ps1 ******
+2023-08-09 08:07:25,818 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 12.00ms
+2023-08-09 08:07:26,121 [tornado.access.INFO] 101 GET /executions/io/9 (127.0.0.1) 0.94ms
+2023-08-09 08:08:37,123 [tornado.access.INFO] 200 POST /executions/stop/9 (127.0.0.1) 1.00ms
+2023-08-09 08:09:21,280 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 3.99ms
+2023-08-09 08:09:21,293 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-09 08:09:21,295 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-09 08:09:21,300 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 4.00ms
+2023-08-09 08:09:21,304 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 3.00ms
+2023-08-09 08:09:21,316 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 9.01ms
+2023-08-09 08:09:21,341 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 33.00ms
+2023-08-09 08:09:21,418 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.01ms
+2023-08-09 08:09:21,422 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 3.00ms
+2023-08-09 08:09:21,422 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 3.00ms
+2023-08-09 08:09:21,424 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 1.00ms
+2023-08-09 08:09:21,438 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 2.01ms
+2023-08-09 08:09:21,440 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.96ms
+2023-08-09 08:09:21,453 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 2.00ms
+2023-08-09 08:09:21,466 [tornado.access.INFO] 200 GET /executions/config/9 (127.0.0.1) 1.00ms
+2023-08-09 08:09:21,485 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-09 08:09:21,755 [tornado.access.INFO] 101 GET /scripts/1.%20Install%20DBeaver?initWithValues=false (127.0.0.1) 0.98ms
+2023-08-09 08:09:21,778 [tornado.access.INFO] 101 GET /executions/io/9 (127.0.0.1) 0.00ms
+2023-08-09 08:09:26,795 [tornado.access.INFO] 200 POST /executions/stop/9 (127.0.0.1) 1.00ms
+2023-08-09 08:09:27,317 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 2.00ms
+2023-08-09 08:09:27,514 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-09 08:09:27,515 [tornado.application.ERROR] Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOMainLoop object at 0x000001486ED83D50>>, <Task finished name='Task-2445' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Python311\Lib\site-packages\tornado\websocket.py:1085> exception=WebSocketClosedError()>)
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 738, in _run_callback
+    ret = callback()
+          ^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 762, in _discard_future_result
+    future.result()
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2023-08-09 08:09:27,550 [tornado.application.ERROR] Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOMainLoop object at 0x000001486ED83D50>>, <Task finished name='Task-2446' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Python311\Lib\site-packages\tornado\websocket.py:1085> exception=WebSocketClosedError()>)
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 738, in _run_callback
+    ret = callback()
+          ^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 762, in _discard_future_result
+    future.result()
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2023-08-09 08:09:27,555 [tornado.application.ERROR] Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOMainLoop object at 0x000001486ED83D50>>, <Task finished name='Task-2447' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Python311\Lib\site-packages\tornado\websocket.py:1085> exception=WebSocketClosedError()>)
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 738, in _run_callback
+    ret = callback()
+          ^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 762, in _discard_future_result
+    future.result()
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2023-08-09 08:09:27,556 [tornado.application.ERROR] Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOMainLoop object at 0x000001486ED83D50>>, <Task finished name='Task-2448' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Python311\Lib\site-packages\tornado\websocket.py:1085> exception=WebSocketClosedError()>)
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 738, in _run_callback
+    ret = callback()
+          ^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 762, in _discard_future_result
+    future.result()
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2023-08-09 08:09:27,558 [tornado.application.ERROR] Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOMainLoop object at 0x000001486ED83D50>>, <Task finished name='Task-2449' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Python311\Lib\site-packages\tornado\websocket.py:1085> exception=WebSocketClosedError()>)
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 738, in _run_callback
+    ret = callback()
+          ^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 762, in _discard_future_result
+    future.result()
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2023-08-09 08:09:27,560 [tornado.application.ERROR] Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOMainLoop object at 0x000001486ED83D50>>, <Task finished name='Task-2450' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Python311\Lib\site-packages\tornado\websocket.py:1085> exception=WebSocketClosedError()>)
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 738, in _run_callback
+    ret = callback()
+          ^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 762, in _discard_future_result
+    future.result()
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2023-08-09 08:09:27,561 [tornado.application.ERROR] Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOMainLoop object at 0x000001486ED83D50>>, <Task finished name='Task-2451' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Python311\Lib\site-packages\tornado\websocket.py:1085> exception=WebSocketClosedError()>)
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 738, in _run_callback
+    ret = callback()
+          ^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 762, in _discard_future_result
+    future.result()
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2023-08-09 08:09:27,562 [tornado.application.ERROR] Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOMainLoop object at 0x000001486ED83D50>>, <Task finished name='Task-2452' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Python311\Lib\site-packages\tornado\websocket.py:1085> exception=WebSocketClosedError()>)
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 738, in _run_callback
+    ret = callback()
+          ^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 762, in _discard_future_result
+    future.result()
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2023-08-09 08:09:27,563 [tornado.application.ERROR] Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOMainLoop object at 0x000001486ED83D50>>, <Task finished name='Task-2453' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Python311\Lib\site-packages\tornado\websocket.py:1085> exception=WebSocketClosedError()>)
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 738, in _run_callback
+    ret = callback()
+          ^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 762, in _discard_future_result
+    future.result()
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2023-08-09 08:09:27,564 [tornado.application.ERROR] Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOMainLoop object at 0x000001486ED83D50>>, <Task finished name='Task-2454' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Python311\Lib\site-packages\tornado\websocket.py:1085> exception=WebSocketClosedError()>)
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 738, in _run_callback
+    ret = callback()
+          ^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 762, in _discard_future_result
+    future.result()
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2023-08-09 08:09:27,565 [tornado.application.ERROR] Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOMainLoop object at 0x000001486ED83D50>>, <Task finished name='Task-2455' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Python311\Lib\site-packages\tornado\websocket.py:1085> exception=WebSocketClosedError()>)
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 738, in _run_callback
+    ret = callback()
+          ^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 762, in _discard_future_result
+    future.result()
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2023-08-09 08:09:27,567 [tornado.application.ERROR] Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOMainLoop object at 0x000001486ED83D50>>, <Task finished name='Task-2456' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Python311\Lib\site-packages\tornado\websocket.py:1085> exception=WebSocketClosedError()>)
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 738, in _run_callback
+    ret = callback()
+          ^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 762, in _discard_future_result
+    future.result()
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2023-08-09 08:09:27,568 [tornado.application.ERROR] Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOMainLoop object at 0x000001486ED83D50>>, <Task finished name='Task-2457' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Python311\Lib\site-packages\tornado\websocket.py:1085> exception=WebSocketClosedError()>)
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 738, in _run_callback
+    ret = callback()
+          ^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 762, in _discard_future_result
+    future.result()
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2023-08-09 08:09:27,569 [tornado.application.ERROR] Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOMainLoop object at 0x000001486ED83D50>>, <Task finished name='Task-2458' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Python311\Lib\site-packages\tornado\websocket.py:1085> exception=WebSocketClosedError()>)
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 738, in _run_callback
+    ret = callback()
+          ^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 762, in _discard_future_result
+    future.result()
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2023-08-09 08:09:27,570 [tornado.application.ERROR] Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOMainLoop object at 0x000001486ED83D50>>, <Task finished name='Task-2459' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Python311\Lib\site-packages\tornado\websocket.py:1085> exception=WebSocketClosedError()>)
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 738, in _run_callback
+    ret = callback()
+          ^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 762, in _discard_future_result
+    future.result()
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2023-08-09 08:09:27,571 [tornado.application.ERROR] Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOMainLoop object at 0x000001486ED83D50>>, <Task finished name='Task-2460' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Python311\Lib\site-packages\tornado\websocket.py:1085> exception=WebSocketClosedError()>)
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 738, in _run_callback
+    ret = callback()
+          ^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 762, in _discard_future_result
+    future.result()
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2023-08-09 08:09:27,572 [tornado.application.ERROR] Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOMainLoop object at 0x000001486ED83D50>>, <Task finished name='Task-2461' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Python311\Lib\site-packages\tornado\websocket.py:1085> exception=WebSocketClosedError()>)
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 738, in _run_callback
+    ret = callback()
+          ^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 762, in _discard_future_result
+    future.result()
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2023-08-09 08:09:27,575 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-09 08:09:27,601 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 26.99ms
+2023-08-09 08:09:27,610 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 36.00ms
+2023-08-09 08:09:27,613 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 38.01ms
+2023-08-09 08:09:27,620 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 45.01ms
+2023-08-09 08:09:27,652 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-09 08:09:27,657 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 1.00ms
+2023-08-09 08:09:27,658 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 0.99ms
+2023-08-09 08:09:27,661 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 3.99ms
+2023-08-09 08:09:27,673 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 2.00ms
+2023-08-09 08:09:27,675 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-09 08:09:27,689 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 1.00ms
+2023-08-09 08:09:27,697 [tornado.access.INFO] 200 GET /executions/config/9 (127.0.0.1) 1.01ms
+2023-08-09 08:09:27,721 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.00ms
+2023-08-09 08:09:27,993 [tornado.access.INFO] 101 GET /scripts/1.%20Install%20DBeaver?initWithValues=false (127.0.0.1) 1.02ms
+2023-08-09 08:09:28,004 [tornado.access.INFO] 101 GET /executions/io/9 (127.0.0.1) 0.00ms
+2023-08-09 08:09:33,022 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 2.59ms
+2023-08-09 08:09:33,024 [tornado.access.INFO] 200 POST /executions/stop/9 (127.0.0.1) 4.70ms
+2023-08-09 08:09:33,194 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-09 08:09:33,195 [tornado.application.ERROR] Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOMainLoop object at 0x000001486ED83D50>>, <Task finished name='Task-2631' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Python311\Lib\site-packages\tornado\websocket.py:1085> exception=WebSocketClosedError()>)
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 738, in _run_callback
+    ret = callback()
+          ^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 762, in _discard_future_result
+    future.result()
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2023-08-09 08:09:33,197 [tornado.application.ERROR] Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOMainLoop object at 0x000001486ED83D50>>, <Task finished name='Task-2632' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Python311\Lib\site-packages\tornado\websocket.py:1085> exception=WebSocketClosedError()>)
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 738, in _run_callback
+    ret = callback()
+          ^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 762, in _discard_future_result
+    future.result()
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2023-08-09 08:09:33,201 [tornado.application.ERROR] Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOMainLoop object at 0x000001486ED83D50>>, <Task finished name='Task-2633' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Python311\Lib\site-packages\tornado\websocket.py:1085> exception=WebSocketClosedError()>)
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 738, in _run_callback
+    ret = callback()
+          ^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 762, in _discard_future_result
+    future.result()
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2023-08-09 08:09:33,203 [tornado.application.ERROR] Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOMainLoop object at 0x000001486ED83D50>>, <Task finished name='Task-2634' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Python311\Lib\site-packages\tornado\websocket.py:1085> exception=WebSocketClosedError()>)
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 738, in _run_callback
+    ret = callback()
+          ^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 762, in _discard_future_result
+    future.result()
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2023-08-09 08:09:33,204 [tornado.application.ERROR] Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOMainLoop object at 0x000001486ED83D50>>, <Task finished name='Task-2635' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Python311\Lib\site-packages\tornado\websocket.py:1085> exception=WebSocketClosedError()>)
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 738, in _run_callback
+    ret = callback()
+          ^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 762, in _discard_future_result
+    future.result()
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2023-08-09 08:09:33,207 [tornado.application.ERROR] Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOMainLoop object at 0x000001486ED83D50>>, <Task finished name='Task-2636' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Python311\Lib\site-packages\tornado\websocket.py:1085> exception=WebSocketClosedError()>)
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 738, in _run_callback
+    ret = callback()
+          ^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 762, in _discard_future_result
+    future.result()
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2023-08-09 08:09:33,212 [tornado.application.ERROR] Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOMainLoop object at 0x000001486ED83D50>>, <Task finished name='Task-2637' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Python311\Lib\site-packages\tornado\websocket.py:1085> exception=WebSocketClosedError()>)
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 738, in _run_callback
+    ret = callback()
+          ^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 762, in _discard_future_result
+    future.result()
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2023-08-09 08:09:33,213 [tornado.application.ERROR] Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOMainLoop object at 0x000001486ED83D50>>, <Task finished name='Task-2638' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Python311\Lib\site-packages\tornado\websocket.py:1085> exception=WebSocketClosedError()>)
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 738, in _run_callback
+    ret = callback()
+          ^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 762, in _discard_future_result
+    future.result()
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2023-08-09 08:09:33,214 [tornado.application.ERROR] Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOMainLoop object at 0x000001486ED83D50>>, <Task finished name='Task-2639' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Python311\Lib\site-packages\tornado\websocket.py:1085> exception=WebSocketClosedError()>)
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 738, in _run_callback
+    ret = callback()
+          ^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 762, in _discard_future_result
+    future.result()
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2023-08-09 08:09:33,216 [tornado.application.ERROR] Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOMainLoop object at 0x000001486ED83D50>>, <Task finished name='Task-2640' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Python311\Lib\site-packages\tornado\websocket.py:1085> exception=WebSocketClosedError()>)
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 738, in _run_callback
+    ret = callback()
+          ^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 762, in _discard_future_result
+    future.result()
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2023-08-09 08:09:33,217 [tornado.application.ERROR] Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOMainLoop object at 0x000001486ED83D50>>, <Task finished name='Task-2641' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Python311\Lib\site-packages\tornado\websocket.py:1085> exception=WebSocketClosedError()>)
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 738, in _run_callback
+    ret = callback()
+          ^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 762, in _discard_future_result
+    future.result()
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2023-08-09 08:09:33,218 [tornado.application.ERROR] Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOMainLoop object at 0x000001486ED83D50>>, <Task finished name='Task-2642' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Python311\Lib\site-packages\tornado\websocket.py:1085> exception=WebSocketClosedError()>)
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 738, in _run_callback
+    ret = callback()
+          ^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 762, in _discard_future_result
+    future.result()
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2023-08-09 08:09:33,219 [tornado.application.ERROR] Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOMainLoop object at 0x000001486ED83D50>>, <Task finished name='Task-2643' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Python311\Lib\site-packages\tornado\websocket.py:1085> exception=WebSocketClosedError()>)
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1087, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 738, in _run_callback
+    ret = callback()
+          ^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\tornado\ioloop.py", line 762, in _discard_future_result
+    future.result()
+  File "C:\Python311\Lib\site-packages\tornado\websocket.py", line 1089, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2023-08-09 08:09:33,230 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 9.00ms
+2023-08-09 08:09:33,257 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 36.00ms
+2023-08-09 08:09:33,258 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 35.99ms
+2023-08-09 08:09:33,263 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 41.03ms
+2023-08-09 08:09:33,266 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 43.99ms
+2023-08-09 08:09:33,291 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 0.99ms
+2023-08-09 08:09:33,292 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 0.00ms
+2023-08-09 08:09:33,296 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 3.00ms
+2023-08-09 08:09:33,296 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 3.00ms
+2023-08-09 08:09:33,311 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 2.06ms
+2023-08-09 08:09:33,313 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.00ms
+2023-08-09 08:09:33,323 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 1.05ms
+2023-08-09 08:09:33,331 [tornado.access.INFO] 200 GET /executions/config/9 (127.0.0.1) 1.05ms
+2023-08-09 08:09:33,353 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.00ms
+2023-08-09 08:09:33,625 [tornado.access.INFO] 101 GET /scripts/1.%20Install%20DBeaver?initWithValues=false (127.0.0.1) 0.99ms
+2023-08-09 08:09:33,643 [tornado.access.INFO] 101 GET /executions/io/9 (127.0.0.1) 1.00ms
+2023-08-09 08:09:39,153 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-09 08:09:39,387 [tornado.access.INFO] 200 POST /executions/cleanup/9 (127.0.0.1) 2.00ms
+2023-08-09 08:09:41,807 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 0.98ms
+2023-08-09 08:09:41,823 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.00ms
+2023-08-09 08:09:41,827 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 3.00ms
+2023-08-09 08:09:41,832 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 7.00ms
+2023-08-09 08:09:41,858 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 25.03ms
+2023-08-09 08:09:41,870 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 11.00ms
+2023-08-09 08:09:41,897 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-09 08:09:41,898 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 0.00ms
+2023-08-09 08:09:41,899 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 0.00ms
+2023-08-09 08:09:41,902 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 3.00ms
+2023-08-09 08:09:41,910 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.00ms
+2023-08-09 08:09:41,912 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+2023-08-09 08:09:41,921 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 2.00ms
+2023-08-09 08:09:41,938 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 1.99ms
+2023-08-09 08:09:42,223 [tornado.access.INFO] 101 GET /scripts/1.%20Install%20DBeaver?initWithValues=false (127.0.0.1) 1.00ms
+2023-08-09 08:09:43,939 [web_server.INFO] Calling script 1. Install DBeaver. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-09 08:09:43,940 [script_server.execution_service.INFO] Calling script #10: powershell -file .\conf\runners\scripts\Install_Dbeaver.ps1 ******
+2023-08-09 08:09:43,946 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 12.00ms
+2023-08-09 08:09:44,250 [tornado.access.INFO] 101 GET /executions/io/10 (127.0.0.1) 1.00ms
+2023-08-09 08:10:38,329 [tornado.access.INFO] 200 POST /executions/stop/10 (127.0.0.1) 3.02ms
+2023-08-09 08:12:42,955 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 3.00ms
+2023-08-09 08:12:42,971 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-09 08:12:42,975 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 0.00ms
+2023-08-09 08:12:42,985 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 9.00ms
+2023-08-09 08:12:42,990 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 13.98ms
+2023-08-09 08:12:43,017 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 40.00ms
+2023-08-09 08:12:43,020 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 43.00ms
+2023-08-09 08:12:43,090 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-09 08:12:43,092 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 1.00ms
+2023-08-09 08:12:43,096 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 3.00ms
+2023-08-09 08:12:43,097 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 1.00ms
+2023-08-09 08:12:43,112 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 1.00ms
+2023-08-09 08:12:43,114 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 0.98ms
+2023-08-09 08:12:43,127 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 1.00ms
+2023-08-09 08:12:43,138 [tornado.access.INFO] 200 GET /executions/config/10 (127.0.0.1) 1.00ms
+2023-08-09 08:12:43,158 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 2.00ms
+2023-08-09 08:12:43,433 [tornado.access.INFO] 101 GET /scripts/1.%20Install%20DBeaver?initWithValues=false (127.0.0.1) 1.04ms
+2023-08-09 08:12:43,448 [tornado.access.INFO] 101 GET /executions/io/10 (127.0.0.1) 0.97ms
+2023-08-09 08:12:48,468 [tornado.access.INFO] 200 POST /executions/stop/10 (127.0.0.1) 1.00ms
+2023-08-09 08:12:48,995 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-09 08:12:49,105 [tornado.access.INFO] 200 POST /executions/cleanup/10 (127.0.0.1) 2.00ms
+2023-08-09 08:12:57,255 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 1.98ms
+2023-08-09 08:12:57,271 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-09 08:12:57,278 [tornado.access.INFO] 200 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 6.01ms
+2023-08-09 08:12:57,289 [tornado.access.INFO] 200 GET /js/index.8b5156a2.js (127.0.0.1) 9.00ms
+2023-08-09 08:12:57,314 [tornado.access.INFO] 200 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 33.99ms
+2023-08-09 08:12:57,317 [tornado.access.INFO] 200 GET /css/index.37d9c877.css (127.0.0.1) 37.00ms
+2023-08-09 08:12:57,349 [tornado.access.INFO] 200 GET /auth/info (127.0.0.1) 1.02ms
+2023-08-09 08:12:57,350 [tornado.access.INFO] 200 GET /conf (127.0.0.1) 0.98ms
+2023-08-09 08:12:57,353 [tornado.access.INFO] 200 GET /scripts (127.0.0.1) 3.01ms
+2023-08-09 08:12:57,354 [tornado.access.INFO] 200 GET /executions/active (127.0.0.1) 0.99ms
+2023-08-09 08:12:57,362 [tornado.access.INFO] 200 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 2.01ms
+2023-08-09 08:12:57,366 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 0.98ms
+2023-08-09 08:12:57,381 [tornado.access.INFO] 200 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 2.00ms
+2023-08-09 08:12:57,395 [tornado.access.INFO] 200 GET /favicon.ico (127.0.0.1) 3.00ms
+2023-08-09 08:12:57,681 [tornado.access.INFO] 101 GET /scripts/1.%20Install%20DBeaver?initWithValues=false (127.0.0.1) 1.00ms
+2023-08-09 08:12:58,957 [web_server.INFO] Calling script 1. Install DBeaver. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-09 08:12:58,957 [script_server.execution_service.INFO] Calling script #11: powershell -file .\conf\runners\scripts\Install_Dbeaver.ps1 ******
+2023-08-09 08:12:58,972 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 19.95ms
+2023-08-09 08:12:59,278 [tornado.access.INFO] 101 GET /executions/io/11 (127.0.0.1) 1.01ms
+2023-08-09 08:13:51,531 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-09 08:13:51,544 [tornado.access.INFO] 200 POST /executions/cleanup/11 (127.0.0.1) 10.00ms
+2023-08-09 08:17:59,709 [web_server.INFO] Calling script 1. Install DBeaver. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-09 08:17:59,709 [script_server.execution_service.INFO] Calling script #12: powershell -file .\conf\runners\scripts\Install_Dbeaver.ps1 ******
+2023-08-09 08:17:59,718 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 15.99ms
+2023-08-09 08:18:00,046 [tornado.access.INFO] 101 GET /executions/io/12 (127.0.0.1) 1.01ms
+2023-08-09 08:18:52,392 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-09 08:18:52,409 [tornado.access.INFO] 200 POST /executions/cleanup/12 (127.0.0.1) 14.00ms
+2023-08-09 08:28:59,379 [tornado.access.INFO] 101 GET /scripts/2.%20Install%20Inteliji?initWithValues=false (127.0.0.1) 1.00ms
+2023-08-09 08:29:06,749 [web_server.INFO] Calling script 2. Install Inteliji. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-09 08:29:06,750 [script_server.execution_service.INFO] Calling script #13: powershell -file .\conf\runners\scripts\Install_Inteliji.ps1 ******
+2023-08-09 08:29:06,770 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 27.00ms
+2023-08-09 08:29:07,076 [tornado.access.INFO] 101 GET /executions/io/13 (127.0.0.1) 1.00ms
+2023-08-09 08:29:23,938 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-09 08:29:23,945 [tornado.access.INFO] 200 POST /executions/cleanup/13 (127.0.0.1) 3.00ms
+2023-08-09 08:31:40,502 [web_server.INFO] Calling script 2. Install Inteliji. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-09 08:31:40,503 [script_server.execution_service.INFO] Calling script #14: powershell -file .\conf\runners\scripts\Install_Inteliji.ps1 ******
+2023-08-09 08:31:40,519 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 25.00ms
+2023-08-09 08:31:40,824 [tornado.access.INFO] 101 GET /executions/io/14 (127.0.0.1) 1.00ms
+2023-08-09 08:31:56,589 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-09 08:31:56,606 [tornado.access.INFO] 200 POST /executions/cleanup/14 (127.0.0.1) 14.00ms
+2023-08-09 09:18:01,643 [web_server.INFO] Calling script 2. Install Inteliji. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-09 09:18:01,643 [script_server.execution_service.INFO] Calling script #15: powershell -file .\conf\runners\scripts\Install_Inteliji.ps1 ******
+2023-08-09 09:18:01,657 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 22.00ms
+2023-08-09 09:18:01,964 [tornado.access.INFO] 101 GET /executions/io/15 (127.0.0.1) 1.01ms
+2023-08-09 09:18:17,412 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-09 09:18:17,421 [tornado.access.INFO] 200 POST /executions/cleanup/15 (127.0.0.1) 6.00ms
+2023-08-09 09:21:19,475 [web_server.INFO] Calling script 2. Install Inteliji. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-09 09:21:19,476 [script_server.execution_service.INFO] Calling script #16: powershell -file .\conf\runners\scripts\Install_Inteliji.ps1 ******
+2023-08-09 09:21:19,489 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 23.00ms
+2023-08-09 09:21:19,795 [tornado.access.INFO] 101 GET /executions/io/16 (127.0.0.1) 0.00ms
+2023-08-09 09:21:35,257 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-09 09:21:35,269 [tornado.access.INFO] 200 POST /executions/cleanup/16 (127.0.0.1) 3.01ms
+2023-08-09 09:22:53,261 [tornado.access.INFO] 101 GET /scripts/3.%20GitHub%20configuration?initWithValues=false (127.0.0.1) 0.00ms
+2023-08-19 12:20:40,734 [root.INFO] Starting Script Server, v1.17.1
+2023-08-19 12:21:22,140 [root.INFO] Starting Script Server, v1.17.1
+2023-08-19 12:23:25,425 [tornado.access.INFO] 200 GET /index.html (127.0.0.1) 49.97ms
+2023-08-19 12:23:25,442 [tornado.general.ERROR] Could not open static file 'C:\\Users\\Administrator\\Documents\\automation-tools\\script-server\\conf\\theme\\theme.css'
+2023-08-19 12:23:25,443 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 2.00ms
+2023-08-19 12:23:25,460 [tornado.access.INFO] 304 GET /css/chunk-index-vendors.1e4b12c4.css (127.0.0.1) 16.00ms
+2023-08-19 12:23:25,590 [tornado.access.INFO] 304 GET /js/chunk-index-vendors.bae8a335.js (127.0.0.1) 129.02ms
+2023-08-19 12:23:25,607 [tornado.access.INFO] 304 GET /css/index.37d9c877.css (127.0.0.1) 16.99ms
+2023-08-19 12:23:25,647 [tornado.access.INFO] 304 GET /js/index.8b5156a2.js (127.0.0.1) 39.03ms
+2023-08-19 12:23:25,850 [tornado.access.INFO] 304 GET /auth/info (127.0.0.1) 114.00ms
+2023-08-19 12:23:25,867 [tornado.access.INFO] 304 GET /favicon.ico (127.0.0.1) 15.00ms
+2023-08-19 12:23:25,867 [tornado.access.INFO] 304 GET /conf (127.0.0.1) 15.00ms
+2023-08-19 12:23:25,868 [tornado.access.INFO] 304 GET /executions/active (127.0.0.1) 15.01ms
+2023-08-19 12:23:25,883 [tornado.access.INFO] 304 GET /img/titleBackground_small.8d99a14e.jpg (127.0.0.1) 30.00ms
+2023-08-19 12:23:25,904 [tornado.access.INFO] 304 GET /scripts (127.0.0.1) 21.02ms
+2023-08-19 12:23:25,921 [tornado.access.INFO] 304 GET /fonts/MaterialIcons-Regular.570eb838.woff2 (127.0.0.1) 14.00ms
+2023-08-19 12:23:33,205 [tornado.access.INFO] 101 GET /scripts/1.%20Install%20DBeaver?initWithValues=false (127.0.0.1) 1.00ms
+2023-08-19 12:23:59,345 [tornado.access.INFO] 200 GET /admin.html (127.0.0.1) 14.00ms
+2023-08-19 12:23:59,361 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-19 12:23:59,377 [tornado.access.INFO] 200 GET /css/admin.ee33e5eb.css (127.0.0.1) 16.00ms
+2023-08-19 12:23:59,445 [tornado.access.INFO] 200 GET /js/admin.d0e2842d.js (127.0.0.1) 65.00ms
+2023-08-19 12:23:59,461 [tornado.access.INFO] 200 GET /css/chunk-admin-vendors.f2833d6d.css (127.0.0.1) 81.00ms
+2023-08-19 12:23:59,737 [tornado.access.INFO] 200 GET /js/chunk-admin-vendors.afd45d69.js (127.0.0.1) 356.00ms
+2023-08-19 12:23:59,851 [tornado.access.INFO] 200 GET /history/execution_log/short (127.0.0.1) 8.00ms
+2023-08-19 12:23:59,873 [tornado.access.INFO] 304 GET /auth/info (127.0.0.1) 1.00ms
+2023-08-19 12:23:59,904 [tornado.access.INFO] 200 GET /fonts/roboto-latin-500.020c97dc.woff2 (127.0.0.1) 13.00ms
+2023-08-19 12:23:59,926 [tornado.access.INFO] 200 GET /fonts/roboto-latin-700.2735a3a6.woff2 (127.0.0.1) 20.96ms
+2023-08-19 12:23:59,945 [tornado.access.INFO] 200 GET /fonts/roboto-latin-400.479970ff.woff2 (127.0.0.1) 17.00ms
+2023-08-19 12:24:11,419 [tornado.access.INFO] 200 GET /scripts?mode=edit (127.0.0.1) 3.00ms
+2023-08-19 12:24:14,562 [tornado.access.INFO] 200 GET /admin/scripts/1.%20Install%20DBeaver (127.0.0.1) 5.01ms
+2023-08-19 12:24:32,684 [tornado.access.INFO] 200 GET /theme/theme.css (127.0.0.1) 1.00ms
+2023-08-19 12:24:32,779 [tornado.access.INFO] 200 GET /js/chunk-admin-vendors.afd45d69.js.map (127.0.0.1) 94.01ms
+2023-08-19 12:24:32,835 [tornado.access.INFO] 200 GET /js/admin.d0e2842d.js.map (127.0.0.1) 54.99ms
+2023-08-19 12:26:50,682 [web_server.INFO] Calling script 1. Install DBeaver. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-19 12:26:50,683 [script_server.execution_service.INFO] Calling script #17: powershell -file .\conf\runners\scripts\Install_Dbeaver.ps1 ******
+2023-08-19 12:26:50,745 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 71.00ms
+2023-08-19 12:26:51,051 [tornado.access.INFO] 101 GET /executions/io/17 (127.0.0.1) 1.00ms
+2023-08-19 12:27:49,988 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-19 12:27:50,002 [tornado.access.INFO] 200 POST /executions/cleanup/17 (127.0.0.1) 11.00ms
+2023-08-19 12:29:23,265 [tornado.access.INFO] 101 GET /scripts/2.%20Install%20Inteliji?initWithValues=false (127.0.0.1) 0.00ms
+2023-08-19 12:29:48,778 [web_server.INFO] Calling script 2. Install Inteliji. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-19 12:29:48,779 [script_server.execution_service.INFO] Calling script #18: powershell -file .\conf\runners\scripts\Install_Inteliji.ps1 ******
+2023-08-19 12:29:48,800 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 30.01ms
+2023-08-19 12:29:49,105 [tornado.access.INFO] 101 GET /executions/io/18 (127.0.0.1) 1.00ms
+2023-08-19 12:30:04,862 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-19 12:30:04,870 [tornado.access.INFO] 200 POST /executions/cleanup/18 (127.0.0.1) 6.01ms
+2023-08-19 12:31:25,315 [tornado.access.INFO] 101 GET /scripts/3.%20GitHub%20configuration?initWithValues=false (127.0.0.1) 0.98ms
+2023-08-19 12:31:52,274 [web_server.INFO] Calling script 3. GitHub configuration. User {'ip': '127.0.0.1', 'hostname': 'EC2AMAZ-JSC8TMR'}
+2023-08-19 12:31:52,275 [script_server.execution_service.INFO] Calling script #19: powershell -file .\conf\runners\scripts\github-ssh.ps1 ******
+2023-08-19 12:31:52,289 [tornado.access.INFO] 200 POST /executions/start (127.0.0.1) 23.00ms
+2023-08-19 12:31:52,594 [tornado.access.INFO] 101 GET /executions/io/19 (127.0.0.1) 0.98ms
+2023-08-19 12:33:04,323 [web_server.INFO] EC2AMAZ-JSC8TMR disconnected
+2023-08-19 12:33:04,333 [tornado.access.INFO] 200 POST /executions/cleanup/19 (127.0.0.1) 6.99ms

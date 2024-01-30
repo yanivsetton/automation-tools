@@ -1,0 +1,36 @@
+id:19
+user_name:EC2AMAZ-JSC8TMR
+user_id:127.0.0.1
+script:3. GitHub configuration
+start_time:1692448312288
+command:powershell -file .\conf\runners\scripts\github-ssh.ps1 ******
+output_format:terminal
+exit_code:0
+>>>>>  OUTPUT STARTED <<<<<
+The selected folder is: C:\Users\Administrator\Music
+The repository will be cloned to: C:\Users\Administrator\Music\automation-tools
+Generating public/private rsa key pair.
+Your identification has been saved in C:\Users\Administrator\.ssh\id_rsa_20230819123232
+Your public key has been saved in C:\Users\Administrator\.ssh\id_rsa_20230819123232.pub
+The key fingerprint is:
+SHA256:IrX21P7Jwu57gq7RLu3+csk9zrAVSdTdfz8MQ40jld8 Administrator@EC2AMAZ-JSC8TMR
+The key's randomart image is:
++---[RSA 4096]----+
+|            oo+..|
+|           o =..o|
+|      .     + o o|
+|     . . . . + .E|
+|    . + S . o + o|
+|     o = .   . o.|
+|      ..o+oo.   .|
+|      .o+ BB+.   |
+|      .*=****.   |
++----[SHA256]-----+
+Public SSH key has been copied to clipboard
+Did you paste the ssh key? Please type Y to proceed or N to abort
+Y
+Y
+Proceeding...
+Cloning repository from ****** to C:\Users\Administrator\Music\automation-tools...
+Cloning into 'C:\Users\Administrator\Music\automation-tools'...
+Repository cloned successfully!

@@ -3,7 +3,7 @@ param (
 )
 
 $message = "Installing DBeaver for you..`nYap totally full automation`nOhh.. also`nCreating for you the profiles and connections`n starting now.."
-$delay = 100 # time in milliseconds
+$delay = 10 # time in milliseconds
 
 Write-Host ""
 

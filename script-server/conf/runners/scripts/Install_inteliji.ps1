@@ -1,5 +1,5 @@
 param (
-    [string]$PARAM_IDEA_FILE
+    [string]$PARAM_IDEA_FILE # Still not in use // todo: add the setting.xml
 )
 
 $message = "Installing Inteliji for you..`nYap totally full automation`nOhh.. also`nSetting for you the profiles`n starting now.."
@@ -43,4 +43,14 @@ if ($checkInstall -like "*$packageName*") {
     } else {
         Write-Host "IntelliJ IDEA Ultimate installed successfully!"
     }
+}
+# Find the path to python executable in the global PATH variable
+$pythonExecutable = "C:\Python311\python.exe"
+#$pythonExecutable = $env:PATH -split ';' | Where-Object { Test-Path (Join-Path $_ 'python.exe') } | Select-Object -First 1
+
+if ($pythonExecutable) {
+    $pythonScriptPath = Join-Path -Path $PSScriptRoot -ChildPath "open_inteliji.py"
+    $programSelected = & Start-Process -FilePath $pythonExecutable -ArgumentList $pythonScriptPath 
+} else {
+    Write-Host "Python executable not found in the global PATH. Cannot execute the Python script."
 }
